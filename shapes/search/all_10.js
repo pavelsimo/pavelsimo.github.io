@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['shapes',['shapes',['../index.html',1,'']]],
   ['scan',['scan',['../classsimo_1_1shapes_1_1wkt__lexer.html#a7473195841ab0423102576ef7c392edb',1,'simo::shapes::wkt_lexer']]],
   ['set_5fdim',['set_dim',['../classsimo_1_1shapes_1_1_geometry.html#adbd7a14a8b4414c882cbcafa8025085d',1,'simo::shapes::Geometry::set_dim()'],['../classsimo_1_1shapes_1_1_basic_geometry.html#a203dc3ca9965a82151ec17299a429730',1,'simo::shapes::BasicGeometry::set_dim()']]],
   ['shapes_5fexception',['shapes_exception',['../classsimo_1_1shapes_1_1exceptions_1_1shapes__exception.html',1,'simo::shapes::exceptions']]],
