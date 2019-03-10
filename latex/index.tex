@@ -1,0 +1,66 @@
+\href{https://travis-ci.org/pavelsimo/shapes}{\tt !\mbox{[}Build Status\mbox{]}(https\-://travis-\/ci.\-org/pavelsimo/shapes.\-svg?branch=master)} \href{https://codecov.io/gh/pavelsimo/shapes}{\tt !\mbox{[}codecov\mbox{]}(https\-://codecov.\-io/gh/pavelsimo/shapes/branch/master/graph/badge.\-svg)} \href{https://github.com/pavelsimo/shapes/blob/master/LICENSE}{\tt !\mbox{[}\mbox{]}(https\-://img.\-shields.\-io/github/license/pavelsimo/shapes.\-svg)}
+
+A lightweight header-\/only planar geometry library for Modern C++
+
+
+\begin{DoxyItemize}
+\item Inspired by python \href{https://pypi.org/project/Shapely/}{\tt shapely}
+\item Based on O\-G\-C \href{https://en.wikipedia.org/wiki/Simple_Features}{\tt Simple Features}
+\end{DoxyItemize}
+
+\subsection*{Installation}
+
+{\ttfamily shapes} ships as a header-\/only library\-:
+
+```cpp \#include $<$\hyperlink{shapes_8hpp_source}{simo/shapes.\-hpp}$>$
+
+using namespace simo\-::shapes; ```
+
+\subsection*{Examples}
+
+Building a {\ttfamily Point} from Geo\-J\-S\-O\-N\-:
+
+```cpp
+
+auto p = Point\-::from\-\_\-json(R\char`\"{}(\{\char`\"{}type\char`\"{}\-: \char`\"{}Point\char`\"{}, \char`\"{}coordinates\char`\"{}\-: \mbox{[}1.\-0, 2.\-0, 3.\-0\mbox{]}\})\char`\"{}); std\-::cout $<$$<$ p.\-x $<$$<$ \char`\"{} \char`\"{} $<$$<$ p.\-y $<$$<$ \char`\"{} \char`\"{} $<$$<$ p.\-z $<$$<$ std\-::endl; ```
+
+Geo\-J\-S\-O\-N representation of the {\ttfamily Point}\-:
+
+```cpp auto p = Point\{1, 2, 3\}; p.\-precision = 1; std\-::cout $<$$<$ p.\-json() $<$$<$ std\-::endl; ```
+
+```json \{\char`\"{}coordinates\char`\"{}\-:\mbox{[}1.\-0,2.\-0,3.\-0\mbox{]},\char`\"{}type\char`\"{}\-:\char`\"{}\-Point\char`\"{}\} ```
+
+Iterating a {\ttfamily Multi\-Point} is as simple as\-:
+
+```cpp Multi\-Point points(\{\{0, 0, 1\}, \{1, 2, 3\}, \{4, 5, 6\}, \{7, 7, 7\}\}); for(const auto\& point\-: points) \{ std\-::cout $<$$<$ point.\-x $<$$<$ \char`\"{} \char`\"{} $<$$<$ point.\-y $<$$<$ \char`\"{} \char`\"{} $<$$<$ point.\-z $<$$<$ std\-::endl; \} ```
+
+W\-K\-T representation of a {\ttfamily Multi\-Point}\-:
+
+```cpp Multi\-Point points = \{\{1.\-0, 2.\-0, 3.\-0\}, \{4.\-0, 5.\-0, 6.\-0\}\}; points.\-precision = 1; std\-::cout $<$$<$ points.\-wkt() $<$$<$ std\-::endl; ```
+
+``` M\-U\-L\-T\-I\-P\-O\-I\-N\-T\-Z((1.\-0 2.\-0 3.\-0),(4.\-0 5.\-0 6.\-0)) ```
+
+\subsection*{Third-\/party tools}
+
+This project would not have been possible without the following amazing tools, many thanks to its developers!
+
+
+\begin{DoxyItemize}
+\item \href{https://github.com/nlohmann/json}{\tt J\-S\-O\-N for Modern C++}
+\item \href{https://github.com/edlund/amalgamate}{\tt amalgamate.\-py}
+\item \href{https://github.com/catchorg/Catch2}{\tt Catch2}
+\end{DoxyItemize}
+
+\subsection*{License}
+
+
+
+\href{http://opensource.org/licenses/MIT}{\tt M\-I\-T License}
+
+Copyright (c) 2019 Pavel Simó
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \char`\"{}\-Software\char`\"{}), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions\-:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+T\-H\-E S\-O\-F\-T\-W\-A\-R\-E I\-S P\-R\-O\-V\-I\-D\-E\-D \char`\"{}\-A\-S I\-S\char`\"{}, W\-I\-T\-H\-O\-U\-T W\-A\-R\-R\-A\-N\-T\-Y O\-F A\-N\-Y K\-I\-N\-D, E\-X\-P\-R\-E\-S\-S O\-R I\-M\-P\-L\-I\-E\-D, I\-N\-C\-L\-U\-D\-I\-N\-G B\-U\-T N\-O\-T L\-I\-M\-I\-T\-E\-D T\-O T\-H\-E W\-A\-R\-R\-A\-N\-T\-I\-E\-S O\-F M\-E\-R\-C\-H\-A\-N\-T\-A\-B\-I\-L\-I\-T\-Y, F\-I\-T\-N\-E\-S\-S F\-O\-R A P\-A\-R\-T\-I\-C\-U\-L\-A\-R P\-U\-R\-P\-O\-S\-E A\-N\-D N\-O\-N\-I\-N\-F\-R\-I\-N\-G\-E\-M\-E\-N\-T. I\-N N\-O E\-V\-E\-N\-T S\-H\-A\-L\-L T\-H\-E A\-U\-T\-H\-O\-R\-S O\-R C\-O\-P\-Y\-R\-I\-G\-H\-T H\-O\-L\-D\-E\-R\-S B\-E L\-I\-A\-B\-L\-E F\-O\-R A\-N\-Y C\-L\-A\-I\-M, D\-A\-M\-A\-G\-E\-S O\-R O\-T\-H\-E\-R L\-I\-A\-B\-I\-L\-I\-T\-Y, W\-H\-E\-T\-H\-E\-R I\-N A\-N A\-C\-T\-I\-O\-N O\-F C\-O\-N\-T\-R\-A\-C\-T, T\-O\-R\-T O\-R O\-T\-H\-E\-R\-W\-I\-S\-E, A\-R\-I\-S\-I\-N\-G F\-R\-O\-M, O\-U\-T O\-F O\-R I\-N C\-O\-N\-N\-E\-C\-T\-I\-O\-N W\-I\-T\-H T\-H\-E S\-O\-F\-T\-W\-A\-R\-E O\-R T\-H\-E U\-S\-E O\-R O\-T\-H\-E\-R D\-E\-A\-L\-I\-N\-G\-S I\-N T\-H\-E S\-O\-F\-T\-W\-A\-R\-E. 

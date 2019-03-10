@@ -1,0 +1,553 @@
+\hypertarget{classsimo_1_1shapes_1_1_point}{\section{simo\-:\-:shapes\-:\-:Point Class Reference}
+\label{classsimo_1_1shapes_1_1_point}\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}}
+}
+Inheritance diagram for simo\-:\-:shapes\-:\-:Point\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classsimo_1_1shapes_1_1_point}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classsimo_1_1shapes_1_1_point_a754115ccb65d25bc28dadee1d62f5955}{Point} ()
+\begin{DoxyCompactList}\small\item\em creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} \end{DoxyCompactList}\item 
+\hyperlink{classsimo_1_1shapes_1_1_point_a4932bd8b5eeccc1767de9bfb2f65f1c3}{Point} (double \hyperlink{classsimo_1_1shapes_1_1_point_aa4abc96b03859b69bb1af19099a9799f}{x}, double \hyperlink{classsimo_1_1shapes_1_1_point_a370ca8d7d03517735a9792cca7cbb05e}{y})
+\begin{DoxyCompactList}\small\item\em creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from coordinates (x, y) \end{DoxyCompactList}\item 
+\hyperlink{classsimo_1_1shapes_1_1_point_ac1c250658a3cc7bee49ec49c57431d7a}{Point} (double \hyperlink{classsimo_1_1shapes_1_1_point_aa4abc96b03859b69bb1af19099a9799f}{x}, double \hyperlink{classsimo_1_1shapes_1_1_point_a370ca8d7d03517735a9792cca7cbb05e}{y}, double \hyperlink{classsimo_1_1shapes_1_1_point_a4498c1e84bb25e32cd75d41a74d48169}{z})
+\begin{DoxyCompactList}\small\item\em creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from coordinates (x, y, z) \end{DoxyCompactList}\item 
+\hyperlink{classsimo_1_1shapes_1_1_point_a30ce91412930c35da44537bd8b5a6ea1}{Point} (double \hyperlink{classsimo_1_1shapes_1_1_point_aa4abc96b03859b69bb1af19099a9799f}{x}, double \hyperlink{classsimo_1_1shapes_1_1_point_a370ca8d7d03517735a9792cca7cbb05e}{y}, double \hyperlink{classsimo_1_1shapes_1_1_point_a4498c1e84bb25e32cd75d41a74d48169}{z}, double \hyperlink{classsimo_1_1shapes_1_1_point_aced73731924b13762c7b6446bf3ad9a5}{m})
+\begin{DoxyCompactList}\small\item\em creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from coordinates (x, y, z, m) \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T , typename  = typename std\-::enable\-\_\-if$<$std\-::is\-\_\-arithmetic$<$\-T$>$\-::value, T$>$\-::type$>$ }\\\hyperlink{classsimo_1_1shapes_1_1_point_a8378b498b96e68e341407007a6d69b91}{Point} (std\-::initializer\-\_\-list$<$ T $>$ init)
+\begin{DoxyCompactList}\small\item\em creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} \end{DoxyCompactList}\item 
+double \hyperlink{classsimo_1_1shapes_1_1_point_aac896c5b6bb2ba85442a639e611534df}{at} (size\-\_\-t pos)
+\begin{DoxyCompactList}\small\item\em returns the coordinate at the given index \end{DoxyCompactList}\item 
+double \hyperlink{classsimo_1_1shapes_1_1_point_a72cdeb0d8d8ecfdd5c5f4da19ec33cc4}{operator\mbox{[}$\,$\mbox{]}} (size\-\_\-t pos)
+\begin{DoxyCompactList}\small\item\em returns the coordinate at the given index \end{DoxyCompactList}\item 
+bool \hyperlink{classsimo_1_1shapes_1_1_point_a32b64226c96ab13e4b44e7437c2f6b3e}{operator==} (const \hyperlink{classsimo_1_1shapes_1_1_point}{Point} \&other) const 
+\item 
+bool \hyperlink{classsimo_1_1shapes_1_1_point_aece2f7cb87b1ca009d29fb79fcf8b48a}{operator!=} (const \hyperlink{classsimo_1_1shapes_1_1_point}{Point} \&other) const 
+\item 
+std\-::string \hyperlink{classsimo_1_1shapes_1_1_point_ab16bf7c8f22a3fbd0df4e8a7407eeda5}{json} ()
+\begin{DoxyCompactList}\small\item\em dumps the geojson representation of the \hyperlink{classsimo_1_1shapes_1_1_point}{Point} \end{DoxyCompactList}\item 
+std\-::string \hyperlink{classsimo_1_1shapes_1_1_point_a4134ec6fcf72ca4d822a9a70788dee40}{wkt} ()
+\begin{DoxyCompactList}\small\item\em dumps the W\-K\-T representation of the point \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classsimo_1_1shapes_1_1_point}{Point} \hyperlink{classsimo_1_1shapes_1_1_point_a5babfdb4e450381fce0bd355c060d3cf}{from\-\_\-xy} (double \hyperlink{classsimo_1_1shapes_1_1_point_aa4abc96b03859b69bb1af19099a9799f}{x}, double \hyperlink{classsimo_1_1shapes_1_1_point_a370ca8d7d03517735a9792cca7cbb05e}{y})
+\begin{DoxyCompactList}\small\item\em creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from coordinates (x, y) \end{DoxyCompactList}\item 
+static \hyperlink{classsimo_1_1shapes_1_1_point}{Point} \hyperlink{classsimo_1_1shapes_1_1_point_af2fe59e7e25d3ab1019fbf9a3365fa30}{from\-\_\-xyz} (double \hyperlink{classsimo_1_1shapes_1_1_point_aa4abc96b03859b69bb1af19099a9799f}{x}, double \hyperlink{classsimo_1_1shapes_1_1_point_a370ca8d7d03517735a9792cca7cbb05e}{y}, double \hyperlink{classsimo_1_1shapes_1_1_point_a4498c1e84bb25e32cd75d41a74d48169}{z})
+\begin{DoxyCompactList}\small\item\em creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from coordinates (x, y, z) \end{DoxyCompactList}\item 
+static \hyperlink{classsimo_1_1shapes_1_1_point}{Point} \hyperlink{classsimo_1_1shapes_1_1_point_a73475fb5d47c0c77506d8c83c0287f57}{from\-\_\-xym} (double \hyperlink{classsimo_1_1shapes_1_1_point_aa4abc96b03859b69bb1af19099a9799f}{x}, double \hyperlink{classsimo_1_1shapes_1_1_point_a370ca8d7d03517735a9792cca7cbb05e}{y}, double \hyperlink{classsimo_1_1shapes_1_1_point_aced73731924b13762c7b6446bf3ad9a5}{m})
+\begin{DoxyCompactList}\small\item\em creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from coordinates (x, y, m) \end{DoxyCompactList}\item 
+static \hyperlink{classsimo_1_1shapes_1_1_point}{Point} \hyperlink{classsimo_1_1shapes_1_1_point_a04c56d21b56fa034bb9b83150bb89a10}{from\-\_\-xyzm} (double \hyperlink{classsimo_1_1shapes_1_1_point_aa4abc96b03859b69bb1af19099a9799f}{x}, double \hyperlink{classsimo_1_1shapes_1_1_point_a370ca8d7d03517735a9792cca7cbb05e}{y}, double \hyperlink{classsimo_1_1shapes_1_1_point_a4498c1e84bb25e32cd75d41a74d48169}{z}, double \hyperlink{classsimo_1_1shapes_1_1_point_aced73731924b13762c7b6446bf3ad9a5}{m})
+\begin{DoxyCompactList}\small\item\em creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from coordinates (x, y, z, m) \end{DoxyCompactList}\item 
+static \hyperlink{classsimo_1_1shapes_1_1_point}{Point} \hyperlink{classsimo_1_1shapes_1_1_point_a7de22a22436ff219a0714602d865b723}{from\-\_\-json} (const std\-::string \&\hyperlink{classsimo_1_1shapes_1_1_point_ab16bf7c8f22a3fbd0df4e8a7407eeda5}{json})
+\begin{DoxyCompactList}\small\item\em creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from a geojson string \end{DoxyCompactList}\item 
+static \hyperlink{classsimo_1_1shapes_1_1_point}{Point} \hyperlink{classsimo_1_1shapes_1_1_point_aa140e02a04b52bf5739a761528dfd8e9}{from\-\_\-wkt} (const std\-::string \&\hyperlink{classsimo_1_1shapes_1_1_point_a4134ec6fcf72ca4d822a9a70788dee40}{wkt})
+\begin{DoxyCompactList}\small\item\em creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from a W\-K\-T string \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classsimo_1_1shapes_1_1_point_aa4abc96b03859b69bb1af19099a9799f}{double \hyperlink{classsimo_1_1shapes_1_1_point_aa4abc96b03859b69bb1af19099a9799f}{x} = 0}\label{classsimo_1_1shapes_1_1_point_aa4abc96b03859b69bb1af19099a9799f}
+
+\begin{DoxyCompactList}\small\item\em the x-\/coordinate value for this \hyperlink{classsimo_1_1shapes_1_1_point}{Point} \end{DoxyCompactList}\item 
+\hypertarget{classsimo_1_1shapes_1_1_point_a370ca8d7d03517735a9792cca7cbb05e}{double \hyperlink{classsimo_1_1shapes_1_1_point_a370ca8d7d03517735a9792cca7cbb05e}{y} = 0}\label{classsimo_1_1shapes_1_1_point_a370ca8d7d03517735a9792cca7cbb05e}
+
+\begin{DoxyCompactList}\small\item\em the y-\/coordinate value for this \hyperlink{classsimo_1_1shapes_1_1_point}{Point} \end{DoxyCompactList}\item 
+\hypertarget{classsimo_1_1shapes_1_1_point_a4498c1e84bb25e32cd75d41a74d48169}{double \hyperlink{classsimo_1_1shapes_1_1_point_a4498c1e84bb25e32cd75d41a74d48169}{z} = 0}\label{classsimo_1_1shapes_1_1_point_a4498c1e84bb25e32cd75d41a74d48169}
+
+\begin{DoxyCompactList}\small\item\em the z-\/coordinate value for this \hyperlink{classsimo_1_1shapes_1_1_point}{Point}, if it has one. \end{DoxyCompactList}\item 
+\hypertarget{classsimo_1_1shapes_1_1_point_aced73731924b13762c7b6446bf3ad9a5}{double \hyperlink{classsimo_1_1shapes_1_1_point_aced73731924b13762c7b6446bf3ad9a5}{m} = 0}\label{classsimo_1_1shapes_1_1_point_aced73731924b13762c7b6446bf3ad9a5}
+
+\begin{DoxyCompactList}\small\item\em the m-\/coordinate value for this \hyperlink{classsimo_1_1shapes_1_1_point}{Point}, if it has one. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 23 of file point.\-hpp.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classsimo_1_1shapes_1_1_point_a754115ccb65d25bc28dadee1d62f5955}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!Point@{Point}}
+\index{Point@{Point}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{Point}]{\setlength{\rightskip}{0pt plus 5cm}simo\-::shapes\-::\-Point\-::\-Point (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_a754115ccb65d25bc28dadee1d62f5955}
+
+
+creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} 
+
+\begin{DoxyNote}{Note}
+the default behaviour is to create a 2-\/dimensional point with coordinates (0, 0)
+\end{DoxyNote}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 45 of file point.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_a4932bd8b5eeccc1767de9bfb2f65f1c3}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!Point@{Point}}
+\index{Point@{Point}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{Point}]{\setlength{\rightskip}{0pt plus 5cm}simo\-::shapes\-::\-Point\-::\-Point (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_a4932bd8b5eeccc1767de9bfb2f65f1c3}
+
+
+creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from coordinates (x, y) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/coordinate value \\
+\hline
+{\em y} & the y-\/coordinate value\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 58 of file point.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_ac1c250658a3cc7bee49ec49c57431d7a}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!Point@{Point}}
+\index{Point@{Point}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{Point}]{\setlength{\rightskip}{0pt plus 5cm}simo\-::shapes\-::\-Point\-::\-Point (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{z}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_ac1c250658a3cc7bee49ec49c57431d7a}
+
+
+creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from coordinates (x, y, z) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/coordinate value \\
+\hline
+{\em y} & the y-\/coordinate value \\
+\hline
+{\em z} & the z-\/coordinate value\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 73 of file point.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_a30ce91412930c35da44537bd8b5a6ea1}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!Point@{Point}}
+\index{Point@{Point}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{Point}]{\setlength{\rightskip}{0pt plus 5cm}simo\-::shapes\-::\-Point\-::\-Point (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{z, }
+\item[{double}]{m}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_a30ce91412930c35da44537bd8b5a6ea1}
+
+
+creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from coordinates (x, y, z, m) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/coordinate value \\
+\hline
+{\em y} & the y-\/coordinate value \\
+\hline
+{\em z} & the z-\/coordinate value \\
+\hline
+{\em m} & the m-\/coordinate (measure) value\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 89 of file point.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_a8378b498b96e68e341407007a6d69b91}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!Point@{Point}}
+\index{Point@{Point}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{Point}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T , typename  = typename std\-::enable\-\_\-if$<$std\-::is\-\_\-arithmetic$<$\-T$>$\-::value, T$>$\-::type$>$ simo\-::shapes\-::\-Point\-::\-Point (
+\begin{DoxyParamCaption}
+\item[{std\-::initializer\-\_\-list$<$ T $>$}]{init}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_a8378b498b96e68e341407007a6d69b91}
+
+
+creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & an arithmetic value (e.\-g. int, float, double) \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em init} & the coordinates list\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em exception} & if the given number of coordinates is either less than two or greater than four\\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 167 of file point.\-hpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classsimo_1_1shapes_1_1_point_aac896c5b6bb2ba85442a639e611534df}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!at@{at}}
+\index{at@{at}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{at}]{\setlength{\rightskip}{0pt plus 5cm}double simo\-::shapes\-::\-Point\-::at (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_aac896c5b6bb2ba85442a639e611534df}
+
+
+returns the coordinate at the given index 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & the coordinate position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a double with the coordinate value
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em exception} & if the position is not found\\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 262 of file point.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_a7de22a22436ff219a0714602d865b723}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!from\-\_\-json@{from\-\_\-json}}
+\index{from\-\_\-json@{from\-\_\-json}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{from\-\_\-json}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Point} simo\-::shapes\-::\-Point\-::from\-\_\-json (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{json}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{classsimo_1_1shapes_1_1_point_a7de22a22436ff219a0714602d865b723}
+
+
+creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from a geojson string 
+
+
+\begin{DoxyParams}{Parameters}
+{\em json} & the geojson string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} object
+\end{DoxyReturn}
+\begin{DoxyNote}{Note}
+R\-F\-C7946 \href{https://tools.ietf.org/html/rfc7946}{\tt https\-://tools.\-ietf.\-org/html/rfc7946}
+\end{DoxyNote}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000010}{Todo}](pavel) read properties to specify z, m and zm \end{DoxyRefDesc}
+
+
+Definition at line 315 of file point.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_aa140e02a04b52bf5739a761528dfd8e9}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!from\-\_\-wkt@{from\-\_\-wkt}}
+\index{from\-\_\-wkt@{from\-\_\-wkt}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{from\-\_\-wkt}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Point} simo\-::shapes\-::\-Point\-::from\-\_\-wkt (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{wkt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{classsimo_1_1shapes_1_1_point_aa140e02a04b52bf5739a761528dfd8e9}
+
+
+creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from a W\-K\-T string 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wkt} & the W\-K\-T string \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} object
+\end{DoxyReturn}
+\begin{DoxyNote}{Note}
+W\-K\-T \href{https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry}{\tt https\-://en.\-wikipedia.\-org/wiki/\-Well-\/known\-\_\-text\-\_\-representation\-\_\-of\-\_\-geometry}
+\end{DoxyNote}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 379 of file point.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_a5babfdb4e450381fce0bd355c060d3cf}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!from\-\_\-xy@{from\-\_\-xy}}
+\index{from\-\_\-xy@{from\-\_\-xy}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{from\-\_\-xy}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Point} simo\-::shapes\-::\-Point\-::from\-\_\-xy (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{classsimo_1_1shapes_1_1_point_a5babfdb4e450381fce0bd355c060d3cf}
+
+
+creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from coordinates (x, y) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/coordinate value \\
+\hline
+{\em y} & the y-\/coordinate value\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 103 of file point.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_a73475fb5d47c0c77506d8c83c0287f57}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!from\-\_\-xym@{from\-\_\-xym}}
+\index{from\-\_\-xym@{from\-\_\-xym}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{from\-\_\-xym}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Point} simo\-::shapes\-::\-Point\-::from\-\_\-xym (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{m}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{classsimo_1_1shapes_1_1_point_a73475fb5d47c0c77506d8c83c0287f57}
+
+
+creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from coordinates (x, y, m) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/coordinate value \\
+\hline
+{\em y} & the y-\/coordinate value \\
+\hline
+{\em m} & the m-\/coordinate value\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 131 of file point.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_af2fe59e7e25d3ab1019fbf9a3365fa30}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!from\-\_\-xyz@{from\-\_\-xyz}}
+\index{from\-\_\-xyz@{from\-\_\-xyz}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{from\-\_\-xyz}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Point} simo\-::shapes\-::\-Point\-::from\-\_\-xyz (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{z}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{classsimo_1_1shapes_1_1_point_af2fe59e7e25d3ab1019fbf9a3365fa30}
+
+
+creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from coordinates (x, y, z) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/coordinate value \\
+\hline
+{\em y} & the y-\/coordinate value \\
+\hline
+{\em z} & the z-\/coordinate value\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 117 of file point.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_a04c56d21b56fa034bb9b83150bb89a10}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!from\-\_\-xyzm@{from\-\_\-xyzm}}
+\index{from\-\_\-xyzm@{from\-\_\-xyzm}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{from\-\_\-xyzm}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Point} simo\-::shapes\-::\-Point\-::from\-\_\-xyzm (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y, }
+\item[{double}]{z, }
+\item[{double}]{m}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{classsimo_1_1shapes_1_1_point_a04c56d21b56fa034bb9b83150bb89a10}
+
+
+creates a \hyperlink{classsimo_1_1shapes_1_1_point}{Point} from coordinates (x, y, z, m) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/coordinate value \\
+\hline
+{\em y} & the y-\/coordinate value \\
+\hline
+{\em z} & the z-\/coordinate value \\
+\hline
+{\em m} & the m-\/coordinate value\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 151 of file point.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_ab16bf7c8f22a3fbd0df4e8a7407eeda5}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!json@{json}}
+\index{json@{json}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{json}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string simo\-::shapes\-::\-Point\-::json (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_ab16bf7c8f22a3fbd0df4e8a7407eeda5}
+
+
+dumps the geojson representation of the \hyperlink{classsimo_1_1shapes_1_1_point}{Point} 
+
+\begin{DoxyNote}{Note}
+R\-F\-C7946 \href{https://tools.ietf.org/html/rfc7946}{\tt https\-://tools.\-ietf.\-org/html/rfc7946}
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+a geojson string
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000011}{Todo}](pavel) add properties to specify z, m and zm \end{DoxyRefDesc}
+
+
+Definition at line 350 of file point.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_aece2f7cb87b1ca009d29fb79fcf8b48a}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!operator!=@{operator!=}}
+\index{operator!=@{operator!=}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{operator!=}]{\setlength{\rightskip}{0pt plus 5cm}bool simo\-::shapes\-::\-Point\-::operator!= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Point} \&}]{other}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_aece2f7cb87b1ca009d29fb79fcf8b48a}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000009}{Todo}](pavel) D\-O\-C\-U\-M\-E\-N\-T M\-E! 
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\end{DoxyRefDesc}
+
+
+Definition at line 300 of file point.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_a32b64226c96ab13e4b44e7437c2f6b3e}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!operator==@{operator==}}
+\index{operator==@{operator==}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool simo\-::shapes\-::\-Point\-::operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf Point} \&}]{other}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_a32b64226c96ab13e4b44e7437c2f6b3e}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000008}{Todo}](pavel) D\-O\-C\-U\-M\-E\-N\-T M\-E! 
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\end{DoxyRefDesc}
+
+
+Definition at line 290 of file point.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_a72cdeb0d8d8ecfdd5c5f4da19ec33cc4}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}double simo\-::shapes\-::\-Point\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_a72cdeb0d8d8ecfdd5c5f4da19ec33cc4}
+
+
+returns the coordinate at the given index 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & the coordinate position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a double with the coordinate value
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em exception} & if the position is not found\\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 280 of file point.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_a4134ec6fcf72ca4d822a9a70788dee40}{\index{simo\-::shapes\-::\-Point@{simo\-::shapes\-::\-Point}!wkt@{wkt}}
+\index{wkt@{wkt}!simo::shapes::Point@{simo\-::shapes\-::\-Point}}
+\subsubsection[{wkt}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string simo\-::shapes\-::\-Point\-::wkt (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_a4134ec6fcf72ca4d822a9a70788dee40}
+
+
+dumps the W\-K\-T representation of the point 
+
+\begin{DoxyNote}{Note}
+W\-K\-T \href{https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry}{\tt https\-://en.\-wikipedia.\-org/wiki/\-Well-\/known\-\_\-text\-\_\-representation\-\_\-of\-\_\-geometry}
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+a W\-K\-T string
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 407 of file point.\-hpp.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/travis/build/pavelsimo/shapes/include/simo/geom/point.\-hpp\end{DoxyCompactItemize}

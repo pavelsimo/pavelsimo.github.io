@@ -1,0 +1,368 @@
+\hypertarget{classsimo_1_1shapes_1_1_bounds}{\section{simo\-:\-:shapes\-:\-:Bounds Class Reference}
+\label{classsimo_1_1shapes_1_1_bounds}\index{simo\-::shapes\-::\-Bounds@{simo\-::shapes\-::\-Bounds}}
+}
+
+
+represents a bounding box  
+
+
+
+
+{\ttfamily \#include $<$bounds.\-hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classsimo_1_1shapes_1_1_bounds_a315d14b06ca14cedf66045bd1024e858}{Bounds} ()
+\begin{DoxyCompactList}\small\item\em creates a \hyperlink{classsimo_1_1shapes_1_1_bounds}{Bounds} object \end{DoxyCompactList}\item 
+\hyperlink{classsimo_1_1shapes_1_1_bounds_ab7c7ea30c937558080e14f79ea5fa689}{Bounds} (double minx, double miny, double maxx, double maxy)
+\begin{DoxyCompactList}\small\item\em creates a \hyperlink{classsimo_1_1shapes_1_1_bounds}{Bounds} object from the given coordinates \end{DoxyCompactList}\item 
+\hyperlink{classsimo_1_1shapes_1_1_bounds}{Bounds} \& \hyperlink{classsimo_1_1shapes_1_1_bounds_ad18b9c2175f6a8f4acf40ddeb643c990}{extend} (double x, double y)
+\begin{DoxyCompactList}\small\item\em extends the bounds to contain the given point \end{DoxyCompactList}\item 
+std\-::tuple$<$ double, double $>$ \hyperlink{classsimo_1_1shapes_1_1_bounds_abfde94e940053ba10343c6443f6a400d}{center} () const 
+\begin{DoxyCompactList}\small\item\em returns a (x, y) tuple with the center of the bounds \end{DoxyCompactList}\item 
+std\-::tuple$<$ double, double $>$ \hyperlink{classsimo_1_1shapes_1_1_bounds_a88f735d084ffa6d7ea3dd84fadbc1a17}{bottom\-\_\-left} () const 
+\begin{DoxyCompactList}\small\item\em returns a (x, y) tuple with the bottom left bounds \end{DoxyCompactList}\item 
+std\-::tuple$<$ double, double $>$ \hyperlink{classsimo_1_1shapes_1_1_bounds_a69d91f8fd16e9b981c7fef47e72055a6}{top\-\_\-right} () const 
+\begin{DoxyCompactList}\small\item\em returns a (x, y) tuple with the top right bounds \end{DoxyCompactList}\item 
+std\-::tuple$<$ double, double $>$ \hyperlink{classsimo_1_1shapes_1_1_bounds_ac80f194c2c3e1536a6130085c1d5ba70}{top\-\_\-left} () const 
+\begin{DoxyCompactList}\small\item\em returns a (x, y) tuple with the top left bounds \end{DoxyCompactList}\item 
+std\-::tuple$<$ double, double $>$ \hyperlink{classsimo_1_1shapes_1_1_bounds_ab24c62d2db4062e1a417cd991c717f3b}{bottom\-\_\-right} () const 
+\begin{DoxyCompactList}\small\item\em returns a (x, y) tuple with the bottom right bounds \end{DoxyCompactList}\item 
+bool \hyperlink{classsimo_1_1shapes_1_1_bounds_a7fbed3478c2d54e90e4c4499787d1dbb}{contains} (double x, double y) const 
+\begin{DoxyCompactList}\small\item\em returns true if the bounds contains the given point \end{DoxyCompactList}\item 
+bool \hyperlink{classsimo_1_1shapes_1_1_bounds_a7cf9442062faf75f429400474cc3f22f}{contains} (const \hyperlink{classsimo_1_1shapes_1_1_bounds}{Bounds} \&other)
+\begin{DoxyCompactList}\small\item\em returns true if the bounds contains the given one \end{DoxyCompactList}\item 
+bool \hyperlink{classsimo_1_1shapes_1_1_bounds_a63b1a4874a82b1eeea2ca56eaf2428ae}{intersects} (const \hyperlink{classsimo_1_1shapes_1_1_bounds}{Bounds} \&other)
+\begin{DoxyCompactList}\small\item\em returns true if the bounds intersect the given one \end{DoxyCompactList}\item 
+bool \hyperlink{classsimo_1_1shapes_1_1_bounds_a0bd0d67f7e4f17328773fe62a048d2e0}{overlaps} (const \hyperlink{classsimo_1_1shapes_1_1_bounds}{Bounds} \&other)
+\begin{DoxyCompactList}\small\item\em returns true if the bounds overlaps the given one \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classsimo_1_1shapes_1_1_bounds_afe60e11c3e9ea4bda63d9a2c018e33fa}{double {\bfseries minx}}\label{classsimo_1_1shapes_1_1_bounds_afe60e11c3e9ea4bda63d9a2c018e33fa}
+
+\item 
+\hypertarget{classsimo_1_1shapes_1_1_bounds_a0cad922ed1e16a96dbb89e00c1ed3519}{double {\bfseries miny}}\label{classsimo_1_1shapes_1_1_bounds_a0cad922ed1e16a96dbb89e00c1ed3519}
+
+\item 
+\hypertarget{classsimo_1_1shapes_1_1_bounds_ae01352060715769bce3fd4101d071f22}{double {\bfseries maxx}}\label{classsimo_1_1shapes_1_1_bounds_ae01352060715769bce3fd4101d071f22}
+
+\item 
+\hypertarget{classsimo_1_1shapes_1_1_bounds_ae967cd1bd60146d83eda56344523bab6}{double {\bfseries maxy}}\label{classsimo_1_1shapes_1_1_bounds_ae967cd1bd60146d83eda56344523bab6}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+represents a bounding box 
+
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 16 of file bounds.\-hpp.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classsimo_1_1shapes_1_1_bounds_a315d14b06ca14cedf66045bd1024e858}{\index{simo\-::shapes\-::\-Bounds@{simo\-::shapes\-::\-Bounds}!Bounds@{Bounds}}
+\index{Bounds@{Bounds}!simo::shapes::Bounds@{simo\-::shapes\-::\-Bounds}}
+\subsubsection[{Bounds}]{\setlength{\rightskip}{0pt plus 5cm}simo\-::shapes\-::\-Bounds\-::\-Bounds (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_bounds_a315d14b06ca14cedf66045bd1024e858}
+
+
+creates a \hyperlink{classsimo_1_1shapes_1_1_bounds}{Bounds} object 
+
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 29 of file bounds.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_bounds_ab7c7ea30c937558080e14f79ea5fa689}{\index{simo\-::shapes\-::\-Bounds@{simo\-::shapes\-::\-Bounds}!Bounds@{Bounds}}
+\index{Bounds@{Bounds}!simo::shapes::Bounds@{simo\-::shapes\-::\-Bounds}}
+\subsubsection[{Bounds}]{\setlength{\rightskip}{0pt plus 5cm}simo\-::shapes\-::\-Bounds\-::\-Bounds (
+\begin{DoxyParamCaption}
+\item[{double}]{minx, }
+\item[{double}]{miny, }
+\item[{double}]{maxx, }
+\item[{double}]{maxy}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_bounds_ab7c7ea30c937558080e14f79ea5fa689}
+
+
+creates a \hyperlink{classsimo_1_1shapes_1_1_bounds}{Bounds} object from the given coordinates 
+
+
+\begin{DoxyParams}{Parameters}
+{\em minx} & the x-\/coordinate of the first corner \\
+\hline
+{\em miny} & the y-\/coordinate of the first corner \\
+\hline
+{\em maxx} & the x-\/coordinate of the second corner \\
+\hline
+{\em maxy} & the y-\/coordinate of the second corner\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 47 of file bounds.\-hpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classsimo_1_1shapes_1_1_bounds_a88f735d084ffa6d7ea3dd84fadbc1a17}{\index{simo\-::shapes\-::\-Bounds@{simo\-::shapes\-::\-Bounds}!bottom\-\_\-left@{bottom\-\_\-left}}
+\index{bottom\-\_\-left@{bottom\-\_\-left}!simo::shapes::Bounds@{simo\-::shapes\-::\-Bounds}}
+\subsubsection[{bottom\-\_\-left}]{\setlength{\rightskip}{0pt plus 5cm}std\-::tuple$<$double, double$>$ simo\-::shapes\-::\-Bounds\-::bottom\-\_\-left (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_bounds_a88f735d084ffa6d7ea3dd84fadbc1a17}
+
+
+returns a (x, y) tuple with the bottom left bounds 
+
+\begin{DoxyReturn}{Returns}
+a tuple
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 89 of file bounds.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_bounds_ab24c62d2db4062e1a417cd991c717f3b}{\index{simo\-::shapes\-::\-Bounds@{simo\-::shapes\-::\-Bounds}!bottom\-\_\-right@{bottom\-\_\-right}}
+\index{bottom\-\_\-right@{bottom\-\_\-right}!simo::shapes::Bounds@{simo\-::shapes\-::\-Bounds}}
+\subsubsection[{bottom\-\_\-right}]{\setlength{\rightskip}{0pt plus 5cm}std\-::tuple$<$double, double$>$ simo\-::shapes\-::\-Bounds\-::bottom\-\_\-right (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_bounds_ab24c62d2db4062e1a417cd991c717f3b}
+
+
+returns a (x, y) tuple with the bottom right bounds 
+
+\begin{DoxyReturn}{Returns}
+a tuple
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 125 of file bounds.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_bounds_abfde94e940053ba10343c6443f6a400d}{\index{simo\-::shapes\-::\-Bounds@{simo\-::shapes\-::\-Bounds}!center@{center}}
+\index{center@{center}!simo::shapes::Bounds@{simo\-::shapes\-::\-Bounds}}
+\subsubsection[{center}]{\setlength{\rightskip}{0pt plus 5cm}std\-::tuple$<$double, double$>$ simo\-::shapes\-::\-Bounds\-::center (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_bounds_abfde94e940053ba10343c6443f6a400d}
+
+
+returns a (x, y) tuple with the center of the bounds 
+
+\begin{DoxyReturn}{Returns}
+a tuple
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 77 of file bounds.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_bounds_a7fbed3478c2d54e90e4c4499787d1dbb}{\index{simo\-::shapes\-::\-Bounds@{simo\-::shapes\-::\-Bounds}!contains@{contains}}
+\index{contains@{contains}!simo::shapes::Bounds@{simo\-::shapes\-::\-Bounds}}
+\subsubsection[{contains}]{\setlength{\rightskip}{0pt plus 5cm}bool simo\-::shapes\-::\-Bounds\-::contains (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_bounds_a7fbed3478c2d54e90e4c4499787d1dbb}
+
+
+returns true if the bounds contains the given point 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/coordinate of the point \\
+\hline
+{\em y} & the y-\/coordinate of the point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the \hyperlink{classsimo_1_1shapes_1_1_bounds}{Bounds} contains the given point, otherwise false
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 139 of file bounds.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_bounds_a7cf9442062faf75f429400474cc3f22f}{\index{simo\-::shapes\-::\-Bounds@{simo\-::shapes\-::\-Bounds}!contains@{contains}}
+\index{contains@{contains}!simo::shapes::Bounds@{simo\-::shapes\-::\-Bounds}}
+\subsubsection[{contains}]{\setlength{\rightskip}{0pt plus 5cm}bool simo\-::shapes\-::\-Bounds\-::contains (
+\begin{DoxyParamCaption}
+\item[{const {\bf Bounds} \&}]{other}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_bounds_a7cf9442062faf75f429400474cc3f22f}
+
+
+returns true if the bounds contains the given one 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & the bounds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the \hyperlink{classsimo_1_1shapes_1_1_bounds}{Bounds} contain the given one, otherwise false
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 152 of file bounds.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_bounds_ad18b9c2175f6a8f4acf40ddeb643c990}{\index{simo\-::shapes\-::\-Bounds@{simo\-::shapes\-::\-Bounds}!extend@{extend}}
+\index{extend@{extend}!simo::shapes::Bounds@{simo\-::shapes\-::\-Bounds}}
+\subsubsection[{extend}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Bounds}\& simo\-::shapes\-::\-Bounds\-::extend (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{double}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_bounds_ad18b9c2175f6a8f4acf40ddeb643c990}
+
+
+extends the bounds to contain the given point 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & the x-\/coordinate of the point \\
+\hline
+{\em y} & the y-\/coordinate of the point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the \hyperlink{classsimo_1_1shapes_1_1_bounds}{Bounds} object
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 61 of file bounds.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_bounds_a63b1a4874a82b1eeea2ca56eaf2428ae}{\index{simo\-::shapes\-::\-Bounds@{simo\-::shapes\-::\-Bounds}!intersects@{intersects}}
+\index{intersects@{intersects}!simo::shapes::Bounds@{simo\-::shapes\-::\-Bounds}}
+\subsubsection[{intersects}]{\setlength{\rightskip}{0pt plus 5cm}bool simo\-::shapes\-::\-Bounds\-::intersects (
+\begin{DoxyParamCaption}
+\item[{const {\bf Bounds} \&}]{other}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_bounds_a63b1a4874a82b1eeea2ca56eaf2428ae}
+
+
+returns true if the bounds intersect the given one 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & the bounds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the \hyperlink{classsimo_1_1shapes_1_1_bounds}{Bounds} intersect the given one, otherwise false
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 165 of file bounds.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_bounds_a0bd0d67f7e4f17328773fe62a048d2e0}{\index{simo\-::shapes\-::\-Bounds@{simo\-::shapes\-::\-Bounds}!overlaps@{overlaps}}
+\index{overlaps@{overlaps}!simo::shapes::Bounds@{simo\-::shapes\-::\-Bounds}}
+\subsubsection[{overlaps}]{\setlength{\rightskip}{0pt plus 5cm}bool simo\-::shapes\-::\-Bounds\-::overlaps (
+\begin{DoxyParamCaption}
+\item[{const {\bf Bounds} \&}]{other}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_bounds_a0bd0d67f7e4f17328773fe62a048d2e0}
+
+
+returns true if the bounds overlaps the given one 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & the bounds \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the \hyperlink{classsimo_1_1shapes_1_1_bounds}{Bounds} overlaps the given one, otherwise false
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 178 of file bounds.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_bounds_ac80f194c2c3e1536a6130085c1d5ba70}{\index{simo\-::shapes\-::\-Bounds@{simo\-::shapes\-::\-Bounds}!top\-\_\-left@{top\-\_\-left}}
+\index{top\-\_\-left@{top\-\_\-left}!simo::shapes::Bounds@{simo\-::shapes\-::\-Bounds}}
+\subsubsection[{top\-\_\-left}]{\setlength{\rightskip}{0pt plus 5cm}std\-::tuple$<$double, double$>$ simo\-::shapes\-::\-Bounds\-::top\-\_\-left (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_bounds_ac80f194c2c3e1536a6130085c1d5ba70}
+
+
+returns a (x, y) tuple with the top left bounds 
+
+\begin{DoxyReturn}{Returns}
+a tuple
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 113 of file bounds.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_bounds_a69d91f8fd16e9b981c7fef47e72055a6}{\index{simo\-::shapes\-::\-Bounds@{simo\-::shapes\-::\-Bounds}!top\-\_\-right@{top\-\_\-right}}
+\index{top\-\_\-right@{top\-\_\-right}!simo::shapes::Bounds@{simo\-::shapes\-::\-Bounds}}
+\subsubsection[{top\-\_\-right}]{\setlength{\rightskip}{0pt plus 5cm}std\-::tuple$<$double, double$>$ simo\-::shapes\-::\-Bounds\-::top\-\_\-right (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_bounds_a69d91f8fd16e9b981c7fef47e72055a6}
+
+
+returns a (x, y) tuple with the top right bounds 
+
+\begin{DoxyReturn}{Returns}
+a tuple
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 101 of file bounds.\-hpp.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/travis/build/pavelsimo/shapes/include/simo/geom/bounds.\-hpp\end{DoxyCompactItemize}

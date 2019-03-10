@@ -1,0 +1,172 @@
+\hypertarget{classsimo_1_1shapes_1_1_point_collection}{\section{simo\-:\-:shapes\-:\-:Point\-Collection$<$ Derived $>$ Class Template Reference}
+\label{classsimo_1_1shapes_1_1_point_collection}\index{simo\-::shapes\-::\-Point\-Collection$<$ Derived $>$@{simo\-::shapes\-::\-Point\-Collection$<$ Derived $>$}}
+}
+
+
+{\ttfamily \#include $<$point\-\_\-collection.\-hpp$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classsimo_1_1shapes_1_1_point_collection_a25dbe26192164dc3dbed17ecbbdb5b3d}{typedef std\-::vector$<$ \hyperlink{classsimo_1_1shapes_1_1_point}{Point} $>$\\*
+\-::\hyperlink{classsimo_1_1shapes_1_1_point_collection_a25dbe26192164dc3dbed17ecbbdb5b3d}{iterator} \hyperlink{classsimo_1_1shapes_1_1_point_collection_a25dbe26192164dc3dbed17ecbbdb5b3d}{iterator}}\label{classsimo_1_1shapes_1_1_point_collection_a25dbe26192164dc3dbed17ecbbdb5b3d}
+
+\begin{DoxyCompactList}\small\item\em iterator type \end{DoxyCompactList}\item 
+\hypertarget{classsimo_1_1shapes_1_1_point_collection_a74bbad0a4b30238f8cebfe6eea4d7c1c}{typedef std\-::vector$<$ \hyperlink{classsimo_1_1shapes_1_1_point}{Point} $>$\\*
+\-::\hyperlink{classsimo_1_1shapes_1_1_point_collection_a74bbad0a4b30238f8cebfe6eea4d7c1c}{const\-\_\-iterator} \hyperlink{classsimo_1_1shapes_1_1_point_collection_a74bbad0a4b30238f8cebfe6eea4d7c1c}{const\-\_\-iterator}}\label{classsimo_1_1shapes_1_1_point_collection_a74bbad0a4b30238f8cebfe6eea4d7c1c}
+
+\begin{DoxyCompactList}\small\item\em const iterator type \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classsimo_1_1shapes_1_1_point_collection_a25dbe26192164dc3dbed17ecbbdb5b3d}{iterator} \hyperlink{classsimo_1_1shapes_1_1_point_collection_a9f997d10393ab1a957909a4864a19175}{begin} ()
+\item 
+\hyperlink{classsimo_1_1shapes_1_1_point_collection_a74bbad0a4b30238f8cebfe6eea4d7c1c}{const\-\_\-iterator} \hyperlink{classsimo_1_1shapes_1_1_point_collection_acae80ce3a9e712db307ad92e0045683d}{begin} () const 
+\item 
+\hyperlink{classsimo_1_1shapes_1_1_point_collection_a25dbe26192164dc3dbed17ecbbdb5b3d}{iterator} \hyperlink{classsimo_1_1shapes_1_1_point_collection_a6469545ecccb2731589b493c3960a5fd}{end} ()
+\item 
+\hyperlink{classsimo_1_1shapes_1_1_point_collection_a74bbad0a4b30238f8cebfe6eea4d7c1c}{const\-\_\-iterator} \hyperlink{classsimo_1_1shapes_1_1_point_collection_a82881946822302c9b332213c412c2162}{end} () const 
+\item 
+\hyperlink{classsimo_1_1shapes_1_1_point}{Point} \& \hyperlink{classsimo_1_1shapes_1_1_point_collection_a527321410b3afd8f5dca11091f05b8b1}{at} (size\-\_\-t pos)
+\item 
+\hyperlink{classsimo_1_1shapes_1_1_point}{Point} \& \hyperlink{classsimo_1_1shapes_1_1_point_collection_a14cfb96d5aaa33c7607b9bed57f4d69a}{operator\mbox{[}$\,$\mbox{]}} (size\-\_\-t pos)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classsimo_1_1shapes_1_1_point_collection_a0e2535e3dcccc303462cb2f258a42edd}{std\-::vector$<$ \hyperlink{classsimo_1_1shapes_1_1_point}{Point} $>$ {\bfseries m\-\_\-points}}\label{classsimo_1_1shapes_1_1_point_collection_a0e2535e3dcccc303462cb2f258a42edd}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Derived$>$class simo\-::shapes\-::\-Point\-Collection$<$ Derived $>$}
+
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000012}{Todo}](pavel) add method to get first point 
+
+(pavel) add method to get last point \end{DoxyRefDesc}
+
+
+Definition at line 14 of file point\-\_\-collection.\-hpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classsimo_1_1shapes_1_1_point_collection_a527321410b3afd8f5dca11091f05b8b1}{\index{simo\-::shapes\-::\-Point\-Collection@{simo\-::shapes\-::\-Point\-Collection}!at@{at}}
+\index{at@{at}!simo::shapes::PointCollection@{simo\-::shapes\-::\-Point\-Collection}}
+\subsubsection[{at}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ {\bf Point}\& {\bf simo\-::shapes\-::\-Point\-Collection}$<$ Derived $>$\-::at (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_collection_a527321410b3afd8f5dca11091f05b8b1}
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & the element position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns a reference to the element at position n in the vector
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 69 of file point\-\_\-collection.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_collection_a9f997d10393ab1a957909a4864a19175}{\index{simo\-::shapes\-::\-Point\-Collection@{simo\-::shapes\-::\-Point\-Collection}!begin@{begin}}
+\index{begin@{begin}!simo::shapes::PointCollection@{simo\-::shapes\-::\-Point\-Collection}}
+\subsubsection[{begin}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ {\bf iterator} {\bf simo\-::shapes\-::\-Point\-Collection}$<$ Derived $>$\-::begin (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_collection_a9f997d10393ab1a957909a4864a19175}
+\begin{DoxyReturn}{Returns}
+returns an iterator pointing to the first element in the \hyperlink{classsimo_1_1shapes_1_1_point_collection}{Point\-Collection}
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 28 of file point\-\_\-collection.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_collection_acae80ce3a9e712db307ad92e0045683d}{\index{simo\-::shapes\-::\-Point\-Collection@{simo\-::shapes\-::\-Point\-Collection}!begin@{begin}}
+\index{begin@{begin}!simo::shapes::PointCollection@{simo\-::shapes\-::\-Point\-Collection}}
+\subsubsection[{begin}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ {\bf const\-\_\-iterator} {\bf simo\-::shapes\-::\-Point\-Collection}$<$ Derived $>$\-::begin (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_collection_acae80ce3a9e712db307ad92e0045683d}
+\begin{DoxyReturn}{Returns}
+returns a constant iterator pointing to the first element in the \hyperlink{classsimo_1_1shapes_1_1_point_collection}{Point\-Collection}
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 38 of file point\-\_\-collection.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_collection_a6469545ecccb2731589b493c3960a5fd}{\index{simo\-::shapes\-::\-Point\-Collection@{simo\-::shapes\-::\-Point\-Collection}!end@{end}}
+\index{end@{end}!simo::shapes::PointCollection@{simo\-::shapes\-::\-Point\-Collection}}
+\subsubsection[{end}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ {\bf iterator} {\bf simo\-::shapes\-::\-Point\-Collection}$<$ Derived $>$\-::end (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_collection_a6469545ecccb2731589b493c3960a5fd}
+\begin{DoxyReturn}{Returns}
+returns an iterator pointing to the past-\/the-\/end element in the \hyperlink{classsimo_1_1shapes_1_1_point_collection}{Point\-Collection}
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 48 of file point\-\_\-collection.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_collection_a82881946822302c9b332213c412c2162}{\index{simo\-::shapes\-::\-Point\-Collection@{simo\-::shapes\-::\-Point\-Collection}!end@{end}}
+\index{end@{end}!simo::shapes::PointCollection@{simo\-::shapes\-::\-Point\-Collection}}
+\subsubsection[{end}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ {\bf const\-\_\-iterator} {\bf simo\-::shapes\-::\-Point\-Collection}$<$ Derived $>$\-::end (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_collection_a82881946822302c9b332213c412c2162}
+\begin{DoxyReturn}{Returns}
+returns a const iterator pointing to the past-\/the-\/end element in the \hyperlink{classsimo_1_1shapes_1_1_point_collection}{Point\-Collection}
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 58 of file point\-\_\-collection.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_point_collection_a14cfb96d5aaa33c7607b9bed57f4d69a}{\index{simo\-::shapes\-::\-Point\-Collection@{simo\-::shapes\-::\-Point\-Collection}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!simo::shapes::PointCollection@{simo\-::shapes\-::\-Point\-Collection}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ {\bf Point}\& {\bf simo\-::shapes\-::\-Point\-Collection}$<$ Derived $>$\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{pos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimo_1_1shapes_1_1_point_collection_a14cfb96d5aaa33c7607b9bed57f4d69a}
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & the element position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns a reference to the element at position n in the vector
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Definition at line 80 of file point\-\_\-collection.\-hpp.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/travis/build/pavelsimo/shapes/include/simo/geom/point\-\_\-collection.\-hpp\end{DoxyCompactItemize}

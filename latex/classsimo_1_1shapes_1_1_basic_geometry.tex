@@ -1,0 +1,492 @@
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry}{\section{simo\-:\-:shapes\-:\-:Basic\-Geometry$<$ Derived $>$ Class Template Reference}
+\label{classsimo_1_1shapes_1_1_basic_geometry}\index{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$@{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}}
+}
+
+
+basic geometry type  
+
+
+
+
+{\ttfamily \#include $<$geometry.\-hpp$>$}
+
+Inheritance diagram for simo\-:\-:shapes\-:\-:Basic\-Geometry$<$ Derived $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classsimo_1_1shapes_1_1_basic_geometry}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Geometry\-Type \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a8cb2eba04f6fb0cb80cd9c9d2c85f213}{type} () const override
+\begin{DoxyCompactList}\small\item\em returns the geometry type (e.\-g. Geometry\-Type\-::\-Point, Geometry\-Type\-::\-Multi\-Point) \end{DoxyCompactList}\item 
+Geometry\-Detailed\-Type \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a82ea146df5c632a15864fc56817d6d0f}{detailed\-\_\-type} () const override
+\begin{DoxyCompactList}\small\item\em returns the geometry detailed type (e.\-g. Geometry\-Type\-::\-Point\-Z, Geometry\-Type\-::\-Multi\-Point\-Z\-M) \end{DoxyCompactList}\item 
+std\-::string \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad2331ba481d41c9f7089787a32ef4ced}{type\-\_\-str} () const override
+\begin{DoxyCompactList}\small\item\em returns the geometry type as a string (e.\-g. \hyperlink{classsimo_1_1shapes_1_1_point}{Point}, \hyperlink{classsimo_1_1shapes_1_1_line_string}{Line\-String}) \end{DoxyCompactList}\item 
+bool \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a6834cf02c916d416b84d66d03fa7a525}{empty} () const override
+\begin{DoxyCompactList}\small\item\em returns true if the geometry is empty \end{DoxyCompactList}\item 
+size\-\_\-t \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a5e68b783fac81ad8e6c38a0c86875423}{size} () const override
+\begin{DoxyCompactList}\small\item\em returns the geometry size \end{DoxyCompactList}\item 
+std\-::vector$<$ std\-::tuple\\*
+$<$ double, double $>$ $>$ \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a492b93c475d7a059b4be04a2aafddc99}{xy} () const override
+\begin{DoxyCompactList}\small\item\em returns the geometry (x, y) coordinates as a tuple \end{DoxyCompactList}\item 
+std\-::vector$<$ std\-::tuple\\*
+$<$ double, double, double $>$ $>$ \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad0098dca3aab7d3f710d21b672935570}{xyz} () const override
+\begin{DoxyCompactList}\small\item\em returns the geometry (x, y, z) coordinates as a tuple \end{DoxyCompactList}\item 
+std\-::vector$<$ std\-::tuple\\*
+$<$ double, double, double $>$ $>$ \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad6f72ade4686897fbea8f3b616b06df8}{xym} () const override
+\begin{DoxyCompactList}\small\item\em returns the geometry (x, y, m) coordinates as a tuple \end{DoxyCompactList}\item 
+std\-::vector$<$ std\-::tuple\\*
+$<$ double, double, double, \\*
+double $>$ $>$ \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a94dd1ee38d7b46ce92d1f547293fedce}{xyzm} () const override
+\begin{DoxyCompactList}\small\item\em returns the geometry (x, y, z, m) coordinates as a tuple \end{DoxyCompactList}\item 
+Dimension\-Type \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_aa2cf098bf849207e3c1a638a31d28685}{dim} () const override
+\begin{DoxyCompactList}\small\item\em returns the dimension type of the geometry \end{DoxyCompactList}\item 
+void \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a203dc3ca9965a82151ec17299a429730}{set\-\_\-dim} (Dimension\-Type value) override
+\begin{DoxyCompactList}\small\item\em set the dimension type \end{DoxyCompactList}\item 
+\hyperlink{classsimo_1_1shapes_1_1_bounds}{Bounds} \& \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_aef057b58858f64a47a8fa68b7a9ef7d1}{bounds} () override
+\begin{DoxyCompactList}\small\item\em returns the geometry bounds \end{DoxyCompactList}\item 
+bool \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_adf922693df08f41d170438836bc90c6b}{has\-\_\-z} () const override
+\begin{DoxyCompactList}\small\item\em whether the geometry has z-\/coordinate \end{DoxyCompactList}\item 
+bool \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae67e31810708aa668749f1d1ae8ae28b}{has\-\_\-m} () const override
+\begin{DoxyCompactList}\small\item\em whether the geometry has m-\/coordinate \end{DoxyCompactList}\item 
+bool \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae5ad57479626834ef3c4e10c2fb2275b}{is\-\_\-closed} () const override
+\begin{DoxyCompactList}\small\item\em whether the geometry is closed \end{DoxyCompactList}\item 
+int8\-\_\-t \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae5ae8173a8c166d98ddda0fbfbc48346}{ndim} () const override
+\begin{DoxyCompactList}\small\item\em returns the number of dimensions of the geometry \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_ae4429e3d4c999289a0d7ae706e6ddcf7}{int8\-\_\-t \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae4429e3d4c999289a0d7ae706e6ddcf7}{precision} = 1}\label{classsimo_1_1shapes_1_1_basic_geometry_ae4429e3d4c999289a0d7ae706e6ddcf7}
+
+\begin{DoxyCompactList}\small\item\em serialization precision \end{DoxyCompactList}\item 
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_aaf510a85f9f8ec7160637c73f88b2c6a}{int32\-\_\-t \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_aaf510a85f9f8ec7160637c73f88b2c6a}{srid} = -\/1}\label{classsimo_1_1shapes_1_1_basic_geometry_aaf510a85f9f8ec7160637c73f88b2c6a}
+
+\begin{DoxyCompactList}\small\item\em a spatial reference identifier (S\-R\-I\-D) is a unique identifier associated with a specific coordinate system \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename Derived$>$class simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}
+
+basic geometry type 
+
+Definition at line 160 of file geometry.\-hpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_aef057b58858f64a47a8fa68b7a9ef7d1}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!bounds@{bounds}}
+\index{bounds@{bounds}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{bounds}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ {\bf Bounds}\& {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::bounds (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_aef057b58858f64a47a8fa68b7a9ef7d1}
+
+
+returns the geometry bounds 
+
+\begin{DoxyReturn}{Returns}
+the geometry bounds
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_a0ed6566c6f79af7255f5950bd44f2a1e}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 388 of file geometry.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_a82ea146df5c632a15864fc56817d6d0f}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!detailed\-\_\-type@{detailed\-\_\-type}}
+\index{detailed\-\_\-type@{detailed\-\_\-type}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{detailed\-\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ Geometry\-Detailed\-Type {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::detailed\-\_\-type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_a82ea146df5c632a15864fc56817d6d0f}
+
+
+returns the geometry detailed type (e.\-g. Geometry\-Type\-::\-Point\-Z, Geometry\-Type\-::\-Multi\-Point\-Z\-M) 
+
+\begin{DoxyReturn}{Returns}
+the geometry detailed type
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_a5633ca34213554220aa19257260b2211}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 174 of file geometry.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_aa2cf098bf849207e3c1a638a31d28685}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!dim@{dim}}
+\index{dim@{dim}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{dim}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ Dimension\-Type {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::dim (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_aa2cf098bf849207e3c1a638a31d28685}
+
+
+returns the dimension type of the geometry 
+
+\begin{DoxyReturn}{Returns}
+the dimension type
+\end{DoxyReturn}
+\begin{DoxyNote}{Note}
+the dimension type is (x, y), (x, y, z), (x, y, m) and (x, y, z, m)
+\end{DoxyNote}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_a8db862418cec85fc52c832267449d392}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 378 of file geometry.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_a6834cf02c916d416b84d66d03fa7a525}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!empty@{empty}}
+\index{empty@{empty}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ bool {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_a6834cf02c916d416b84d66d03fa7a525}
+
+
+returns true if the geometry is empty 
+
+\begin{DoxyReturn}{Returns}
+true if the the geometry is empty, otherwise false
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_ab53733864d430504fd7ed2b564c96ef5}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 348 of file geometry.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_ae67e31810708aa668749f1d1ae8ae28b}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!has\-\_\-m@{has\-\_\-m}}
+\index{has\-\_\-m@{has\-\_\-m}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{has\-\_\-m}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ bool {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::has\-\_\-m (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_ae67e31810708aa668749f1d1ae8ae28b}
+
+
+whether the geometry has m-\/coordinate 
+
+\begin{DoxyReturn}{Returns}
+true if the geometry has m-\/coordinate, otherwise false
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_aa6b0b9e19c782d137effc7be2e5416a1}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 398 of file geometry.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_adf922693df08f41d170438836bc90c6b}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!has\-\_\-z@{has\-\_\-z}}
+\index{has\-\_\-z@{has\-\_\-z}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{has\-\_\-z}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ bool {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::has\-\_\-z (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_adf922693df08f41d170438836bc90c6b}
+
+
+whether the geometry has z-\/coordinate 
+
+\begin{DoxyReturn}{Returns}
+true if the geometry has z-\/coordinate, otherwise false
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_a7d2d67f5845bcccca7d88619b0be288a}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 393 of file geometry.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_ae5ad57479626834ef3c4e10c2fb2275b}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!is\-\_\-closed@{is\-\_\-closed}}
+\index{is\-\_\-closed@{is\-\_\-closed}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{is\-\_\-closed}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ bool {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::is\-\_\-closed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_ae5ad57479626834ef3c4e10c2fb2275b}
+
+
+whether the geometry is closed 
+
+\begin{DoxyReturn}{Returns}
+true if the geometry is closed, otherwise false
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_a2c1ea77c6f3b7b6c20eb9894be264f80}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 403 of file geometry.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_ae5ae8173a8c166d98ddda0fbfbc48346}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!ndim@{ndim}}
+\index{ndim@{ndim}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{ndim}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ int8\-\_\-t {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::ndim (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_ae5ae8173a8c166d98ddda0fbfbc48346}
+
+
+returns the number of dimensions of the geometry 
+
+\begin{DoxyReturn}{Returns}
+the number of dimensions
+\end{DoxyReturn}
+\begin{DoxyNote}{Note}
+the number of dimensions is (x, y) = 2, (x, y, z) = 3, (x, y, m) = 3 and (x, y, z, m) = 4
+\end{DoxyNote}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_ab4890550ac2208165a5953a989d0b2aa}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 408 of file geometry.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_a203dc3ca9965a82151ec17299a429730}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!set\-\_\-dim@{set\-\_\-dim}}
+\index{set\-\_\-dim@{set\-\_\-dim}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{set\-\_\-dim}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ void {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::set\-\_\-dim (
+\begin{DoxyParamCaption}
+\item[{Dimension\-Type}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_a203dc3ca9965a82151ec17299a429730}
+
+
+set the dimension type 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the dimension type\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_adbd7a14a8b4414c882cbcafa8025085d}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 383 of file geometry.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_a5e68b783fac81ad8e6c38a0c86875423}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!size@{size}}
+\index{size@{size}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ size\-\_\-t {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_a5e68b783fac81ad8e6c38a0c86875423}
+
+
+returns the geometry size 
+
+\begin{DoxyReturn}{Returns}
+the size of the geometry
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_a110e8a897b84c704f9009679bbbe21fc}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 353 of file geometry.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_a8cb2eba04f6fb0cb80cd9c9d2c85f213}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!type@{type}}
+\index{type@{type}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{type}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ Geometry\-Type {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_a8cb2eba04f6fb0cb80cd9c9d2c85f213}
+
+
+returns the geometry type (e.\-g. Geometry\-Type\-::\-Point, Geometry\-Type\-::\-Multi\-Point) 
+
+\begin{DoxyReturn}{Returns}
+the geometry type
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_a97a21e31df877cd74da81e08e6e1c7ff}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 169 of file geometry.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_ad2331ba481d41c9f7089787a32ef4ced}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!type\-\_\-str@{type\-\_\-str}}
+\index{type\-\_\-str@{type\-\_\-str}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{type\-\_\-str}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ std\-::string {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::type\-\_\-str (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_ad2331ba481d41c9f7089787a32ef4ced}
+
+
+returns the geometry type as a string (e.\-g. \hyperlink{classsimo_1_1shapes_1_1_point}{Point}, \hyperlink{classsimo_1_1shapes_1_1_line_string}{Line\-String}) 
+
+\begin{DoxyReturn}{Returns}
+the geometry type as a string
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_aa4fc3ffa8fa908f238c2917166a4f0a1}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 343 of file geometry.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_a492b93c475d7a059b4be04a2aafddc99}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!xy@{xy}}
+\index{xy@{xy}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{xy}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ std\-::vector$<$std\-::tuple$<$double, double$>$ $>$ {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::xy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_a492b93c475d7a059b4be04a2aafddc99}
+
+
+returns the geometry (x, y) coordinates as a tuple 
+
+\begin{DoxyReturn}{Returns}
+a vector of (x, y) tuples
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_aa45dedcadd8e44be1f9415223ca2e19d}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 358 of file geometry.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_ad6f72ade4686897fbea8f3b616b06df8}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!xym@{xym}}
+\index{xym@{xym}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{xym}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ std\-::vector$<$std\-::tuple$<$double, double, double$>$ $>$ {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::xym (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_ad6f72ade4686897fbea8f3b616b06df8}
+
+
+returns the geometry (x, y, m) coordinates as a tuple 
+
+\begin{DoxyReturn}{Returns}
+a vector of (x, y, m) tuples
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_aa74d24c520c7760619e17fdfd7c2eff0}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 368 of file geometry.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_ad0098dca3aab7d3f710d21b672935570}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!xyz@{xyz}}
+\index{xyz@{xyz}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{xyz}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ std\-::vector$<$std\-::tuple$<$double, double, double$>$ $>$ {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::xyz (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_ad0098dca3aab7d3f710d21b672935570}
+
+
+returns the geometry (x, y, z) coordinates as a tuple 
+
+\begin{DoxyReturn}{Returns}
+a vector of (x, y, z) tuples
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_af1a38df76e835270559acad85366f6f3}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 363 of file geometry.\-hpp.
+
+\hypertarget{classsimo_1_1shapes_1_1_basic_geometry_a94dd1ee38d7b46ce92d1f547293fedce}{\index{simo\-::shapes\-::\-Basic\-Geometry@{simo\-::shapes\-::\-Basic\-Geometry}!xyzm@{xyzm}}
+\index{xyzm@{xyzm}!simo::shapes::BasicGeometry@{simo\-::shapes\-::\-Basic\-Geometry}}
+\subsubsection[{xyzm}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Derived$>$ std\-::vector$<$std\-::tuple$<$double, double, double, double$>$ $>$ {\bf simo\-::shapes\-::\-Basic\-Geometry}$<$ Derived $>$\-::xyzm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}}\label{classsimo_1_1shapes_1_1_basic_geometry_a94dd1ee38d7b46ce92d1f547293fedce}
+
+
+returns the geometry (x, y, z, m) coordinates as a tuple 
+
+\begin{DoxyReturn}{Returns}
+a vector of (x, y, z, m) tuples
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implements \hyperlink{classsimo_1_1shapes_1_1_geometry_a1dc27d8d1146b3057355f96d7954f979}{simo\-::shapes\-::\-Geometry}.
+
+
+
+Definition at line 373 of file geometry.\-hpp.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/travis/build/pavelsimo/shapes/include/simo/geom/geometry.\-hpp\end{DoxyCompactItemize}

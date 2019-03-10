@@ -1,0 +1,422 @@
+\hypertarget{classsimo_1_1shapes_1_1_geometry}{\section{simo\-:\-:shapes\-:\-:Geometry Class Reference}
+\label{classsimo_1_1shapes_1_1_geometry}\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}}
+}
+
+
+geometry interface  
+
+
+
+
+{\ttfamily \#include $<$geometry.\-hpp$>$}
+
+Inheritance diagram for simo\-:\-:shapes\-:\-:Geometry\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.048689cm]{classsimo_1_1shapes_1_1_geometry}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classsimo_1_1shapes_1_1_geometry_ad0611340eaded743bbdfe0abb43c59a4}{virtual \hyperlink{classsimo_1_1shapes_1_1_geometry_ad0611340eaded743bbdfe0abb43c59a4}{$\sim$\-Geometry} ()=default}\label{classsimo_1_1shapes_1_1_geometry_ad0611340eaded743bbdfe0abb43c59a4}
+
+\begin{DoxyCompactList}\small\item\em virtual destructor \end{DoxyCompactList}\item 
+virtual Geometry\-Type \hyperlink{classsimo_1_1shapes_1_1_geometry_a97a21e31df877cd74da81e08e6e1c7ff}{type} () const =0
+\begin{DoxyCompactList}\small\item\em returns the geometry type (e.\-g. Geometry\-Type\-::\-Point, Geometry\-Type\-::\-Multi\-Point) \end{DoxyCompactList}\item 
+virtual Geometry\-Detailed\-Type \hyperlink{classsimo_1_1shapes_1_1_geometry_a5633ca34213554220aa19257260b2211}{detailed\-\_\-type} () const =0
+\begin{DoxyCompactList}\small\item\em returns the geometry detailed type (e.\-g. Geometry\-Type\-::\-Point\-Z, Geometry\-Type\-::\-Multi\-Point\-Z\-M) \end{DoxyCompactList}\item 
+virtual std\-::string \hyperlink{classsimo_1_1shapes_1_1_geometry_aa4fc3ffa8fa908f238c2917166a4f0a1}{type\-\_\-str} () const =0
+\begin{DoxyCompactList}\small\item\em returns the geometry type as a string (e.\-g. \hyperlink{classsimo_1_1shapes_1_1_point}{Point}, \hyperlink{classsimo_1_1shapes_1_1_line_string}{Line\-String}) \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classsimo_1_1shapes_1_1_geometry_ab53733864d430504fd7ed2b564c96ef5}{empty} () const =0
+\begin{DoxyCompactList}\small\item\em returns true if the geometry is empty \end{DoxyCompactList}\item 
+virtual size\-\_\-t \hyperlink{classsimo_1_1shapes_1_1_geometry_a110e8a897b84c704f9009679bbbe21fc}{size} () const =0
+\begin{DoxyCompactList}\small\item\em returns the geometry size \end{DoxyCompactList}\item 
+virtual Dimension\-Type \hyperlink{classsimo_1_1shapes_1_1_geometry_a8db862418cec85fc52c832267449d392}{dim} () const =0
+\begin{DoxyCompactList}\small\item\em returns the dimension type of the geometry \end{DoxyCompactList}\item 
+virtual void \hyperlink{classsimo_1_1shapes_1_1_geometry_adbd7a14a8b4414c882cbcafa8025085d}{set\-\_\-dim} (Dimension\-Type value)=0
+\begin{DoxyCompactList}\small\item\em set the dimension type \end{DoxyCompactList}\item 
+virtual int8\-\_\-t \hyperlink{classsimo_1_1shapes_1_1_geometry_ab4890550ac2208165a5953a989d0b2aa}{ndim} () const =0
+\begin{DoxyCompactList}\small\item\em returns the number of dimensions of the geometry \end{DoxyCompactList}\item 
+virtual \hyperlink{classsimo_1_1shapes_1_1_bounds}{Bounds} \& \hyperlink{classsimo_1_1shapes_1_1_geometry_a0ed6566c6f79af7255f5950bd44f2a1e}{bounds} ()=0
+\begin{DoxyCompactList}\small\item\em returns the geometry bounds \end{DoxyCompactList}\item 
+virtual std\-::vector\\*
+$<$ std\-::tuple$<$ double, double $>$ $>$ \hyperlink{classsimo_1_1shapes_1_1_geometry_aa45dedcadd8e44be1f9415223ca2e19d}{xy} () const =0
+\begin{DoxyCompactList}\small\item\em returns the geometry (x, y) coordinates as a tuple \end{DoxyCompactList}\item 
+virtual std\-::vector\\*
+$<$ std\-::tuple$<$ double, double, \\*
+double $>$ $>$ \hyperlink{classsimo_1_1shapes_1_1_geometry_af1a38df76e835270559acad85366f6f3}{xyz} () const =0
+\begin{DoxyCompactList}\small\item\em returns the geometry (x, y, z) coordinates as a tuple \end{DoxyCompactList}\item 
+virtual std\-::vector\\*
+$<$ std\-::tuple$<$ double, double, \\*
+double $>$ $>$ \hyperlink{classsimo_1_1shapes_1_1_geometry_aa74d24c520c7760619e17fdfd7c2eff0}{xym} () const =0
+\begin{DoxyCompactList}\small\item\em returns the geometry (x, y, m) coordinates as a tuple \end{DoxyCompactList}\item 
+virtual std\-::vector\\*
+$<$ std\-::tuple$<$ double, double, \\*
+double, double $>$ $>$ \hyperlink{classsimo_1_1shapes_1_1_geometry_a1dc27d8d1146b3057355f96d7954f979}{xyzm} () const =0
+\begin{DoxyCompactList}\small\item\em returns the geometry (x, y, z, m) coordinates as a tuple \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classsimo_1_1shapes_1_1_geometry_a7d2d67f5845bcccca7d88619b0be288a}{has\-\_\-z} () const =0
+\begin{DoxyCompactList}\small\item\em whether the geometry has z-\/coordinate \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classsimo_1_1shapes_1_1_geometry_aa6b0b9e19c782d137effc7be2e5416a1}{has\-\_\-m} () const =0
+\begin{DoxyCompactList}\small\item\em whether the geometry has m-\/coordinate \end{DoxyCompactList}\item 
+virtual bool \hyperlink{classsimo_1_1shapes_1_1_geometry_a2c1ea77c6f3b7b6c20eb9894be264f80}{is\-\_\-closed} () const =0
+\begin{DoxyCompactList}\small\item\em whether the geometry is closed \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+geometry interface 
+
+Definition at line 15 of file geometry.\-hpp.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classsimo_1_1shapes_1_1_geometry_a0ed6566c6f79af7255f5950bd44f2a1e}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!bounds@{bounds}}
+\index{bounds@{bounds}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{bounds}]{\setlength{\rightskip}{0pt plus 5cm}virtual {\bf Bounds}\& simo\-::shapes\-::\-Geometry\-::bounds (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_a0ed6566c6f79af7255f5950bd44f2a1e}
+
+
+returns the geometry bounds 
+
+\begin{DoxyReturn}{Returns}
+the geometry bounds
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_aef057b58858f64a47a8fa68b7a9ef7d1}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_aef057b58858f64a47a8fa68b7a9ef7d1}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_aef057b58858f64a47a8fa68b7a9ef7d1}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_aef057b58858f64a47a8fa68b7a9ef7d1}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_aef057b58858f64a47a8fa68b7a9ef7d1}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_aef057b58858f64a47a8fa68b7a9ef7d1}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+\hypertarget{classsimo_1_1shapes_1_1_geometry_a5633ca34213554220aa19257260b2211}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!detailed\-\_\-type@{detailed\-\_\-type}}
+\index{detailed\-\_\-type@{detailed\-\_\-type}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{detailed\-\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}virtual Geometry\-Detailed\-Type simo\-::shapes\-::\-Geometry\-::detailed\-\_\-type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_a5633ca34213554220aa19257260b2211}
+
+
+returns the geometry detailed type (e.\-g. Geometry\-Type\-::\-Point\-Z, Geometry\-Type\-::\-Multi\-Point\-Z\-M) 
+
+\begin{DoxyReturn}{Returns}
+the geometry detailed type
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a82ea146df5c632a15864fc56817d6d0f}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a82ea146df5c632a15864fc56817d6d0f}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a82ea146df5c632a15864fc56817d6d0f}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a82ea146df5c632a15864fc56817d6d0f}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a82ea146df5c632a15864fc56817d6d0f}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a82ea146df5c632a15864fc56817d6d0f}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+\hypertarget{classsimo_1_1shapes_1_1_geometry_a8db862418cec85fc52c832267449d392}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!dim@{dim}}
+\index{dim@{dim}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{dim}]{\setlength{\rightskip}{0pt plus 5cm}virtual Dimension\-Type simo\-::shapes\-::\-Geometry\-::dim (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_a8db862418cec85fc52c832267449d392}
+
+
+returns the dimension type of the geometry 
+
+\begin{DoxyReturn}{Returns}
+the dimension type
+\end{DoxyReturn}
+\begin{DoxyNote}{Note}
+the dimension type is (x, y), (x, y, z), (x, y, m) and (x, y, z, m)
+\end{DoxyNote}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_aa2cf098bf849207e3c1a638a31d28685}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_aa2cf098bf849207e3c1a638a31d28685}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_aa2cf098bf849207e3c1a638a31d28685}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_aa2cf098bf849207e3c1a638a31d28685}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_aa2cf098bf849207e3c1a638a31d28685}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_aa2cf098bf849207e3c1a638a31d28685}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+\hypertarget{classsimo_1_1shapes_1_1_geometry_ab53733864d430504fd7ed2b564c96ef5}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!empty@{empty}}
+\index{empty@{empty}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool simo\-::shapes\-::\-Geometry\-::empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_ab53733864d430504fd7ed2b564c96ef5}
+
+
+returns true if the geometry is empty 
+
+\begin{DoxyReturn}{Returns}
+true if the the geometry is empty, otherwise false
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a6834cf02c916d416b84d66d03fa7a525}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a6834cf02c916d416b84d66d03fa7a525}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a6834cf02c916d416b84d66d03fa7a525}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a6834cf02c916d416b84d66d03fa7a525}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a6834cf02c916d416b84d66d03fa7a525}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a6834cf02c916d416b84d66d03fa7a525}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+\hypertarget{classsimo_1_1shapes_1_1_geometry_aa6b0b9e19c782d137effc7be2e5416a1}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!has\-\_\-m@{has\-\_\-m}}
+\index{has\-\_\-m@{has\-\_\-m}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{has\-\_\-m}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool simo\-::shapes\-::\-Geometry\-::has\-\_\-m (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_aa6b0b9e19c782d137effc7be2e5416a1}
+
+
+whether the geometry has m-\/coordinate 
+
+\begin{DoxyReturn}{Returns}
+true if the geometry has m-\/coordinate, otherwise false
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae67e31810708aa668749f1d1ae8ae28b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae67e31810708aa668749f1d1ae8ae28b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae67e31810708aa668749f1d1ae8ae28b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae67e31810708aa668749f1d1ae8ae28b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae67e31810708aa668749f1d1ae8ae28b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae67e31810708aa668749f1d1ae8ae28b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+\hypertarget{classsimo_1_1shapes_1_1_geometry_a7d2d67f5845bcccca7d88619b0be288a}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!has\-\_\-z@{has\-\_\-z}}
+\index{has\-\_\-z@{has\-\_\-z}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{has\-\_\-z}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool simo\-::shapes\-::\-Geometry\-::has\-\_\-z (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_a7d2d67f5845bcccca7d88619b0be288a}
+
+
+whether the geometry has z-\/coordinate 
+
+\begin{DoxyReturn}{Returns}
+true if the geometry has z-\/coordinate, otherwise false
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_adf922693df08f41d170438836bc90c6b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_adf922693df08f41d170438836bc90c6b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_adf922693df08f41d170438836bc90c6b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_adf922693df08f41d170438836bc90c6b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_adf922693df08f41d170438836bc90c6b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_adf922693df08f41d170438836bc90c6b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+\hypertarget{classsimo_1_1shapes_1_1_geometry_a2c1ea77c6f3b7b6c20eb9894be264f80}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!is\-\_\-closed@{is\-\_\-closed}}
+\index{is\-\_\-closed@{is\-\_\-closed}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{is\-\_\-closed}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool simo\-::shapes\-::\-Geometry\-::is\-\_\-closed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_a2c1ea77c6f3b7b6c20eb9894be264f80}
+
+
+whether the geometry is closed 
+
+\begin{DoxyReturn}{Returns}
+true if the geometry is closed, otherwise false
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae5ad57479626834ef3c4e10c2fb2275b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae5ad57479626834ef3c4e10c2fb2275b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae5ad57479626834ef3c4e10c2fb2275b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae5ad57479626834ef3c4e10c2fb2275b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae5ad57479626834ef3c4e10c2fb2275b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae5ad57479626834ef3c4e10c2fb2275b}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+\hypertarget{classsimo_1_1shapes_1_1_geometry_ab4890550ac2208165a5953a989d0b2aa}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!ndim@{ndim}}
+\index{ndim@{ndim}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{ndim}]{\setlength{\rightskip}{0pt plus 5cm}virtual int8\-\_\-t simo\-::shapes\-::\-Geometry\-::ndim (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_ab4890550ac2208165a5953a989d0b2aa}
+
+
+returns the number of dimensions of the geometry 
+
+\begin{DoxyReturn}{Returns}
+the number of dimensions
+\end{DoxyReturn}
+\begin{DoxyNote}{Note}
+the number of dimensions is (x, y) = 2, (x, y, z) = 3, (x, y, m) = 3 and (x, y, z, m) = 4
+\end{DoxyNote}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae5ae8173a8c166d98ddda0fbfbc48346}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae5ae8173a8c166d98ddda0fbfbc48346}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae5ae8173a8c166d98ddda0fbfbc48346}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae5ae8173a8c166d98ddda0fbfbc48346}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae5ae8173a8c166d98ddda0fbfbc48346}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ae5ae8173a8c166d98ddda0fbfbc48346}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+\hypertarget{classsimo_1_1shapes_1_1_geometry_adbd7a14a8b4414c882cbcafa8025085d}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!set\-\_\-dim@{set\-\_\-dim}}
+\index{set\-\_\-dim@{set\-\_\-dim}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{set\-\_\-dim}]{\setlength{\rightskip}{0pt plus 5cm}virtual void simo\-::shapes\-::\-Geometry\-::set\-\_\-dim (
+\begin{DoxyParamCaption}
+\item[{Dimension\-Type}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_adbd7a14a8b4414c882cbcafa8025085d}
+
+
+set the dimension type 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & the dimension type\\
+\hline
+\end{DoxyParams}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a203dc3ca9965a82151ec17299a429730}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a203dc3ca9965a82151ec17299a429730}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a203dc3ca9965a82151ec17299a429730}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a203dc3ca9965a82151ec17299a429730}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a203dc3ca9965a82151ec17299a429730}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a203dc3ca9965a82151ec17299a429730}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+\hypertarget{classsimo_1_1shapes_1_1_geometry_a110e8a897b84c704f9009679bbbe21fc}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!size@{size}}
+\index{size@{size}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}virtual size\-\_\-t simo\-::shapes\-::\-Geometry\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_a110e8a897b84c704f9009679bbbe21fc}
+
+
+returns the geometry size 
+
+\begin{DoxyReturn}{Returns}
+the size of the geometry
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a5e68b783fac81ad8e6c38a0c86875423}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a5e68b783fac81ad8e6c38a0c86875423}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a5e68b783fac81ad8e6c38a0c86875423}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a5e68b783fac81ad8e6c38a0c86875423}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a5e68b783fac81ad8e6c38a0c86875423}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a5e68b783fac81ad8e6c38a0c86875423}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+\hypertarget{classsimo_1_1shapes_1_1_geometry_a97a21e31df877cd74da81e08e6e1c7ff}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!type@{type}}
+\index{type@{type}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{type}]{\setlength{\rightskip}{0pt plus 5cm}virtual Geometry\-Type simo\-::shapes\-::\-Geometry\-::type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_a97a21e31df877cd74da81e08e6e1c7ff}
+
+
+returns the geometry type (e.\-g. Geometry\-Type\-::\-Point, Geometry\-Type\-::\-Multi\-Point) 
+
+\begin{DoxyReturn}{Returns}
+the geometry type
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a8cb2eba04f6fb0cb80cd9c9d2c85f213}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a8cb2eba04f6fb0cb80cd9c9d2c85f213}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a8cb2eba04f6fb0cb80cd9c9d2c85f213}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a8cb2eba04f6fb0cb80cd9c9d2c85f213}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a8cb2eba04f6fb0cb80cd9c9d2c85f213}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a8cb2eba04f6fb0cb80cd9c9d2c85f213}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+\hypertarget{classsimo_1_1shapes_1_1_geometry_aa4fc3ffa8fa908f238c2917166a4f0a1}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!type\-\_\-str@{type\-\_\-str}}
+\index{type\-\_\-str@{type\-\_\-str}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{type\-\_\-str}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string simo\-::shapes\-::\-Geometry\-::type\-\_\-str (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_aa4fc3ffa8fa908f238c2917166a4f0a1}
+
+
+returns the geometry type as a string (e.\-g. \hyperlink{classsimo_1_1shapes_1_1_point}{Point}, \hyperlink{classsimo_1_1shapes_1_1_line_string}{Line\-String}) 
+
+\begin{DoxyReturn}{Returns}
+the geometry type as a string
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad2331ba481d41c9f7089787a32ef4ced}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad2331ba481d41c9f7089787a32ef4ced}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad2331ba481d41c9f7089787a32ef4ced}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad2331ba481d41c9f7089787a32ef4ced}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad2331ba481d41c9f7089787a32ef4ced}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad2331ba481d41c9f7089787a32ef4ced}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+\hypertarget{classsimo_1_1shapes_1_1_geometry_aa45dedcadd8e44be1f9415223ca2e19d}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!xy@{xy}}
+\index{xy@{xy}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{xy}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::vector$<$std\-::tuple$<$double, double$>$ $>$ simo\-::shapes\-::\-Geometry\-::xy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_aa45dedcadd8e44be1f9415223ca2e19d}
+
+
+returns the geometry (x, y) coordinates as a tuple 
+
+\begin{DoxyReturn}{Returns}
+a vector of (x, y) tuples
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a492b93c475d7a059b4be04a2aafddc99}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a492b93c475d7a059b4be04a2aafddc99}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a492b93c475d7a059b4be04a2aafddc99}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a492b93c475d7a059b4be04a2aafddc99}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a492b93c475d7a059b4be04a2aafddc99}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a492b93c475d7a059b4be04a2aafddc99}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+\hypertarget{classsimo_1_1shapes_1_1_geometry_aa74d24c520c7760619e17fdfd7c2eff0}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!xym@{xym}}
+\index{xym@{xym}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{xym}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::vector$<$std\-::tuple$<$double, double, double$>$ $>$ simo\-::shapes\-::\-Geometry\-::xym (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_aa74d24c520c7760619e17fdfd7c2eff0}
+
+
+returns the geometry (x, y, m) coordinates as a tuple 
+
+\begin{DoxyReturn}{Returns}
+a vector of (x, y, m) tuples
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad6f72ade4686897fbea8f3b616b06df8}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad6f72ade4686897fbea8f3b616b06df8}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad6f72ade4686897fbea8f3b616b06df8}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad6f72ade4686897fbea8f3b616b06df8}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad6f72ade4686897fbea8f3b616b06df8}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad6f72ade4686897fbea8f3b616b06df8}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+\hypertarget{classsimo_1_1shapes_1_1_geometry_af1a38df76e835270559acad85366f6f3}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!xyz@{xyz}}
+\index{xyz@{xyz}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{xyz}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::vector$<$std\-::tuple$<$double, double, double$>$ $>$ simo\-::shapes\-::\-Geometry\-::xyz (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_af1a38df76e835270559acad85366f6f3}
+
+
+returns the geometry (x, y, z) coordinates as a tuple 
+
+\begin{DoxyReturn}{Returns}
+a vector of (x, y, z) tuples
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad0098dca3aab7d3f710d21b672935570}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad0098dca3aab7d3f710d21b672935570}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad0098dca3aab7d3f710d21b672935570}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad0098dca3aab7d3f710d21b672935570}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad0098dca3aab7d3f710d21b672935570}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_ad0098dca3aab7d3f710d21b672935570}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+\hypertarget{classsimo_1_1shapes_1_1_geometry_a1dc27d8d1146b3057355f96d7954f979}{\index{simo\-::shapes\-::\-Geometry@{simo\-::shapes\-::\-Geometry}!xyzm@{xyzm}}
+\index{xyzm@{xyzm}!simo::shapes::Geometry@{simo\-::shapes\-::\-Geometry}}
+\subsubsection[{xyzm}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::vector$<$std\-::tuple$<$double, double, double, double$>$ $>$ simo\-::shapes\-::\-Geometry\-::xyzm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classsimo_1_1shapes_1_1_geometry_a1dc27d8d1146b3057355f96d7954f979}
+
+
+returns the geometry (x, y, z, m) coordinates as a tuple 
+
+\begin{DoxyReturn}{Returns}
+a vector of (x, y, z, m) tuples
+\end{DoxyReturn}
+\begin{DoxySince}{Since}
+0.\-0.\-1 
+\end{DoxySince}
+
+
+Implemented in \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a94dd1ee38d7b46ce92d1f547293fedce}{simo\-::shapes\-::\-Basic\-Geometry$<$ Derived $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a94dd1ee38d7b46ce92d1f547293fedce}{simo\-::shapes\-::\-Basic\-Geometry$<$ Linear\-Ring $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a94dd1ee38d7b46ce92d1f547293fedce}{simo\-::shapes\-::\-Basic\-Geometry$<$ Line\-String $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a94dd1ee38d7b46ce92d1f547293fedce}{simo\-::shapes\-::\-Basic\-Geometry$<$ Polygon $>$}, \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a94dd1ee38d7b46ce92d1f547293fedce}{simo\-::shapes\-::\-Basic\-Geometry$<$ Multi\-Point $>$}, and \hyperlink{classsimo_1_1shapes_1_1_basic_geometry_a94dd1ee38d7b46ce92d1f547293fedce}{simo\-::shapes\-::\-Basic\-Geometry$<$ Point $>$}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/travis/build/pavelsimo/shapes/include/simo/geom/geometry.\-hpp\end{DoxyCompactItemize}
