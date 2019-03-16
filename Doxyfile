@@ -5,7 +5,7 @@
 #---------------------------------------------------------------------------
 DOXYFILE_ENCODING      = UTF-8
 PROJECT_NAME           = Shapes
-PROJECT_NUMBER         = 0.0.1
+PROJECT_NUMBER         = 
 PROJECT_BRIEF          = "GIS made easy, a lightweight header-only planar geometry library for Modern C++"
 PROJECT_LOGO           =
 OUTPUT_DIRECTORY       =
