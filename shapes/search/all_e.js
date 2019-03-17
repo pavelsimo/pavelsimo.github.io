@@ -7,7 +7,7 @@ var searchData=
   ['pointcollection_3c_20linearring_20_3e',['PointCollection&lt; LinearRing &gt;',['../classsimo_1_1shapes_1_1_point_collection.html',1,'simo::shapes']]],
   ['pointcollection_3c_20linestring_20_3e',['PointCollection&lt; LineString &gt;',['../classsimo_1_1shapes_1_1_point_collection.html',1,'simo::shapes']]],
   ['pointcollection_3c_20multipoint_20_3e',['PointCollection&lt; MultiPoint &gt;',['../classsimo_1_1shapes_1_1_point_collection.html',1,'simo::shapes']]],
-  ['polygon',['Polygon',['../classsimo_1_1shapes_1_1_polygon.html#a3069cb0007400aea8ae6ae2aa5041bfe',1,'simo::shapes::Polygon::Polygon()=default'],['../classsimo_1_1shapes_1_1_polygon.html#a40b5518aefa6bb6992ec6bfc5ed90c2b',1,'simo::shapes::Polygon::Polygon(const std::vector&lt; Point &gt; &amp;shell)'],['../classsimo_1_1shapes_1_1_polygon.html#a26336c46677a50f571dcd5651cccf869',1,'simo::shapes::Polygon::Polygon(const std::vector&lt; Point &gt; &amp;shell, const std::vector&lt; std::vector&lt; Point &gt;&gt; &amp;holes)']]],
+  ['polygon',['Polygon',['../classsimo_1_1shapes_1_1_polygon.html#a3069cb0007400aea8ae6ae2aa5041bfe',1,'simo::shapes::Polygon::Polygon()=default'],['../classsimo_1_1shapes_1_1_polygon.html#a48b7728a9528b7d4b6c4a9ef81e4611b',1,'simo::shapes::Polygon::Polygon(std::initializer_list&lt; LinearRing &gt; rings)']]],
   ['polygon',['Polygon',['../classsimo_1_1shapes_1_1_polygon.html',1,'simo::shapes']]],
   ['precision',['precision',['../classsimo_1_1shapes_1_1_basic_geometry.html#ae4429e3d4c999289a0d7ae706e6ddcf7',1,'simo::shapes::BasicGeometry']]]
 ];

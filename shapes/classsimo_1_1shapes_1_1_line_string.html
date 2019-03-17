@@ -91,11 +91,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classsimo_1_1shapes_1_1_line_string-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">simo::shapes::LineString Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for simo::shapes::LineString:</div>
 <div class="dyncontent">
@@ -127,53 +130,37 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2e27662b671d0e92df982675f2396492"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classsimo_1_1shapes_1_1_line_string.html">LineString</a> from a WKT string  <a href="#a2e27662b671d0e92df982675f2396492">More...</a><br /></td></tr>
 <tr class="separator:a2e27662b671d0e92df982675f2396492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classsimo_1_1shapes_1_1_basic_geometry')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html">simo::shapes::BasicGeometry&lt; LineString &gt;</a></td></tr>
-<tr class="memitem:a8cb2eba04f6fb0cb80cd9c9d2c85f213 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">GeometryType&#160;</td><td class="memItemRight" valign="bottom"><b>type</b> () const override</td></tr>
-<tr class="memdesc:a8cb2eba04f6fb0cb80cd9c9d2c85f213 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the geometry type (e.g. GeometryType::Point, GeometryType::MultiPoint)  <a href="#a8cb2eba04f6fb0cb80cd9c9d2c85f213">More...</a><br /></td></tr>
+<tr class="memitem:a8cb2eba04f6fb0cb80cd9c9d2c85f213 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">GeometryType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#a8cb2eba04f6fb0cb80cd9c9d2c85f213">type</a> () const override</td></tr>
 <tr class="separator:a8cb2eba04f6fb0cb80cd9c9d2c85f213 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82ea146df5c632a15864fc56817d6d0f inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">GeometryDetailedType&#160;</td><td class="memItemRight" valign="bottom"><b>detailed_type</b> () const override</td></tr>
-<tr class="memdesc:a82ea146df5c632a15864fc56817d6d0f inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the geometry detailed type (e.g. GeometryType::PointZ, GeometryType::MultiPointZM)  <a href="#a82ea146df5c632a15864fc56817d6d0f">More...</a><br /></td></tr>
+<tr class="memitem:a82ea146df5c632a15864fc56817d6d0f inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">GeometryDetailedType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#a82ea146df5c632a15864fc56817d6d0f">detailed_type</a> () const override</td></tr>
 <tr class="separator:a82ea146df5c632a15864fc56817d6d0f inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2331ba481d41c9f7089787a32ef4ced inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><b>type_str</b> () const override</td></tr>
-<tr class="memdesc:ad2331ba481d41c9f7089787a32ef4ced inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the geometry type as a string (e.g. Point, LineString)  <a href="#ad2331ba481d41c9f7089787a32ef4ced">More...</a><br /></td></tr>
+<tr class="memitem:ad2331ba481d41c9f7089787a32ef4ced inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#ad2331ba481d41c9f7089787a32ef4ced">type_str</a> () const override</td></tr>
 <tr class="separator:ad2331ba481d41c9f7089787a32ef4ced inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6834cf02c916d416b84d66d03fa7a525 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><b>empty</b> () const override</td></tr>
-<tr class="memdesc:a6834cf02c916d416b84d66d03fa7a525 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the geometry is empty  <a href="#a6834cf02c916d416b84d66d03fa7a525">More...</a><br /></td></tr>
+<tr class="memitem:a6834cf02c916d416b84d66d03fa7a525 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#a6834cf02c916d416b84d66d03fa7a525">empty</a> () const override</td></tr>
 <tr class="separator:a6834cf02c916d416b84d66d03fa7a525 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e68b783fac81ad8e6c38a0c86875423 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> () const override</td></tr>
-<tr class="memdesc:a5e68b783fac81ad8e6c38a0c86875423 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the geometry size  <a href="#a5e68b783fac81ad8e6c38a0c86875423">More...</a><br /></td></tr>
+<tr class="memitem:a5e68b783fac81ad8e6c38a0c86875423 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#a5e68b783fac81ad8e6c38a0c86875423">size</a> () const override</td></tr>
 <tr class="separator:a5e68b783fac81ad8e6c38a0c86875423 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a492b93c475d7a059b4be04a2aafddc99 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; double, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>xy</b> () const override</td></tr>
-<tr class="memdesc:a492b93c475d7a059b4be04a2aafddc99 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the geometry (x, y) coordinates as a tuple  <a href="#a492b93c475d7a059b4be04a2aafddc99">More...</a><br /></td></tr>
+<tr class="memitem:a492b93c475d7a059b4be04a2aafddc99 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; double, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#a492b93c475d7a059b4be04a2aafddc99">xy</a> () const override</td></tr>
 <tr class="separator:a492b93c475d7a059b4be04a2aafddc99 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0098dca3aab7d3f710d21b672935570 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; double, double, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>xyz</b> () const override</td></tr>
-<tr class="memdesc:ad0098dca3aab7d3f710d21b672935570 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the geometry (x, y, z) coordinates as a tuple  <a href="#ad0098dca3aab7d3f710d21b672935570">More...</a><br /></td></tr>
+<tr class="memitem:ad0098dca3aab7d3f710d21b672935570 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; double, double, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#ad0098dca3aab7d3f710d21b672935570">xyz</a> () const override</td></tr>
 <tr class="separator:ad0098dca3aab7d3f710d21b672935570 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6f72ade4686897fbea8f3b616b06df8 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; double, double, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>xym</b> () const override</td></tr>
-<tr class="memdesc:ad6f72ade4686897fbea8f3b616b06df8 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the geometry (x, y, m) coordinates as a tuple  <a href="#ad6f72ade4686897fbea8f3b616b06df8">More...</a><br /></td></tr>
+<tr class="memitem:ad6f72ade4686897fbea8f3b616b06df8 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; double, double, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#ad6f72ade4686897fbea8f3b616b06df8">xym</a> () const override</td></tr>
 <tr class="separator:ad6f72ade4686897fbea8f3b616b06df8 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94dd1ee38d7b46ce92d1f547293fedce inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; double, double, double, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>xyzm</b> () const override</td></tr>
-<tr class="memdesc:a94dd1ee38d7b46ce92d1f547293fedce inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the geometry (x, y, z, m) coordinates as a tuple  <a href="#a94dd1ee38d7b46ce92d1f547293fedce">More...</a><br /></td></tr>
+<tr class="memitem:a94dd1ee38d7b46ce92d1f547293fedce inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; double, double, double, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#a94dd1ee38d7b46ce92d1f547293fedce">xyzm</a> () const override</td></tr>
 <tr class="separator:a94dd1ee38d7b46ce92d1f547293fedce inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2cf098bf849207e3c1a638a31d28685 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">DimensionType&#160;</td><td class="memItemRight" valign="bottom"><b>dim</b> () const override</td></tr>
-<tr class="memdesc:aa2cf098bf849207e3c1a638a31d28685 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the dimension type of the geometry  <a href="#aa2cf098bf849207e3c1a638a31d28685">More...</a><br /></td></tr>
+<tr class="memitem:aa2cf098bf849207e3c1a638a31d28685 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">DimensionType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#aa2cf098bf849207e3c1a638a31d28685">dim</a> () const override</td></tr>
 <tr class="separator:aa2cf098bf849207e3c1a638a31d28685 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a203dc3ca9965a82151ec17299a429730 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><b>set_dim</b> (DimensionType value) override</td></tr>
-<tr class="memdesc:a203dc3ca9965a82151ec17299a429730 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the dimension type  <a href="#a203dc3ca9965a82151ec17299a429730">More...</a><br /></td></tr>
+<tr class="memitem:a203dc3ca9965a82151ec17299a429730 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#a203dc3ca9965a82151ec17299a429730">set_dim</a> (DimensionType value) override</td></tr>
 <tr class="separator:a203dc3ca9965a82151ec17299a429730 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef057b58858f64a47a8fa68b7a9ef7d1 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsimo_1_1shapes_1_1_bounds.html">Bounds</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>bounds</b> () override</td></tr>
-<tr class="memdesc:aef057b58858f64a47a8fa68b7a9ef7d1 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the geometry bounds  <a href="#aef057b58858f64a47a8fa68b7a9ef7d1">More...</a><br /></td></tr>
+<tr class="memitem:aef057b58858f64a47a8fa68b7a9ef7d1 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsimo_1_1shapes_1_1_bounds.html">Bounds</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#aef057b58858f64a47a8fa68b7a9ef7d1">bounds</a> () override</td></tr>
 <tr class="separator:aef057b58858f64a47a8fa68b7a9ef7d1 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf922693df08f41d170438836bc90c6b inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><b>has_z</b> () const override</td></tr>
-<tr class="memdesc:adf922693df08f41d170438836bc90c6b inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the geometry has z-coordinate  <a href="#adf922693df08f41d170438836bc90c6b">More...</a><br /></td></tr>
+<tr class="memitem:adf922693df08f41d170438836bc90c6b inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#adf922693df08f41d170438836bc90c6b">has_z</a> () const override</td></tr>
 <tr class="separator:adf922693df08f41d170438836bc90c6b inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae67e31810708aa668749f1d1ae8ae28b inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><b>has_m</b> () const override</td></tr>
-<tr class="memdesc:ae67e31810708aa668749f1d1ae8ae28b inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the geometry has m-coordinate  <a href="#ae67e31810708aa668749f1d1ae8ae28b">More...</a><br /></td></tr>
+<tr class="memitem:ae67e31810708aa668749f1d1ae8ae28b inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#ae67e31810708aa668749f1d1ae8ae28b">has_m</a> () const override</td></tr>
 <tr class="separator:ae67e31810708aa668749f1d1ae8ae28b inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5ad57479626834ef3c4e10c2fb2275b inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_closed</b> () const override</td></tr>
-<tr class="memdesc:ae5ad57479626834ef3c4e10c2fb2275b inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the geometry is closed  <a href="#ae5ad57479626834ef3c4e10c2fb2275b">More...</a><br /></td></tr>
+<tr class="memitem:ae5ad57479626834ef3c4e10c2fb2275b inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#ae5ad57479626834ef3c4e10c2fb2275b">is_closed</a> () const override</td></tr>
 <tr class="separator:ae5ad57479626834ef3c4e10c2fb2275b inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5ae8173a8c166d98ddda0fbfbc48346 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><b>ndim</b> () const override</td></tr>
-<tr class="memdesc:ae5ae8173a8c166d98ddda0fbfbc48346 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of dimensions of the geometry  <a href="#ae5ae8173a8c166d98ddda0fbfbc48346">More...</a><br /></td></tr>
+<tr class="memitem:ae5ae8173a8c166d98ddda0fbfbc48346 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memItemLeft" align="right" valign="top">int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_basic_geometry.html#ae5ae8173a8c166d98ddda0fbfbc48346">ndim</a> () const override</td></tr>
 <tr class="separator:ae5ae8173a8c166d98ddda0fbfbc48346 inherit pub_methods_classsimo_1_1shapes_1_1_basic_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classsimo_1_1shapes_1_1_geometry"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classsimo_1_1shapes_1_1_geometry')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classsimo_1_1shapes_1_1_geometry.html">simo::shapes::Geometry</a></td></tr>
 <tr class="memitem:ad0611340eaded743bbdfe0abb43c59a4 inherit pub_methods_classsimo_1_1shapes_1_1_geometry"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0611340eaded743bbdfe0abb43c59a4"></a>
@@ -203,6 +190,13 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a348c8ac0e1305c8db575a7fb5c9ca4de"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classsimo_1_1shapes_1_1_line_string.html">LineString</a> from a WKT string  <a href="#a348c8ac0e1305c8db575a7fb5c9ca4de">More...</a><br /></td></tr>
 <tr class="separator:a348c8ac0e1305c8db575a7fb5c9ca4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a2417b39647b6be4f4a1d204921cdc33c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2417b39647b6be4f4a1d204921cdc33c"></a>
+class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_line_string.html#a2417b39647b6be4f4a1d204921cdc33c">BasicGeometry</a></td></tr>
+<tr class="memdesc:a2417b39647b6be4f4a1d204921cdc33c"><td class="mdescLeft">&#160;</td><td class="mdescRight">for implementation encapsulation <br /></td></tr>
+<tr class="separator:a2417b39647b6be4f4a1d204921cdc33c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_classsimo_1_1shapes_1_1_point_collection"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classsimo_1_1shapes_1_1_point_collection')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classsimo_1_1shapes_1_1_point_collection.html">simo::shapes::PointCollection&lt; LineString &gt;</a></td></tr>
@@ -229,8 +223,9 @@ std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_point.html">Point</a
 <tr class="separator:a0e2535e3dcccc303462cb2f258a42edd inherit pro_attribs_classsimo_1_1shapes_1_1_point_collection"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00017">17</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<div class="textblock"><dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>(pavel) DOCUMENT ME! </dd></dl>
+
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00018">18</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ad7af05e6ab868386d3166f81288f7f1c"></a>
 <div class="memitem">
@@ -297,7 +292,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00036">36</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00037">37</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -332,7 +327,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00056">56</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00057">57</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -370,7 +365,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="section note"><dt>Note</dt><dd>RFC7946 <a href="https://tools.ietf.org/html/rfc7946">https://tools.ietf.org/html/rfc7946</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00087">87</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00072">72</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -407,7 +402,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="section note"><dt>Note</dt><dd>WKT <a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00116">116</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00101">101</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -437,7 +432,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="section return"><dt>Returns</dt><dd>a geojson string</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00101">101</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00086">86</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -473,7 +468,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="section note"><dt>Note</dt><dd>WKT <a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00131">131</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00116">116</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 
 </div>
 </div>
