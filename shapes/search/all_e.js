@@ -9,5 +9,5 @@ var searchData=
   ['pointcollection_3c_20multipoint_20_3e',['PointCollection&lt; MultiPoint &gt;',['../classsimo_1_1shapes_1_1_point_collection.html',1,'simo::shapes']]],
   ['polygon',['Polygon',['../classsimo_1_1shapes_1_1_polygon.html#a3069cb0007400aea8ae6ae2aa5041bfe',1,'simo::shapes::Polygon::Polygon()=default'],['../classsimo_1_1shapes_1_1_polygon.html#a48b7728a9528b7d4b6c4a9ef81e4611b',1,'simo::shapes::Polygon::Polygon(std::initializer_list&lt; LinearRing &gt; rings)']]],
   ['polygon',['Polygon',['../classsimo_1_1shapes_1_1_polygon.html',1,'simo::shapes']]],
-  ['precision',['precision',['../classsimo_1_1shapes_1_1_basic_geometry.html#ae4429e3d4c999289a0d7ae706e6ddcf7',1,'simo::shapes::BasicGeometry']]]
+  ['precision',['precision',['../classsimo_1_1shapes_1_1_basic_geometry.html#a6934a434eeb7ad03b4eb6f2f8683aba2',1,'simo::shapes::BasicGeometry']]]
 ];
