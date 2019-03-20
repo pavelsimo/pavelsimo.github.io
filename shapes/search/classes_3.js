@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['multipoint',['MultiPoint',['../classsimo_1_1shapes_1_1_multi_point.html',1,'simo::shapes']]]
+  ['linearring',['LinearRing',['../classsimo_1_1shapes_1_1_linear_ring.html',1,'simo::shapes']]],
+  ['linestring',['LineString',['../classsimo_1_1shapes_1_1_line_string.html',1,'simo::shapes']]]
 ];
