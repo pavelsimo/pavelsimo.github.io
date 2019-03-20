@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['basicgeometry_3c_20linearring_20_3e',['BasicGeometry&lt; LinearRing &gt;',['../classsimo_1_1shapes_1_1_linear_ring.html#af7dc23e5f59cf31965c1601fbcf86e2c',1,'simo::shapes::LinearRing']]],
-  ['basicgeometry_3c_20linestring_20_3e',['BasicGeometry&lt; LineString &gt;',['../classsimo_1_1shapes_1_1_line_string.html#a43c09236eef627772353770578b7ab9c',1,'simo::shapes::LineString']]],
-  ['basicgeometry_3c_20multipoint_20_3e',['BasicGeometry&lt; MultiPoint &gt;',['../classsimo_1_1shapes_1_1_multi_point.html#a2e422032f3ecf5f166fa35f90ab7665e',1,'simo::shapes::MultiPoint']]],
-  ['basicgeometry_3c_20point_20_3e',['BasicGeometry&lt; Point &gt;',['../classsimo_1_1shapes_1_1_point.html#ab660ed3b15f2756ff3eb849a8cdd880b',1,'simo::shapes::Point']]],
-  ['basicgeometry_3c_20polygon_20_3e',['BasicGeometry&lt; Polygon &gt;',['../classsimo_1_1shapes_1_1_polygon.html#a7daeca294ad598e4f48c35d3755c9d78',1,'simo::shapes::Polygon']]]
+  ['basegeometry_3c_20linearring_20_3e',['BaseGeometry&lt; LinearRing &gt;',['../classsimo_1_1shapes_1_1_linear_ring.html#acb6b5c54419d88017cf53ab3b9ba7fff',1,'simo::shapes::LinearRing']]],
+  ['basegeometry_3c_20linestring_20_3e',['BaseGeometry&lt; LineString &gt;',['../classsimo_1_1shapes_1_1_line_string.html#a9032a2faaeae4bb8eae98112b6723e27',1,'simo::shapes::LineString']]],
+  ['basegeometry_3c_20multipoint_20_3e',['BaseGeometry&lt; MultiPoint &gt;',['../classsimo_1_1shapes_1_1_multi_point.html#a0825cd8a5d2f44bc949f5f45f91ec800',1,'simo::shapes::MultiPoint']]],
+  ['basegeometry_3c_20point_20_3e',['BaseGeometry&lt; Point &gt;',['../classsimo_1_1shapes_1_1_point.html#a298a43e98568ef90eab7c1086a5fc878',1,'simo::shapes::Point']]],
+  ['basegeometry_3c_20polygon_20_3e',['BaseGeometry&lt; Polygon &gt;',['../classsimo_1_1shapes_1_1_polygon.html#a5e25215aa6acf27fbebaf0a8c26b415e',1,'simo::shapes::Polygon']]]
 ];

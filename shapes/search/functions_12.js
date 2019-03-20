@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['xy',['xy',['../classsimo_1_1shapes_1_1_geometry.html#aa45dedcadd8e44be1f9415223ca2e19d',1,'simo::shapes::Geometry::xy()'],['../classsimo_1_1shapes_1_1_basic_geometry.html#a5274404eca1d5a9f87ef0b3a0d8f74d2',1,'simo::shapes::BasicGeometry::xy()']]],
-  ['xym',['xym',['../classsimo_1_1shapes_1_1_geometry.html#aa74d24c520c7760619e17fdfd7c2eff0',1,'simo::shapes::Geometry::xym()'],['../classsimo_1_1shapes_1_1_basic_geometry.html#a2c2c699b9b8d9433691ab3114ca058ae',1,'simo::shapes::BasicGeometry::xym()']]],
-  ['xyz',['xyz',['../classsimo_1_1shapes_1_1_geometry.html#af1a38df76e835270559acad85366f6f3',1,'simo::shapes::Geometry::xyz()'],['../classsimo_1_1shapes_1_1_basic_geometry.html#a7729b825d5fb430c84360e8f5622af52',1,'simo::shapes::BasicGeometry::xyz()']]],
-  ['xyzm',['xyzm',['../classsimo_1_1shapes_1_1_geometry.html#a1dc27d8d1146b3057355f96d7954f979',1,'simo::shapes::Geometry::xyzm()'],['../classsimo_1_1shapes_1_1_basic_geometry.html#a07b6567e7562ab15d73f9e0bef48dd89',1,'simo::shapes::BasicGeometry::xyzm()']]]
+  ['xy',['xy',['../classsimo_1_1shapes_1_1_base_geometry.html#a099389e981498419a9d17f7d50c9b025',1,'simo::shapes::BaseGeometry']]],
+  ['xym',['xym',['../classsimo_1_1shapes_1_1_base_geometry.html#a33dce165298bee457509e011ad54ddbd',1,'simo::shapes::BaseGeometry']]],
+  ['xyz',['xyz',['../classsimo_1_1shapes_1_1_base_geometry.html#aefefa66f51f21bbc22d186cbc3bdb213',1,'simo::shapes::BaseGeometry']]],
+  ['xyzm',['xyzm',['../classsimo_1_1shapes_1_1_base_geometry.html#af5db541f0b28051db98c9eb6ca8f137b',1,'simo::shapes::BaseGeometry']]]
 ];

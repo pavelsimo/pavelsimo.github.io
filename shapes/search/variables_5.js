@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['srid',['srid',['../classsimo_1_1shapes_1_1_basic_geometry.html#a6d0ae915450becec860125ab915c763f',1,'simo::shapes::BasicGeometry']]]
+  ['m',['m',['../classsimo_1_1shapes_1_1_point.html#aced73731924b13762c7b6446bf3ad9a5',1,'simo::shapes::Point']]]
 ];

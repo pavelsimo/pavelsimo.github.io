@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['clockwise',['clockwise',['../classsimo_1_1shapes_1_1_linear_ring.html#a1bfe68479a45da10f337ba866490528c',1,'simo::shapes::LinearRing']]]
+  ['bounds',['bounds',['../classsimo_1_1shapes_1_1_base_geometry.html#af0fc9991d592c0b8a24a7f9d58f14b6b',1,'simo::shapes::BaseGeometry']]]
 ];

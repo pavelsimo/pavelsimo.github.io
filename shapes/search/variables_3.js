@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['m',['m',['../classsimo_1_1shapes_1_1_point.html#aced73731924b13762c7b6446bf3ad9a5',1,'simo::shapes::Point']]]
+  ['exterior',['exterior',['../classsimo_1_1shapes_1_1_polygon.html#ab7f8d277bfe2342521ec9c35661ff692',1,'simo::shapes::Polygon']]]
 ];

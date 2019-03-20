@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['exterior',['exterior',['../classsimo_1_1shapes_1_1_polygon.html#ab7f8d277bfe2342521ec9c35661ff692',1,'simo::shapes::Polygon']]]
+  ['clockwise',['clockwise',['../classsimo_1_1shapes_1_1_linear_ring.html#a1bfe68479a45da10f337ba866490528c',1,'simo::shapes::LinearRing']]]
 ];
