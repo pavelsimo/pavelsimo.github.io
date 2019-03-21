@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['precision',['precision',['../classsimo_1_1shapes_1_1_base_geometry.html#acae0a4cb31a3aad895298f84410bae7f',1,'simo::shapes::BaseGeometry']]]
+  ['linestring',['linestring',['../unionsimo_1_1shapes_1_1_geometry.html#ae15c9c0acb2428fe38c6675873f23c6c',1,'simo::shapes::Geometry']]]
 ];

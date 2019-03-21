@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ndim',['ndim',['../classsimo_1_1shapes_1_1_base_geometry.html#af2d4bc30cbd4adea89495af96d44c7cb',1,'simo::shapes::BaseGeometry']]]
+  ['multipoint',['MultiPoint',['../classsimo_1_1shapes_1_1_multi_point.html#ad1b9a1a947d02773d9b9cbe18bfdeb12',1,'simo::shapes::MultiPoint::MultiPoint()=default'],['../classsimo_1_1shapes_1_1_multi_point.html#a5e6cdc0462e2f78395b7c35375ac2afc',1,'simo::shapes::MultiPoint::MultiPoint(std::initializer_list&lt; std::initializer_list&lt; T &gt;&gt; init)'],['../classsimo_1_1shapes_1_1_multi_point.html#a894ec2130ac7e5ba82fef72e3b922e0d',1,'simo::shapes::MultiPoint::MultiPoint(const std::vector&lt; Point &gt; &amp;points)']]]
 ];

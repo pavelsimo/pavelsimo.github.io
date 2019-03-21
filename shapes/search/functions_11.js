@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['wkt',['wkt',['../classsimo_1_1shapes_1_1_line_string.html#a2e27662b671d0e92df982675f2396492',1,'simo::shapes::LineString::wkt()'],['../classsimo_1_1shapes_1_1_multi_point.html#ae1b037c5687d7629cbb43cfe9700c36a',1,'simo::shapes::MultiPoint::wkt()'],['../classsimo_1_1shapes_1_1_point.html#a4134ec6fcf72ca4d822a9a70788dee40',1,'simo::shapes::Point::wkt()'],['../classsimo_1_1shapes_1_1_polygon.html#aac48a301f6b32faf9ffc1e42bd281857',1,'simo::shapes::Polygon::wkt()']]],
-  ['wkt_5freader',['wkt_reader',['../classsimo_1_1shapes_1_1wkt__reader.html#a140190108a9314b118e271f251d5e3d8',1,'simo::shapes::wkt_reader']]]
+  ['top_5fleft',['top_left',['../classsimo_1_1shapes_1_1_bounds.html#ac80f194c2c3e1536a6130085c1d5ba70',1,'simo::shapes::Bounds']]],
+  ['top_5fright',['top_right',['../classsimo_1_1shapes_1_1_bounds.html#a69d91f8fd16e9b981c7fef47e72055a6',1,'simo::shapes::Bounds']]],
+  ['type',['type',['../classsimo_1_1shapes_1_1_base_geometry.html#a14733a5c87c2873837c45a5144312dcf',1,'simo::shapes::BaseGeometry']]],
+  ['type_5fstr',['type_str',['../classsimo_1_1shapes_1_1_base_geometry.html#a044cd13a2b7fc0220af4712d49022482',1,'simo::shapes::BaseGeometry']]]
 ];

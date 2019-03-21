@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Shapes: simo::shapes::wkt_result Struct Reference</title>
+<title>Shapes: simo::shapes::WktResult Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -84,39 +84,51 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><b>simo</b></li><li class="navelem"><b>shapes</b></li><li class="navelem"><a class="el" href="structsimo_1_1shapes_1_1wkt__result.html">wkt_result</a></li>  </ul>
+<li class="navelem"><b>simo</b></li><li class="navelem"><b>shapes</b></li><li class="navelem"><a class="el" href="structsimo_1_1shapes_1_1_wkt_result.html">WktResult</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="structsimo_1_1shapes_1_1wkt__result-members.html">List of all members</a>  </div>
+<a href="structsimo_1_1shapes_1_1_wkt_result-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">simo::shapes::wkt_result Struct Reference</div>  </div>
+<div class="title">simo::shapes::WktResult Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>a Well-known text (WKT) markup language parser result  
+ <a href="structsimo_1_1shapes_1_1_wkt_result.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="wkt__parser_8hpp_source.html">wkt_parser.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ad21b447b14cd0e0e5abcf0dab6541405"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad21b447b14cd0e0e5abcf0dab6541405"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>parser_error</b></td></tr>
-<tr class="separator:ad21b447b14cd0e0e5abcf0dab6541405"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca8a845a61afb6eb33bb20e4c955ae19"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aca8a845a61afb6eb33bb20e4c955ae19"></a>
-DimensionType&#160;</td><td class="memItemRight" valign="bottom"><b>dim</b></td></tr>
-<tr class="separator:aca8a845a61afb6eb33bb20e4c955ae19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59af624bbd0230c451cebc3f264d3638"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59af624bbd0230c451cebc3f264d3638"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>ndim</b></td></tr>
-<tr class="separator:a59af624bbd0230c451cebc3f264d3638"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9452d4f908125eef6e6d20a977a314dd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9452d4f908125eef6e6d20a977a314dd"></a>
-std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>coords</b></td></tr>
-<tr class="separator:a9452d4f908125eef6e6d20a977a314dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54483bd061e9e29ca75bfb3da2dee955"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a54483bd061e9e29ca75bfb3da2dee955"></a>
-std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>offsets</b></td></tr>
-<tr class="separator:a54483bd061e9e29ca75bfb3da2dee955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a673ccea2a0f276b7039f1f1d3c11f443"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a673ccea2a0f276b7039f1f1d3c11f443"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsimo_1_1shapes_1_1_wkt_result.html#a673ccea2a0f276b7039f1f1d3c11f443">parser_error</a></td></tr>
+<tr class="memdesc:a673ccea2a0f276b7039f1f1d3c11f443"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether there is a parser error <br /></td></tr>
+<tr class="separator:a673ccea2a0f276b7039f1f1d3c11f443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa91c164d43917d1a3822fdbf2181ae9e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa91c164d43917d1a3822fdbf2181ae9e"></a>
+DimensionType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsimo_1_1shapes_1_1_wkt_result.html#aa91c164d43917d1a3822fdbf2181ae9e">dim</a></td></tr>
+<tr class="memdesc:aa91c164d43917d1a3822fdbf2181ae9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">the dimension type of the geometry <br /></td></tr>
+<tr class="separator:aa91c164d43917d1a3822fdbf2181ae9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5841f353412b14ae0a7fab97df1bdf48"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5841f353412b14ae0a7fab97df1bdf48"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsimo_1_1shapes_1_1_wkt_result.html#a5841f353412b14ae0a7fab97df1bdf48">ndim</a></td></tr>
+<tr class="memdesc:a5841f353412b14ae0a7fab97df1bdf48"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of dimensiones <br /></td></tr>
+<tr class="separator:a5841f353412b14ae0a7fab97df1bdf48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a923dfb7c971c8806defd9ff4ed15d986"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a923dfb7c971c8806defd9ff4ed15d986"></a>
+std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsimo_1_1shapes_1_1_wkt_result.html#a923dfb7c971c8806defd9ff4ed15d986">coords</a></td></tr>
+<tr class="memdesc:a923dfb7c971c8806defd9ff4ed15d986"><td class="mdescLeft">&#160;</td><td class="mdescRight">the coordinates as a sequence of numbers <br /></td></tr>
+<tr class="separator:a923dfb7c971c8806defd9ff4ed15d986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c602efc4c69aaf9f07bcc4bdf7d3bd5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1c602efc4c69aaf9f07bcc4bdf7d3bd5"></a>
+std::vector&lt; std::size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsimo_1_1shapes_1_1_wkt_result.html#a1c602efc4c69aaf9f07bcc4bdf7d3bd5">offsets</a></td></tr>
+<tr class="memdesc:a1c602efc4c69aaf9f07bcc4bdf7d3bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">the offsets in the coordinates sequence <br /></td></tr>
+<tr class="separator:a1c602efc4c69aaf9f07bcc4bdf7d3bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="wkt__parser_8hpp_source.html#l00010">10</a> of file <a class="el" href="wkt__parser_8hpp_source.html">wkt_parser.hpp</a>.</p>
+<div class="textblock"><p>a Well-known text (WKT) markup language parser result </p>
+<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
+
+<p>Definition at line <a class="el" href="wkt__parser_8hpp_source.html#l00015">15</a> of file <a class="el" href="wkt__parser_8hpp_source.html">wkt_parser.hpp</a>.</p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>/home/travis/build/pavelsimo/shapes/include/simo/io/<a class="el" href="wkt__parser_8hpp_source.html">wkt_parser.hpp</a></li>
 </ul>

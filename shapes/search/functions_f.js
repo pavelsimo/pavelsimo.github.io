@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['scan',['scan',['../classsimo_1_1shapes_1_1wkt__lexer.html#a7473195841ab0423102576ef7c392edb',1,'simo::shapes::wkt_lexer']]],
-  ['size',['size',['../classsimo_1_1shapes_1_1_base_geometry.html#a0e10e6b47625cb30f17f13efbdacd4b0',1,'simo::shapes::BaseGeometry']]]
+  ['read',['read',['../classsimo_1_1shapes_1_1_wkt_reader.html#a654ea5fd8b111c5b23f0d065167489d6',1,'simo::shapes::WktReader']]]
 ];

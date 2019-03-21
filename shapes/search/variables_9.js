@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['y',['y',['../classsimo_1_1shapes_1_1_point.html#a370ca8d7d03517735a9792cca7cbb05e',1,'simo::shapes::Point']]]
+  ['offsets',['offsets',['../structsimo_1_1shapes_1_1_wkt_result.html#a1c602efc4c69aaf9f07bcc4bdf7d3bd5',1,'simo::shapes::WktResult']]]
 ];

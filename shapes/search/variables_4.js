@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['interiors',['interiors',['../classsimo_1_1shapes_1_1_polygon.html#a94f2f05198bd29714d9ecf6d60b83c2d',1,'simo::shapes::Polygon']]]
+  ['geometrycollection',['geometrycollection',['../unionsimo_1_1shapes_1_1_geometry.html#a85d8aedb9e502a89803af0d470ad1e5c',1,'simo::shapes::Geometry']]]
 ];

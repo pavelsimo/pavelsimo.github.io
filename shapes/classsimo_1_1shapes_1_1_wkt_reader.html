@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Shapes: simo::shapes::wkt_lexer Class Reference</title>
+<title>Shapes: simo::shapes::WktReader Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -84,34 +84,43 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><b>simo</b></li><li class="navelem"><b>shapes</b></li><li class="navelem"><a class="el" href="classsimo_1_1shapes_1_1wkt__lexer.html">wkt_lexer</a></li>  </ul>
+<li class="navelem"><b>simo</b></li><li class="navelem"><b>shapes</b></li><li class="navelem"><a class="el" href="classsimo_1_1shapes_1_1_wkt_reader.html">WktReader</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="classsimo_1_1shapes_1_1wkt__lexer-members.html">List of all members</a>  </div>
+<a href="classsimo_1_1shapes_1_1_wkt_reader-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">simo::shapes::wkt_lexer Class Reference</div>  </div>
+<div class="title">simo::shapes::WktReader Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>a Well-known text (WKT) markup language reader  
+ <a href="classsimo_1_1shapes_1_1_wkt_reader.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="wkt__reader_8hpp_source.html">wkt_reader.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad84a7fd2b5aadab778b25e28f8e5ab3d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad84a7fd2b5aadab778b25e28f8e5ab3d"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>wkt_lexer</b> (const char *source)</td></tr>
-<tr class="separator:ad84a7fd2b5aadab778b25e28f8e5ab3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7473195841ab0423102576ef7c392edb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1wkt__lexer.html#a7473195841ab0423102576ef7c392edb">scan</a> ()</td></tr>
-<tr class="separator:a7473195841ab0423102576ef7c392edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32267afbdbcd9110f561e99d9dd6dbda"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a32267afbdbcd9110f561e99d9dd6dbda"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_token</b> () const </td></tr>
-<tr class="separator:a32267afbdbcd9110f561e99d9dd6dbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73ca5f3bf638d43578b61e757bcef6cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_wkt_reader.html#a73ca5f3bf638d43578b61e757bcef6cf">WktReader</a> ()</td></tr>
+<tr class="memdesc:a73ca5f3bf638d43578b61e757bcef6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a WKT reader  <a href="#a73ca5f3bf638d43578b61e757bcef6cf">More...</a><br /></td></tr>
+<tr class="separator:a73ca5f3bf638d43578b61e757bcef6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31ccba8eddc8d7383ae7b2736d69cd9b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a31ccba8eddc8d7383ae7b2736d69cd9b"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_wkt_reader.html#a31ccba8eddc8d7383ae7b2736d69cd9b">~WktReader</a> ()</td></tr>
+<tr class="memdesc:a31ccba8eddc8d7383ae7b2736d69cd9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor <br /></td></tr>
+<tr class="separator:a31ccba8eddc8d7383ae7b2736d69cd9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a654ea5fd8b111c5b23f0d065167489d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structsimo_1_1shapes_1_1_wkt_result.html">WktResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_wkt_reader.html#a654ea5fd8b111c5b23f0d065167489d6">read</a> (const char *wkt)</td></tr>
+<tr class="memdesc:a654ea5fd8b111c5b23f0d065167489d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">parse the given wkt string  <a href="#a654ea5fd8b111c5b23f0d065167489d6">More...</a><br /></td></tr>
+<tr class="separator:a654ea5fd8b111c5b23f0d065167489d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p>Definition at line <a class="el" href="wkt__lexer_8hpp_source.html#l00011">11</a> of file <a class="el" href="wkt__lexer_8hpp_source.html">wkt_lexer.hpp</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a7473195841ab0423102576ef7c392edb"></a>
+<div class="textblock"><p>a Well-known text (WKT) markup language reader </p>
+<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
+
+<p>Definition at line <a class="el" href="wkt__reader_8hpp_source.html#l00019">19</a> of file <a class="el" href="wkt__reader_8hpp_source.html">wkt_reader.hpp</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a73ca5f3bf638d43578b61e757bcef6cf"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -119,7 +128,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_token</b> 
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int simo::shapes::wkt_lexer::scan </td>
+          <td class="memname">simo::shapes::WktReader::WktReader </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -131,14 +140,53 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_token</b> 
   </tr>
 </table>
 </div><div class="memdoc">
-<p>pointer for backtracking information </p>
 
-<p>Definition at line <a class="el" href="wkt__lexer_8hpp_source.html#l00021">21</a> of file <a class="el" href="wkt__lexer_8hpp_source.html">wkt_lexer.hpp</a>.</p>
+<p>creates a WKT reader </p>
+<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
+
+<p>Definition at line <a class="el" href="wkt__reader_8hpp_source.html#l00027">27</a> of file <a class="el" href="wkt__reader_8hpp_source.html">wkt_reader.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a654ea5fd8b111c5b23f0d065167489d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structsimo_1_1shapes_1_1_wkt_result.html">WktResult</a> simo::shapes::WktReader::read </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>wkt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>parse the given wkt string </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">wkt</td><td>the wkt string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a wkt result object</dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
+
+<p>Definition at line <a class="el" href="wkt__reader_8hpp_source.html#l00046">46</a> of file <a class="el" href="wkt__reader_8hpp_source.html">wkt_reader.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/pavelsimo/shapes/include/simo/io/<a class="el" href="wkt__lexer_8hpp_source.html">wkt_lexer.hpp</a></li>
+<li>/home/travis/build/pavelsimo/shapes/include/simo/io/<a class="el" href="wkt__reader_8hpp_source.html">wkt_reader.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
