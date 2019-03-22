@@ -111,7 +111,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a33aed6183a1252e1fcf3b8ef4e4eacb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the geometry detailed type (e.g. GeometryType::PointZ, GeometryType::MultiPointZM)  <a href="#a33aed6183a1252e1fcf3b8ef4e4eacb1">More...</a><br /></td></tr>
 <tr class="separator:a33aed6183a1252e1fcf3b8ef4e4eacb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a044cd13a2b7fc0220af4712d49022482"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html#a044cd13a2b7fc0220af4712d49022482">type_str</a> () const </td></tr>
-<tr class="memdesc:a044cd13a2b7fc0220af4712d49022482"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the geometry type as a string (e.g. <a class="el" href="classsimo_1_1shapes_1_1_point.html" title="represents a point ">Point</a>, <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="represents a line string ">LineString</a>)  <a href="#a044cd13a2b7fc0220af4712d49022482">More...</a><br /></td></tr>
+<tr class="memdesc:a044cd13a2b7fc0220af4712d49022482"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the geometry type as a string (e.g. <a class="el" href="classsimo_1_1shapes_1_1_point.html" title="represents a point ">Point</a>, <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a line string is a curve where each consecutive pair of points defines a line segment. ">LineString</a>)  <a href="#a044cd13a2b7fc0220af4712d49022482">More...</a><br /></td></tr>
 <tr class="separator:a044cd13a2b7fc0220af4712d49022482"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5eaf0db6f4307123fdef210d38a8a3c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html#ad5eaf0db6f4307123fdef210d38a8a3c">empty</a> () const </td></tr>
 <tr class="memdesc:ad5eaf0db6f4307123fdef210d38a8a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if the geometry is empty  <a href="#ad5eaf0db6f4307123fdef210d38a8a3c">More...</a><br /></td></tr>
@@ -160,7 +160,7 @@ int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="separator:af0fc9991d592c0b8a24a7f9d58f14b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d517d1542f6bc77608872e94365891b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d517d1542f6bc77608872e94365891b"></a>
 DimensionType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html#a3d517d1542f6bc77608872e94365891b">dim</a> = DimensionType::XY</td></tr>
-<tr class="memdesc:a3d517d1542f6bc77608872e94365891b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the dimension type is either (x, y), (x, y, z), (x, y, m) or (x, y, z, m) <br /></td></tr>
+<tr class="memdesc:a3d517d1542f6bc77608872e94365891b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the dimension type is either 2D (x, y), 3D (x, y, z), 4D (x, y, z, m) or 2D with measure-coordinate (x, y, m) <br /></td></tr>
 <tr class="separator:a3d517d1542f6bc77608872e94365891b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -170,7 +170,7 @@ class simo::shapes::BaseGeometry&lt; T &gt;</h3>
 <p>abstract class for all geometries </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">T</td><td>the geometry type (e.g. <a class="el" href="classsimo_1_1shapes_1_1_point.html" title="represents a point ">Point</a>, <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a>, <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="represents a line string ">LineString</a>)</td></tr>
+    <tr><td class="paramname">T</td><td>the geometry type (e.g. <a class="el" href="classsimo_1_1shapes_1_1_point.html" title="represents a point ">Point</a>, <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a>, <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a line string is a curve where each consecutive pair of points defines a line segment. ">LineString</a>)</td></tr>
   </table>
   </dd>
 </dl>
@@ -450,7 +450,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>returns the geometry type as a string (e.g. <a class="el" href="classsimo_1_1shapes_1_1_point.html" title="represents a point ">Point</a>, <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="represents a line string ">LineString</a>) </p>
+<p>returns the geometry type as a string (e.g. <a class="el" href="classsimo_1_1shapes_1_1_point.html" title="represents a point ">Point</a>, <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a line string is a curve where each consecutive pair of points defines a line segment. ">LineString</a>) </p>
 <dl class="section return"><dt>Returns</dt><dd>the geometry type as a string</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 

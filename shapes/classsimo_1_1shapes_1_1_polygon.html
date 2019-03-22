@@ -121,6 +121,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a48b7728a9528b7d4b6c4a9ef81e4611b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a48b7728a9528b7d4b6c4a9ef81e4611b">Polygon</a> (std::initializer_list&lt; <a class="el" href="classsimo_1_1shapes_1_1_linear_ring.html">LinearRing</a> &gt; rings)</td></tr>
 <tr class="memdesc:a48b7728a9528b7d4b6c4a9ef81e4611b"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a>  <a href="#a48b7728a9528b7d4b6c4a9ef81e4611b">More...</a><br /></td></tr>
 <tr class="separator:a48b7728a9528b7d4b6c4a9ef81e4611b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40b5518aefa6bb6992ec6bfc5ed90c2b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a40b5518aefa6bb6992ec6bfc5ed90c2b">Polygon</a> (const std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_point.html">Point</a> &gt; &amp;shell)</td></tr>
+<tr class="memdesc:a40b5518aefa6bb6992ec6bfc5ed90c2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a>  <a href="#a40b5518aefa6bb6992ec6bfc5ed90c2b">More...</a><br /></td></tr>
+<tr class="separator:a40b5518aefa6bb6992ec6bfc5ed90c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26336c46677a50f571dcd5651cccf869"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a26336c46677a50f571dcd5651cccf869">Polygon</a> (const std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_point.html">Point</a> &gt; &amp;shell, const std::vector&lt; std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_point.html">Point</a> &gt;&gt; &amp;holes)</td></tr>
+<tr class="memdesc:a26336c46677a50f571dcd5651cccf869"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a>  <a href="#a26336c46677a50f571dcd5651cccf869">More...</a><br /></td></tr>
+<tr class="separator:a26336c46677a50f571dcd5651cccf869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb65017c154a1907db5c7e70a721183e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#adb65017c154a1907db5c7e70a721183e">json</a> ()</td></tr>
 <tr class="memdesc:adb65017c154a1907db5c7e70a721183e"><td class="mdescLeft">&#160;</td><td class="mdescRight">dumps the geojson representation of the <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a>  <a href="#adb65017c154a1907db5c7e70a721183e">More...</a><br /></td></tr>
 <tr class="separator:adb65017c154a1907db5c7e70a721183e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,14 +208,13 @@ int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 <tr class="separator:af0fc9991d592c0b8a24a7f9d58f14b6b inherit pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d517d1542f6bc77608872e94365891b inherit pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3d517d1542f6bc77608872e94365891b"></a>
 DimensionType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html#a3d517d1542f6bc77608872e94365891b">dim</a></td></tr>
-<tr class="memdesc:a3d517d1542f6bc77608872e94365891b inherit pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">the dimension type is either (x, y), (x, y, z), (x, y, m) or (x, y, z, m) <br /></td></tr>
+<tr class="memdesc:a3d517d1542f6bc77608872e94365891b inherit pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">the dimension type is either 2D (x, y), 3D (x, y, z), 4D (x, y, z, m) or 2D with measure-coordinate (x, y, m) <br /></td></tr>
 <tr class="separator:a3d517d1542f6bc77608872e94365891b inherit pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a5e25215aa6acf27fbebaf0a8c26b415e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5e25215aa6acf27fbebaf0a8c26b415e"></a>
-class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a5e25215aa6acf27fbebaf0a8c26b415e">BaseGeometry&lt; Polygon &gt;</a></td></tr>
-<tr class="memdesc:a5e25215aa6acf27fbebaf0a8c26b415e"><td class="mdescLeft">&#160;</td><td class="mdescRight">for allow <a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html" title="abstract class for all geometries ">BaseGeometry</a> to access <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a> private members <br /></td></tr>
+<tr class="memitem:a5e25215aa6acf27fbebaf0a8c26b415e"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a5e25215aa6acf27fbebaf0a8c26b415e">BaseGeometry&lt; Polygon &gt;</a></td></tr>
+<tr class="memdesc:a5e25215aa6acf27fbebaf0a8c26b415e"><td class="mdescLeft">&#160;</td><td class="mdescRight">for allow <a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html" title="abstract class for all geometries ">BaseGeometry</a> to access <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a> private members  <a href="#a5e25215aa6acf27fbebaf0a8c26b415e">More...</a><br /></td></tr>
 <tr class="separator:a5e25215aa6acf27fbebaf0a8c26b415e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -269,13 +274,94 @@ class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 <p>creates a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a> </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">rings</td><td>a <a class="el" href="classsimo_1_1shapes_1_1_linear_ring.html" title="represents a linear ring ">LinearRing</a> sequence with the shell and holes of the polygon</td></tr>
+    <tr><td class="paramname">rings</td><td>a <a class="el" href="classsimo_1_1shapes_1_1_linear_ring.html" title="a linear ring is a line string that is both closed and simple, in shapes this feature is implicitly c...">LinearRing</a> sequence with the shell and holes of the polygon</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
 <p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00045">45</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a40b5518aefa6bb6992ec6bfc5ed90c2b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">simo::shapes::Polygon::Polygon </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_point.html">Point</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>shell</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>creates a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shell</td><td>the shell of the polygon as a <a class="el" href="classsimo_1_1shapes_1_1_point.html" title="represents a point ">Point</a> sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
+
+<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00072">72</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a26336c46677a50f571dcd5651cccf869"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">simo::shapes::Polygon::Polygon </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_point.html">Point</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>shell</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_point.html">Point</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>holes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>creates a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">shell</td><td>the shell of the polygon as a <a class="el" href="classsimo_1_1shapes_1_1_point.html" title="represents a point ">Point</a> sequence </td></tr>
+    <tr><td class="paramname">holes</td><td>one or more collection of points, each representing a hole in the polygon</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
+
+<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00088">88</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
 </div>
 </div>
@@ -309,11 +395,11 @@ class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a> object</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>RFC7946 <a href="https://tools.ietf.org/html/rfc7946">https://tools.ietf.org/html/rfc7946</a></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a> object </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://tools.ietf.org/html/rfc7946">https://tools.ietf.org/html/rfc7946</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00076">76</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
+<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00113">113</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
 </div>
 </div>
@@ -346,11 +432,11 @@ class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a> object</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>WKT <a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry</a></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a> object </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00105">105</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
+<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00138">138</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
 </div>
 </div>
@@ -376,11 +462,11 @@ class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
 </div><div class="memdoc">
 
 <p>dumps the geojson representation of the <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a> </p>
-<dl class="section note"><dt>Note</dt><dd>RFC7946 <a href="https://tools.ietf.org/html/rfc7946">https://tools.ietf.org/html/rfc7946</a></dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://tools.ietf.org/html/rfc7946">https://tools.ietf.org/html/rfc7946</a> </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>a geojson string</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00090">90</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
+<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00125">125</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
 </div>
 </div>
@@ -412,11 +498,37 @@ class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a> object</dd></dl>
-<dl class="section note"><dt>Note</dt><dd>WKT <a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry</a></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a> object </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00120">120</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
+<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00151">151</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a class="anchor" id="a5e25215aa6acf27fbebaf0a8c26b415e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html">BaseGeometry</a>&lt; <a class="el" href="classsimo_1_1shapes_1_1_polygon.html">Polygon</a> &gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>for allow <a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html" title="abstract class for all geometries ">BaseGeometry</a> to access <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="represents a polygon ">Polygon</a> private members </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>(pavel) add from_bounds method </dd></dl>
+
+<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00160">160</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
 </div>
 </div>
