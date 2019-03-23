@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['const_5fiterator',['const_iterator',['../classsimo_1_1shapes_1_1_curve.html#a3c69c6fdc0e8454fd028b287cfda7aa5',1,'simo::shapes::Curve']]]
+  ['const_5fiterator',['const_iterator',['../classsimo_1_1shapes_1_1_point_sequence.html#a3057aa1c2eb86d93127461c3e0a7e2e8',1,'simo::shapes::PointSequence']]]
 ];
