@@ -190,9 +190,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ad71eee3b464ab12df6e244a63a740e16"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classsimo_1_1shapes_1_1_multi_point.html">MultiPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_multi_point.html#ad71eee3b464ab12df6e244a63a740e16">from_json</a> (const std::string &amp;<a class="el" href="classsimo_1_1shapes_1_1_multi_point.html#af802dae29d3887bec0c6bf3687b4b763">json</a>)</td></tr>
 <tr class="memdesc:ad71eee3b464ab12df6e244a63a740e16"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classsimo_1_1shapes_1_1_multi_point.html" title="Point collection. ">MultiPoint</a> from a geojson string  <a href="#ad71eee3b464ab12df6e244a63a740e16">More...</a><br /></td></tr>
 <tr class="separator:ad71eee3b464ab12df6e244a63a740e16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a4b2f9eb28019af7c4502a73394783c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classsimo_1_1shapes_1_1_multi_point.html">MultiPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_multi_point.html#a3a4b2f9eb28019af7c4502a73394783c">from_wkt</a> (const std::string &amp;)</td></tr>
-<tr class="memdesc:a3a4b2f9eb28019af7c4502a73394783c"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classsimo_1_1shapes_1_1_multi_point.html" title="Point collection. ">MultiPoint</a> from a WKT string  <a href="#a3a4b2f9eb28019af7c4502a73394783c">More...</a><br /></td></tr>
-<tr class="separator:a3a4b2f9eb28019af7c4502a73394783c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cd1a182cbacb6b7f62a2bdd13fb35a5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classsimo_1_1shapes_1_1_multi_point.html">MultiPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_multi_point.html#a0cd1a182cbacb6b7f62a2bdd13fb35a5">from_wkt</a> (const std::string &amp;<a class="el" href="classsimo_1_1shapes_1_1_multi_point.html#ae1b037c5687d7629cbb43cfe9700c36a">wkt</a>)</td></tr>
+<tr class="memdesc:a0cd1a182cbacb6b7f62a2bdd13fb35a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classsimo_1_1shapes_1_1_multi_point.html" title="Point collection. ">MultiPoint</a> from a WKT string  <a href="#a0cd1a182cbacb6b7f62a2bdd13fb35a5">More...</a><br /></td></tr>
+<tr class="separator:a0cd1a182cbacb6b7f62a2bdd13fb35a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -384,7 +384,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 
 </div>
 </div>
-<a class="anchor" id="a3a4b2f9eb28019af7c4502a73394783c"></a>
+<a class="anchor" id="a0cd1a182cbacb6b7f62a2bdd13fb35a5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -395,7 +395,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
           <td class="memname">static <a class="el" href="classsimo_1_1shapes_1_1_multi_point.html">MultiPoint</a> simo::shapes::MultiPoint::from_wkt </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>wkt</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -416,6 +416,9 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="classsimo_1_1shapes_1_1_multi_point.html" title="Point collection. ">MultiPoint</a> object </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>(pavel) add method get_dim(GeometryDetailedType) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>(pavel) add method get_ndim(GeometryDetailedType) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>(pavel) set coordinates </dd></dl>
 
 <p>Definition at line <a class="el" href="multipoint_8hpp_source.html#l00160">160</a> of file <a class="el" href="multipoint_8hpp_source.html">multipoint.hpp</a>.</p>
 
@@ -484,7 +487,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="multipoint_8hpp_source.html#l00174">174</a> of file <a class="el" href="multipoint_8hpp_source.html">multipoint.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multipoint_8hpp_source.html#l00216">216</a> of file <a class="el" href="multipoint_8hpp_source.html">multipoint.hpp</a>.</p>
 
 </div>
 </div>
