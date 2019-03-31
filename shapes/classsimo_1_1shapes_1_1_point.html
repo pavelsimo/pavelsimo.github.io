@@ -230,10 +230,6 @@ double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <tr class="memdesc:aced73731924b13762c7b6446bf3ad9a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">the m-coordinate value for this <a class="el" href="classsimo_1_1shapes_1_1_point.html" title="represents a point ">Point</a>, if it has one. <br /></td></tr>
 <tr class="separator:aced73731924b13762c7b6446bf3ad9a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classsimo_1_1shapes_1_1_base_geometry')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html">simo::shapes::BaseGeometry&lt; Point &gt;</a></td></tr>
-<tr class="memitem:acae0a4cb31a3aad895298f84410bae7f inherit pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acae0a4cb31a3aad895298f84410bae7f"></a>
-int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html#acae0a4cb31a3aad895298f84410bae7f">precision</a></td></tr>
-<tr class="memdesc:acae0a4cb31a3aad895298f84410bae7f inherit pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">serialization precision <br /></td></tr>
-<tr class="separator:acae0a4cb31a3aad895298f84410bae7f inherit pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fcacea5f9d36abd6cdb62aeb9a7861c inherit pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4fcacea5f9d36abd6cdb62aeb9a7861c"></a>
 int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html#a4fcacea5f9d36abd6cdb62aeb9a7861c">srid</a></td></tr>
 <tr class="memdesc:a4fcacea5f9d36abd6cdb62aeb9a7861c inherit pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">a spatial reference identifier (SRID) is a unique identifier associated with a specific coordinate system <br /></td></tr>
@@ -246,6 +242,10 @@ int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="c
 DimensionType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html#a3d517d1542f6bc77608872e94365891b">dim</a></td></tr>
 <tr class="memdesc:a3d517d1542f6bc77608872e94365891b inherit pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">the dimension type is either 2D (x, y), 3D (x, y, z), 4D (x, y, z, m) or 2D with measure-coordinate (x, y, m) <br /></td></tr>
 <tr class="separator:a3d517d1542f6bc77608872e94365891b inherit pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acae0a4cb31a3aad895298f84410bae7f inherit pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acae0a4cb31a3aad895298f84410bae7f"></a>
+int8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html#acae0a4cb31a3aad895298f84410bae7f">precision</a></td></tr>
+<tr class="memdesc:acae0a4cb31a3aad895298f84410bae7f inherit pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">serialization precision <br /></td></tr>
+<tr class="separator:acae0a4cb31a3aad895298f84410bae7f inherit pub_attribs_classsimo_1_1shapes_1_1_base_geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -570,7 +570,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="classsimo_1_1shapes_1_1_point.html" title="represents a point ">Point</a> object </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a href="https://tools.ietf.org/html/rfc7946">https://tools.ietf.org/html/rfc7946</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>(pavel) read properties to specify z, m and zm </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>(pavel) read properties to specify z, m and zm </dd></dl>
 
 <p>Definition at line <a class="el" href="point_8hpp_source.html#l00260">260</a> of file <a class="el" href="point_8hpp_source.html">point.hpp</a>.</p>
 
@@ -607,9 +607,15 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="classsimo_1_1shapes_1_1_point.html" title="represents a point ">Point</a> object </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry</a></dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ParseError</td><td>if a parser error occurs</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="point_8hpp_source.html#l00320">320</a> of file <a class="el" href="point_8hpp_source.html">point.hpp</a>.</p>
+<p>Definition at line <a class="el" href="point_8hpp_source.html#l00322">322</a> of file <a class="el" href="point_8hpp_source.html">point.hpp</a>.</p>
 
 </div>
 </div>
@@ -850,7 +856,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="section return"><dt>Returns</dt><dd>a geojson string </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a href="https://tools.ietf.org/html/rfc7946">https://tools.ietf.org/html/rfc7946</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>(pavel) add properties to specify z, m and zm </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>(pavel) add properties to specify z, m and zm </dd></dl>
 
 <p>Definition at line <a class="el" href="point_8hpp_source.html#l00293">293</a> of file <a class="el" href="point_8hpp_source.html">point.hpp</a>.</p>
 
@@ -996,7 +1002,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="point_8hpp_source.html#l00347">347</a> of file <a class="el" href="point_8hpp_source.html">point.hpp</a>.</p>
+<p>Definition at line <a class="el" href="point_8hpp_source.html#l00349">349</a> of file <a class="el" href="point_8hpp_source.html">point.hpp</a>.</p>
 
 </div>
 </div>
