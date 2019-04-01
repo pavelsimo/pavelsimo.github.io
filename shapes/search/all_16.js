@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['z',['z',['../classsimo_1_1shapes_1_1_point.html#a4498c1e84bb25e32cd75d41a74d48169',1,'simo::shapes::Point']]]
+  ['_7ewktreader',['~WktReader',['../classsimo_1_1shapes_1_1_wkt_reader.html#a31ccba8eddc8d7383ae7b2736d69cd9b',1,'simo::shapes::WktReader']]]
 ];
