@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['ndim',['ndim',['../classsimo_1_1shapes_1_1_base_geometry.html#af2d4bc30cbd4adea89495af96d44c7cb',1,'simo::shapes::BaseGeometry']]],
-  ['notimplementederror',['NotImplementedError',['../classsimo_1_1shapes_1_1exceptions_1_1_not_implemented_error.html#aec002e5373fa346fc9f980c4e2bfdc18',1,'simo::shapes::exceptions::NotImplementedError::NotImplementedError()'],['../classsimo_1_1shapes_1_1exceptions_1_1_not_implemented_error.html#a9cf0c24feceeb059a7a0ca1ade926ef1',1,'simo::shapes::exceptions::NotImplementedError::NotImplementedError(const std::string &amp;reason)']]]
+  ['operator_21_3d',['operator!=',['../classsimo_1_1shapes_1_1_point.html#aece2f7cb87b1ca009d29fb79fcf8b48a',1,'simo::shapes::Point']]],
+  ['operator_3d_3d',['operator==',['../classsimo_1_1shapes_1_1_point.html#a32b64226c96ab13e4b44e7437c2f6b3e',1,'simo::shapes::Point']]],
+  ['operator_5b_5d',['operator[]',['../classsimo_1_1shapes_1_1_geometry_sequence.html#a11bb0e19b02e157e5cd6e74ca3f94e98',1,'simo::shapes::GeometrySequence::operator[]()'],['../classsimo_1_1shapes_1_1_point.html#ab0b797c702731749fe65064b2fa5a004',1,'simo::shapes::Point::operator[]()']]],
+  ['overlaps',['overlaps',['../classsimo_1_1shapes_1_1_bounds.html#a0bd0d67f7e4f17328773fe62a048d2e0',1,'simo::shapes::Bounds']]]
 ];

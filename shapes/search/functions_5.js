@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['from_5fjson',['from_json',['../classsimo_1_1shapes_1_1_line_string.html#a953c76bf8c908ef9c5c274cd53f39381',1,'simo::shapes::LineString::from_json()'],['../classsimo_1_1shapes_1_1_multi_line_string.html#a26e4010ab6e75500104210de0b099b24',1,'simo::shapes::MultiLineString::from_json()'],['../classsimo_1_1shapes_1_1_multi_point.html#ad71eee3b464ab12df6e244a63a740e16',1,'simo::shapes::MultiPoint::from_json()'],['../classsimo_1_1shapes_1_1_multi_polygon.html#a75c7f6c95f15a0b744c82ec30fb16ada',1,'simo::shapes::MultiPolygon::from_json()'],['../classsimo_1_1shapes_1_1_point.html#a7de22a22436ff219a0714602d865b723',1,'simo::shapes::Point::from_json()'],['../classsimo_1_1shapes_1_1_polygon.html#a9fdf028143aa6849082458f9f4c95e4e',1,'simo::shapes::Polygon::from_json()']]],
-  ['from_5fwkt',['from_wkt',['../classsimo_1_1shapes_1_1_line_string.html#a88671b1aea5e067be3aaf0bbb1ff7ed2',1,'simo::shapes::LineString::from_wkt()'],['../classsimo_1_1shapes_1_1_multi_line_string.html#a6424fdd85367a3f38490fd03f900a3e6',1,'simo::shapes::MultiLineString::from_wkt()'],['../classsimo_1_1shapes_1_1_multi_point.html#a0cd1a182cbacb6b7f62a2bdd13fb35a5',1,'simo::shapes::MultiPoint::from_wkt()'],['../classsimo_1_1shapes_1_1_multi_polygon.html#ac3af9fa7526be716925ad7ead6737e18',1,'simo::shapes::MultiPolygon::from_wkt()'],['../classsimo_1_1shapes_1_1_point.html#aa140e02a04b52bf5739a761528dfd8e9',1,'simo::shapes::Point::from_wkt()'],['../classsimo_1_1shapes_1_1_polygon.html#aa98d893e99a4ee444cc82da799ebc6c3',1,'simo::shapes::Polygon::from_wkt()']]],
-  ['from_5fxy',['from_xy',['../classsimo_1_1shapes_1_1_point.html#a5babfdb4e450381fce0bd355c060d3cf',1,'simo::shapes::Point']]],
-  ['from_5fxym',['from_xym',['../classsimo_1_1shapes_1_1_point.html#a73475fb5d47c0c77506d8c83c0287f57',1,'simo::shapes::Point']]],
-  ['from_5fxyz',['from_xyz',['../classsimo_1_1shapes_1_1_point.html#af2fe59e7e25d3ab1019fbf9a3365fa30',1,'simo::shapes::Point']]],
-  ['from_5fxyzm',['from_xyzm',['../classsimo_1_1shapes_1_1_point.html#a04c56d21b56fa034bb9b83150bb89a10',1,'simo::shapes::Point']]]
+  ['geom_5ftype',['geom_type',['../classsimo_1_1shapes_1_1_base_geometry.html#a6aef055195894a04b41816553196c4ea',1,'simo::shapes::BaseGeometry']]],
+  ['geom_5ftype_5fdim',['geom_type_dim',['../classsimo_1_1shapes_1_1_base_geometry.html#afb227260783d68088c7cbf6541cf6ebf',1,'simo::shapes::BaseGeometry']]],
+  ['geometryerror',['GeometryError',['../classsimo_1_1shapes_1_1exceptions_1_1_geometry_error.html#a5393aafd18095312117a41c2df509cdf',1,'simo::shapes::exceptions::GeometryError']]],
+  ['get_5ftoken',['get_token',['../classsimo_1_1shapes_1_1_wkt_lexer.html#a0330ed0918092f0359f30741d80ae33b',1,'simo::shapes::WktLexer']]]
 ];

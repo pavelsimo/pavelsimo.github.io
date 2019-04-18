@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['multilinestring',['MultiLineString',['../classsimo_1_1shapes_1_1_multi_line_string.html#a35cb5aa9b1a15be26bf593467bd01541',1,'simo::shapes::MultiLineString']]],
-  ['multipoint',['MultiPoint',['../classsimo_1_1shapes_1_1_multi_point.html#ad1b9a1a947d02773d9b9cbe18bfdeb12',1,'simo::shapes::MultiPoint::MultiPoint()=default'],['../classsimo_1_1shapes_1_1_multi_point.html#a5e6cdc0462e2f78395b7c35375ac2afc',1,'simo::shapes::MultiPoint::MultiPoint(std::initializer_list&lt; std::initializer_list&lt; T &gt;&gt; init)'],['../classsimo_1_1shapes_1_1_multi_point.html#a894ec2130ac7e5ba82fef72e3b922e0d',1,'simo::shapes::MultiPoint::MultiPoint(const std::vector&lt; Point &gt; &amp;points)']]],
-  ['multipolygon',['MultiPolygon',['../classsimo_1_1shapes_1_1_multi_polygon.html#a06b893f508a2876168bf2fa986150e0e',1,'simo::shapes::MultiPolygon']]]
+  ['ndim',['ndim',['../classsimo_1_1shapes_1_1_base_geometry.html#af2d4bc30cbd4adea89495af96d44c7cb',1,'simo::shapes::BaseGeometry']]],
+  ['notimplementederror',['NotImplementedError',['../classsimo_1_1shapes_1_1exceptions_1_1_not_implemented_error.html#aec002e5373fa346fc9f980c4e2bfdc18',1,'simo::shapes::exceptions::NotImplementedError::NotImplementedError()'],['../classsimo_1_1shapes_1_1exceptions_1_1_not_implemented_error.html#a9cf0c24feceeb059a7a0ca1ade926ef1',1,'simo::shapes::exceptions::NotImplementedError::NotImplementedError(const std::string &amp;reason)']]]
 ];
