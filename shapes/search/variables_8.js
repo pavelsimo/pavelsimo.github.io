@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ndim',['ndim',['../structsimo_1_1shapes_1_1_wkt_data.html#a1cca34136d97ff6bffdcce26df293f5d',1,'simo::shapes::WktData']]]
+  ['offsets',['offsets',['../structsimo_1_1shapes_1_1_wkt_data.html#afaa289a3146dbe19563d10ef324f036a',1,'simo::shapes::WktData']]]
 ];
