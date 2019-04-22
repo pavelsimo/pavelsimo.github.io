@@ -125,9 +125,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a39159fdb1516ed409801499756d627a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_line_string.html#a39159fdb1516ed409801499756d627a5">LineString</a> (const std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_point.html">Point</a> &gt; &amp;points)</td></tr>
 <tr class="memdesc:a39159fdb1516ed409801499756d627a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a curve where each consecutive pair of points defines a line segment. ">LineString</a> from a given point vector  <a href="#a39159fdb1516ed409801499756d627a5">More...</a><br /></td></tr>
 <tr class="separator:a39159fdb1516ed409801499756d627a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9f40c6003cd2029e8506b1030372716"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_line_string.html#ac9f40c6003cd2029e8506b1030372716">LineString</a> (const std::vector&lt; double &gt; &amp;coords, DimensionType coords_dim)</td></tr>
-<tr class="memdesc:ac9f40c6003cd2029e8506b1030372716"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a curve where each consecutive pair of points defines a line segment. ">LineString</a> from a given arithmetic value sequence  <a href="#ac9f40c6003cd2029e8506b1030372716">More...</a><br /></td></tr>
-<tr class="separator:ac9f40c6003cd2029e8506b1030372716"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb08baaa2207757a259a88884d8b2247"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_line_string.html#adb08baaa2207757a259a88884d8b2247">LineString</a> (const std::vector&lt; double &gt; &amp;coords, DimensionType input_dim)</td></tr>
+<tr class="memdesc:adb08baaa2207757a259a88884d8b2247"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a curve where each consecutive pair of points defines a line segment. ">LineString</a> from a given arithmetic value sequence  <a href="#adb08baaa2207757a259a88884d8b2247">More...</a><br /></td></tr>
+<tr class="separator:adb08baaa2207757a259a88884d8b2247"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1828ee123214749bf7b7b3aa025d72c"><td class="memTemplParams" colspan="2">template&lt;typename InputIt &gt; </td></tr>
+<tr class="memitem:aa1828ee123214749bf7b7b3aa025d72c"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_line_string.html#aa1828ee123214749bf7b7b3aa025d72c">LineString</a> (InputIt first, InputIt last, DimensionType input_dim)</td></tr>
+<tr class="memdesc:aa1828ee123214749bf7b7b3aa025d72c"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a curve where each consecutive pair of points defines a line segment. ">LineString</a> from an iterator range  <a href="#aa1828ee123214749bf7b7b3aa025d72c">More...</a><br /></td></tr>
+<tr class="separator:aa1828ee123214749bf7b7b3aa025d72c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59c052bc895234b68aec25c7d6428e03"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_line_string.html#a59c052bc895234b68aec25c7d6428e03">json</a> ()</td></tr>
 <tr class="memdesc:a59c052bc895234b68aec25c7d6428e03"><td class="mdescLeft">&#160;</td><td class="mdescRight">dumps the geojson representation of the <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a curve where each consecutive pair of points defines a line segment. ">LineString</a>  <a href="#a59c052bc895234b68aec25c7d6428e03">More...</a><br /></td></tr>
 <tr class="separator:a59c052bc895234b68aec25c7d6428e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -317,13 +321,14 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">GeometryError</td><td>DOCUMENT ME!</td></tr>
+    <tr><td class="paramname">GeometryError</td><td>if geometry contains only one point </td></tr>
+    <tr><td class="paramname">GeometryError</td><td>if geometry contains two equal points</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00044">44</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00045">45</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -358,17 +363,18 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">GeometryError</td><td>DOCUMENT ME!</td></tr>
+    <tr><td class="paramname">GeometryError</td><td>if geometry contains only one point </td></tr>
+    <tr><td class="paramname">GeometryError</td><td>if geometry contains two equal points</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00058">58</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00060">60</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="ac9f40c6003cd2029e8506b1030372716"></a>
+<a class="anchor" id="adb08baaa2207757a259a88884d8b2247"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -385,7 +391,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">DimensionType&#160;</td>
-          <td class="paramname"><em>coords_dim</em>&#160;</td>
+          <td class="paramname"><em>input_dim</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -410,13 +416,88 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">coords</td><td>the arithmetic value sequence </td></tr>
-    <tr><td class="paramname">coords_dim</td><td>the dimension of the points</td></tr>
+    <tr><td class="paramname">input_dim</td><td>the dimension type for the <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a curve where each consecutive pair of points defines a line segment. ">LineString</a> points</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">GeometryError</td><td>if geometry contains only one point </td></tr>
+    <tr><td class="paramname">GeometryError</td><td>if geometry contains two equal points</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00072">72</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00077">77</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa1828ee123214749bf7b7b3aa025d72c"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename InputIt &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">simo::shapes::LineString::LineString </td>
+          <td>(</td>
+          <td class="paramtype">InputIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DimensionType&#160;</td>
+          <td class="paramname"><em>input_dim</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>creates a <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a curve where each consecutive pair of points defines a line segment. ">LineString</a> from an iterator range </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">InputIt</td><td>the iterator type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>the first element of the iterator </td></tr>
+    <tr><td class="paramname">last</td><td>the last element of the iterator </td></tr>
+    <tr><td class="paramname">input_dim</td><td>the dimension type for the <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a curve where each consecutive pair of points defines a line segment. ">LineString</a> points</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">GeometryError</td><td>if geometry contains only one point </td></tr>
+    <tr><td class="paramname">GeometryError</td><td>if geometry contains two equal points</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
+
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00096">96</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -454,7 +535,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="section see"><dt>See also</dt><dd><a href="https://tools.ietf.org/html/rfc7946">https://tools.ietf.org/html/rfc7946</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00086">86</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00125">125</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -491,7 +572,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00169">169</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00208">208</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -521,7 +602,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="section see"><dt>See also</dt><dd><a href="https://tools.ietf.org/html/rfc7946">https://tools.ietf.org/html/rfc7946</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00121">121</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00160">160</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -557,7 +638,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="section return"><dt>Returns</dt><dd>true if at least one <a class="el" href="classsimo_1_1shapes_1_1_point.html" title="represents a point ">Point</a> is different, otherwise false</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00245">245</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00284">284</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -593,7 +674,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="section return"><dt>Returns</dt><dd>true if all <a class="el" href="classsimo_1_1shapes_1_1_point.html" title="represents a point ">Point</a>'s are equal, otherwise false</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00233">233</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00272">272</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -629,7 +710,7 @@ template&lt;typename T , typename  = typename std::enable_if&lt;std::is_arithmet
 <dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00190">190</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="linestring_8hpp_source.html#l00229">229</a> of file <a class="el" href="linestring_8hpp_source.html">linestring.hpp</a>.</p>
 
 </div>
 </div>
