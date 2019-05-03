@@ -119,10 +119,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a35cb5aa9b1a15be26bf593467bd01541"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates an empty <a class="el" href="classsimo_1_1shapes_1_1_multi_line_string.html" title="a LineString collection ">MultiLineString</a>  <a href="#a35cb5aa9b1a15be26bf593467bd01541">More...</a><br /></td></tr>
 <tr class="separator:a35cb5aa9b1a15be26bf593467bd01541"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38b2826ba555654c5cb5820506c18d94"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_multi_line_string.html#a38b2826ba555654c5cb5820506c18d94">MultiLineString</a> (std::initializer_list&lt; <a class="el" href="classsimo_1_1shapes_1_1_line_string.html">LineString</a> &gt; init)</td></tr>
-<tr class="memdesc:a38b2826ba555654c5cb5820506c18d94"><td class="mdescLeft">&#160;</td><td class="mdescRight">DOCUMENT ME!  <a href="#a38b2826ba555654c5cb5820506c18d94">More...</a><br /></td></tr>
+<tr class="memdesc:a38b2826ba555654c5cb5820506c18d94"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classsimo_1_1shapes_1_1_multi_line_string.html" title="a LineString collection ">MultiLineString</a> from a given a <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a curve where each consecutive pair of points defines a line segment. ">LineString</a> initializer list  <a href="#a38b2826ba555654c5cb5820506c18d94">More...</a><br /></td></tr>
 <tr class="separator:a38b2826ba555654c5cb5820506c18d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a339a503d921852de7578ca3391a2a148"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_multi_line_string.html#a339a503d921852de7578ca3391a2a148">MultiLineString</a> (const std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_line_string.html">LineString</a> &gt; &amp;linestrings)</td></tr>
+<tr class="memdesc:a339a503d921852de7578ca3391a2a148"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classsimo_1_1shapes_1_1_multi_line_string.html" title="a LineString collection ">MultiLineString</a> from a given <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a curve where each consecutive pair of points defines a line segment. ">LineString</a> vector  <a href="#a339a503d921852de7578ca3391a2a148">More...</a><br /></td></tr>
 <tr class="separator:a339a503d921852de7578ca3391a2a148"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7660314a7b585669b40aca0b31fba02"><td class="memTemplParams" colspan="2">template&lt;typename CoordInputIt , typename OffsetInputIt &gt; </td></tr>
+<tr class="memitem:af7660314a7b585669b40aca0b31fba02"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_multi_line_string.html#af7660314a7b585669b40aca0b31fba02">MultiLineString</a> (CoordInputIt coord_first, CoordInputIt coord_last, OffsetInputIt offset_first, OffsetInputIt offset_last, DimensionType input_dim)</td></tr>
+<tr class="memdesc:af7660314a7b585669b40aca0b31fba02"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a <a class="el" href="classsimo_1_1shapes_1_1_multi_line_string.html" title="a LineString collection ">MultiLineString</a> from two pair of iterators  <a href="#af7660314a7b585669b40aca0b31fba02">More...</a><br /></td></tr>
+<tr class="separator:af7660314a7b585669b40aca0b31fba02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad0a24c4c1e86d30ab432f3d1cf89f21"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_multi_line_string.html#aad0a24c4c1e86d30ab432f3d1cf89f21">json</a> ()</td></tr>
 <tr class="memdesc:aad0a24c4c1e86d30ab432f3d1cf89f21"><td class="mdescLeft">&#160;</td><td class="mdescRight">dumps the geojson representation of the <a class="el" href="classsimo_1_1shapes_1_1_multi_line_string.html" title="a LineString collection ">MultiLineString</a>  <a href="#aad0a24c4c1e86d30ab432f3d1cf89f21">More...</a><br /></td></tr>
 <tr class="separator:aad0a24c4c1e86d30ab432f3d1cf89f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -239,7 +244,7 @@ std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_line_string.html">Li
 <div class="textblock"><p>a <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a curve where each consecutive pair of points defines a line segment. ">LineString</a> collection </p>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="multilinestring_8hpp_source.html#l00023">23</a> of file <a class="el" href="multilinestring_8hpp_source.html">multilinestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multilinestring_8hpp_source.html#l00024">24</a> of file <a class="el" href="multilinestring_8hpp_source.html">multilinestring.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a35cb5aa9b1a15be26bf593467bd01541"></a>
 <div class="memitem">
@@ -289,16 +294,16 @@ std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_line_string.html">Li
 </table>
 </div><div class="memdoc">
 
-<p>DOCUMENT ME! </p>
+<p>creates a <a class="el" href="classsimo_1_1shapes_1_1_multi_line_string.html" title="a LineString collection ">MultiLineString</a> from a given a <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a curve where each consecutive pair of points defines a line segment. ">LineString</a> initializer list </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">init</td><td></td></tr>
+    <tr><td class="paramname">init</td><td>the initializer list</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="multilinestring_8hpp_source.html#l00039">39</a> of file <a class="el" href="multilinestring_8hpp_source.html">multilinestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multilinestring_8hpp_source.html#l00040">40</a> of file <a class="el" href="multilinestring_8hpp_source.html">multilinestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -323,14 +328,93 @@ std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_line_string.html">Li
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>creates a <a class="el" href="classsimo_1_1shapes_1_1_multi_line_string.html" title="a LineString collection ">MultiLineString</a> from a given <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a curve where each consecutive pair of points defines a line segment. ">LineString</a> vector </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">linestrings</td><td></td></tr>
+    <tr><td class="paramname">linestrings</td><td>the <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="a curve where each consecutive pair of points defines a line segment. ">LineString</a> vector</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="multilinestring_8hpp_source.html#l00063">63</a> of file <a class="el" href="multilinestring_8hpp_source.html">multilinestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multilinestring_8hpp_source.html#l00067">67</a> of file <a class="el" href="multilinestring_8hpp_source.html">multilinestring.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af7660314a7b585669b40aca0b31fba02"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CoordInputIt , typename OffsetInputIt &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">simo::shapes::MultiLineString::MultiLineString </td>
+          <td>(</td>
+          <td class="paramtype">CoordInputIt&#160;</td>
+          <td class="paramname"><em>coord_first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CoordInputIt&#160;</td>
+          <td class="paramname"><em>coord_last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">OffsetInputIt&#160;</td>
+          <td class="paramname"><em>offset_first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">OffsetInputIt&#160;</td>
+          <td class="paramname"><em>offset_last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DimensionType&#160;</td>
+          <td class="paramname"><em>input_dim</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>creates a <a class="el" href="classsimo_1_1shapes_1_1_multi_line_string.html" title="a LineString collection ">MultiLineString</a> from two pair of iterators </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">CoordInputIt</td><td>the coordinate input iterator </td></tr>
+    <tr><td class="paramname">OffsetInputIt</td><td>the offset input iterator </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">coord_first</td><td>the first coordinate iterator </td></tr>
+    <tr><td class="paramname">coord_last</td><td>the second coordinate iterator </td></tr>
+    <tr><td class="paramname">offset_first</td><td>the offset first iterator </td></tr>
+    <tr><td class="paramname">offset_last</td><td>the offset last iterator </td></tr>
+    <tr><td class="paramname">input_dim</td><td>the dimension type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
+
+<p>Definition at line <a class="el" href="multilinestring_8hpp_source.html#l00099">99</a> of file <a class="el" href="multilinestring_8hpp_source.html">multilinestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -368,7 +452,7 @@ std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_line_string.html">Li
 <dl class="section see"><dt>See also</dt><dd><a href="https://tools.ietf.org/html/rfc7946">https://tools.ietf.org/html/rfc7946</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="multilinestring_8hpp_source.html#l00090">90</a> of file <a class="el" href="multilinestring_8hpp_source.html">multilinestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multilinestring_8hpp_source.html#l00127">127</a> of file <a class="el" href="multilinestring_8hpp_source.html">multilinestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -405,7 +489,7 @@ std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_line_string.html">Li
 <dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="multilinestring_8hpp_source.html#l00194">194</a> of file <a class="el" href="multilinestring_8hpp_source.html">multilinestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multilinestring_8hpp_source.html#l00231">231</a> of file <a class="el" href="multilinestring_8hpp_source.html">multilinestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -435,7 +519,7 @@ std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_line_string.html">Li
 <dl class="section see"><dt>See also</dt><dd><a href="https://tools.ietf.org/html/rfc7946">https://tools.ietf.org/html/rfc7946</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="multilinestring_8hpp_source.html#l00136">136</a> of file <a class="el" href="multilinestring_8hpp_source.html">multilinestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multilinestring_8hpp_source.html#l00173">173</a> of file <a class="el" href="multilinestring_8hpp_source.html">multilinestring.hpp</a>.</p>
 
 </div>
 </div>
@@ -471,7 +555,7 @@ std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1_line_string.html">Li
 <dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="multilinestring_8hpp_source.html#l00214">214</a> of file <a class="el" href="multilinestring_8hpp_source.html">multilinestring.hpp</a>.</p>
+<p>Definition at line <a class="el" href="multilinestring_8hpp_source.html#l00251">251</a> of file <a class="el" href="multilinestring_8hpp_source.html">multilinestring.hpp</a>.</p>
 
 </div>
 </div>
