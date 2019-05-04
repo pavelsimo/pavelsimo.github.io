@@ -119,18 +119,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0e10e6b47625cb30f17f13efbdacd4b0"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html#a0e10e6b47625cb30f17f13efbdacd4b0">size</a> () const </td></tr>
 <tr class="memdesc:a0e10e6b47625cb30f17f13efbdacd4b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the geometry size.  <a href="#a0e10e6b47625cb30f17f13efbdacd4b0">More...</a><br /></td></tr>
 <tr class="separator:a0e10e6b47625cb30f17f13efbdacd4b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a099389e981498419a9d17f7d50c9b025"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; double, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html#a099389e981498419a9d17f7d50c9b025">xy</a> () const </td></tr>
-<tr class="memdesc:a099389e981498419a9d17f7d50c9b025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the geometry (x, y) coordinates as a tuple.  <a href="#a099389e981498419a9d17f7d50c9b025">More...</a><br /></td></tr>
-<tr class="separator:a099389e981498419a9d17f7d50c9b025"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefefa66f51f21bbc22d186cbc3bdb213"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; double, double, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html#aefefa66f51f21bbc22d186cbc3bdb213">xyz</a> () const </td></tr>
-<tr class="memdesc:aefefa66f51f21bbc22d186cbc3bdb213"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the geometry (x, y, z) coordinates as a tuple.  <a href="#aefefa66f51f21bbc22d186cbc3bdb213">More...</a><br /></td></tr>
-<tr class="separator:aefefa66f51f21bbc22d186cbc3bdb213"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33dce165298bee457509e011ad54ddbd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; double, double, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html#a33dce165298bee457509e011ad54ddbd">xym</a> () const </td></tr>
-<tr class="memdesc:a33dce165298bee457509e011ad54ddbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the geometry (x, y, m) coordinates as a tuple.  <a href="#a33dce165298bee457509e011ad54ddbd">More...</a><br /></td></tr>
-<tr class="separator:a33dce165298bee457509e011ad54ddbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5db541f0b28051db98c9eb6ca8f137b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::tuple&lt; double, double, double, double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html#af5db541f0b28051db98c9eb6ca8f137b">xyzm</a> () const </td></tr>
-<tr class="memdesc:af5db541f0b28051db98c9eb6ca8f137b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the geometry (x, y, z, m) coordinates as a tuple.  <a href="#af5db541f0b28051db98c9eb6ca8f137b">More...</a><br /></td></tr>
-<tr class="separator:af5db541f0b28051db98c9eb6ca8f137b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87aaf643da76bd975bfc9fb3ff0fcc43"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; double &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html#a87aaf643da76bd975bfc9fb3ff0fcc43">coords</a> () const </td></tr>
+<tr class="memdesc:a87aaf643da76bd975bfc9fb3ff0fcc43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the geometry coordinates.  <a href="#a87aaf643da76bd975bfc9fb3ff0fcc43">More...</a><br /></td></tr>
+<tr class="separator:a87aaf643da76bd975bfc9fb3ff0fcc43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a242f853ec424de57d3f35f79edec869e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html#a242f853ec424de57d3f35f79edec869e">has_z</a> () const </td></tr>
 <tr class="memdesc:a242f853ec424de57d3f35f79edec869e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the geometry has the z-coordinate.  <a href="#a242f853ec424de57d3f35f79edec869e">More...</a><br /></td></tr>
 <tr class="separator:a242f853ec424de57d3f35f79edec869e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,6 +169,37 @@ class simo::shapes::BaseGeometry&lt; T &gt;</h3>
 
 <p>Definition at line <a class="el" href="geometry_8hpp_source.html#l00025">25</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a87aaf643da76bd975bfc9fb3ff0fcc43"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::vector&lt;double&gt; &gt; <a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html">simo::shapes::BaseGeometry</a>&lt; T &gt;::coords </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the geometry coordinates. </p>
+<dl class="section return"><dt>Returns</dt><dd>a vector with the geometry coordinates</dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
+
+<p>Definition at line <a class="el" href="geometry_8hpp_source.html#l00107">107</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="ad5eaf0db6f4307123fdef210d38a8a3c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -329,7 +351,7 @@ template&lt;typename T&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>true if the geometry has m-coordinate, otherwise false</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="geometry_8hpp_source.html#l00168">168</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8hpp_source.html#l00131">131</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -360,7 +382,7 @@ template&lt;typename T&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>true if the geometry has z-coordinate, otherwise false</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="geometry_8hpp_source.html#l00156">156</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8hpp_source.html#l00119">119</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -391,7 +413,7 @@ template&lt;typename T&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>true if the geometry is closed, otherwise false</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="geometry_8hpp_source.html#l00180">180</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8hpp_source.html#l00143">143</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -423,7 +445,7 @@ template&lt;typename T&gt; </div>
 <dl class="section note"><dt>Note</dt><dd>the number of dimensions is (x, y) = 2, (x, y, z) = 3, (x, y, m) = 3 and (x, y, z, m) = 4</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="geometry_8hpp_source.html#l00193">193</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8hpp_source.html#l00156">156</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -455,130 +477,6 @@ template&lt;typename T&gt; </div>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
 <p>Definition at line <a class="el" href="geometry_8hpp_source.html#l00096">96</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a099389e981498419a9d17f7d50c9b025"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::tuple&lt;double, double&gt; &gt; <a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html">simo::shapes::BaseGeometry</a>&lt; T &gt;::xy </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the geometry (x, y) coordinates as a tuple. </p>
-<dl class="section return"><dt>Returns</dt><dd>a vector of (x, y) tuples</dd></dl>
-<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
-
-<p>Definition at line <a class="el" href="geometry_8hpp_source.html#l00108">108</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a33dce165298bee457509e011ad54ddbd"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::tuple&lt;double, double, double&gt; &gt; <a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html">simo::shapes::BaseGeometry</a>&lt; T &gt;::xym </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the geometry (x, y, m) coordinates as a tuple. </p>
-<dl class="section return"><dt>Returns</dt><dd>a vector of (x, y, m) tuples</dd></dl>
-<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
-
-<p>Definition at line <a class="el" href="geometry_8hpp_source.html#l00132">132</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="aefefa66f51f21bbc22d186cbc3bdb213"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::tuple&lt;double, double, double&gt; &gt; <a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html">simo::shapes::BaseGeometry</a>&lt; T &gt;::xyz </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the geometry (x, y, z) coordinates as a tuple. </p>
-<dl class="section return"><dt>Returns</dt><dd>a vector of (x, y, z) tuples</dd></dl>
-<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
-
-<p>Definition at line <a class="el" href="geometry_8hpp_source.html#l00120">120</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af5db541f0b28051db98c9eb6ca8f137b"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::tuple&lt;double, double, double, double&gt; &gt; <a class="el" href="classsimo_1_1shapes_1_1_base_geometry.html">simo::shapes::BaseGeometry</a>&lt; T &gt;::xyzm </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the geometry (x, y, z, m) coordinates as a tuple. </p>
-<dl class="section return"><dt>Returns</dt><dd>a vector of (x, y, z, m) tuples</dd></dl>
-<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
-
-<p>Definition at line <a class="el" href="geometry_8hpp_source.html#l00144">144</a> of file <a class="el" href="geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
