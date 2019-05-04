@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['operator_21_3d',['operator!=',['../classsimo_1_1shapes_1_1_line_string.html#ae78d14194741443f6805dede378785d4',1,'simo::shapes::LineString::operator!=()'],['../classsimo_1_1shapes_1_1_multi_line_string.html#ab2a6210a69ce00a0215a23c284a09980',1,'simo::shapes::MultiLineString::operator!=()'],['../classsimo_1_1shapes_1_1_multi_point.html#ad7ffe84f9053903265a3936b1ec9b89a',1,'simo::shapes::MultiPoint::operator!=()'],['../classsimo_1_1shapes_1_1_point.html#a4eca57992960bc714c74f0bf6a9fd18d',1,'simo::shapes::Point::operator!=()']]],
+  ['operator_3d_3d',['operator==',['../classsimo_1_1shapes_1_1_line_string.html#ad3611bebfacf2e2b5207c68d4ad255ef',1,'simo::shapes::LineString::operator==()'],['../classsimo_1_1shapes_1_1_multi_line_string.html#ab4c4971155f722782da8ccc529cbb2c3',1,'simo::shapes::MultiLineString::operator==()'],['../classsimo_1_1shapes_1_1_multi_point.html#a8c5710bf10f8817b2f0080527e92c4ce',1,'simo::shapes::MultiPoint::operator==()'],['../classsimo_1_1shapes_1_1_point.html#ad32019380665fdd1d07e75f3482544a3',1,'simo::shapes::Point::operator==()']]]
+];
