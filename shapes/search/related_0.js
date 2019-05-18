@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['basegeometry_3c_20linearring_20_3e',['BaseGeometry&lt; LinearRing &gt;',['../classsimo_1_1shapes_1_1_linear_ring.html#acb6b5c54419d88017cf53ab3b9ba7fff',1,'simo::shapes::LinearRing']]],
   ['basegeometry_3c_20linestring_20_3e',['BaseGeometry&lt; LineString &gt;',['../classsimo_1_1shapes_1_1_line_string.html#a9032a2faaeae4bb8eae98112b6723e27',1,'simo::shapes::LineString']]],
   ['basegeometry_3c_20multilinestring_20_3e',['BaseGeometry&lt; MultiLineString &gt;',['../classsimo_1_1shapes_1_1_multi_line_string.html#a50ceec7b600d7476bd589dcce251da85',1,'simo::shapes::MultiLineString']]],
   ['basegeometry_3c_20multipoint_20_3e',['BaseGeometry&lt; MultiPoint &gt;',['../classsimo_1_1shapes_1_1_multi_point.html#a0825cd8a5d2f44bc949f5f45f91ec800',1,'simo::shapes::MultiPoint']]],

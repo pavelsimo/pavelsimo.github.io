@@ -81,17 +81,26 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_linear_ring.html#afdbbd279927592af8eca93cdf9a401c2">simo::shapes::LinearRing::LinearRing</a>  (std::initializer_list&lt; std::initializer_list&lt; T &gt;&gt; init)</dt>
-<dd>(pavel) make <a class="el" href="classsimo_1_1shapes_1_1_linear_ring.html" title="a LineString that is both closed and simple, in shapes this feature is implicitly closed...">LinearRing</a> implicitly closed  </dd>
-<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_linear_ring.html#a58e04a921d9759ce1ae1c2d4912a4330">simo::shapes::LinearRing::LinearRing</a>  (const std::vector&lt; Point &gt; &amp;points)</dt>
-<dd>(pavel) make <a class="el" href="classsimo_1_1shapes_1_1_linear_ring.html" title="a LineString that is both closed and simple, in shapes this feature is implicitly closed...">LinearRing</a> implicitly closed  </dd>
-<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_point.html#a7de22a22436ff219a0714602d865b723">simo::shapes::Point::from_json</a>  (const std::string &amp;json)</dt>
+<dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_line_string.html#ad7af05e6ab868386d3166f81288f7f1c">simo::shapes::LineString::LineString</a>  ()=default</dt>
+<dd><p class="startdd">is_ring </p>
+<p>is_ccw </p>
+<p class="enddd">add ring=false attribute  </p>
+</dd>
+<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_point.html#a7de22a22436ff219a0714602d865b723">simo::shapes::Point::from_json</a>  (const std::string &amp;json)</dt>
 <dd>(pavel) implement operator std::ostream &amp; operator&lt;&lt;  </dd>
-<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_point.html#ab16bf7c8f22a3fbd0df4e8a7407eeda5">simo::shapes::Point::json</a>  ()</dt>
+<dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_point.html#ab16bf7c8f22a3fbd0df4e8a7407eeda5">simo::shapes::Point::json</a>  ()</dt>
 <dd>(pavel) add properties to specify z, m and zm  </dd>
-<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a5e25215aa6acf27fbebaf0a8c26b415e">simo::shapes::Polygon::BaseGeometry&lt; Polygon &gt;</a>  </dt>
+<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a5e25215aa6acf27fbebaf0a8c26b415e">simo::shapes::Polygon::BaseGeometry&lt; Polygon &gt;</a>  </dt>
 <dd>(pavel) add from_bounds method  </dd>
-<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_wkt_reader.html#afca70932c6469094ee7cdc7ab58e174e">simo::shapes::WktReader::read</a>  (const std::string &amp;wkt)</dt>
+<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a40b5518aefa6bb6992ec6bfc5ed90c2b">simo::shapes::Polygon::Polygon</a>  (const std::vector&lt; Point &gt; &amp;shell)</dt>
+<dd>(pavel) check dim  </dd>
+<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a48b7728a9528b7d4b6c4a9ef81e4611b">simo::shapes::Polygon::Polygon</a>  (std::initializer_list&lt; LinearRing &gt; rings)</dt>
+<dd>(pavel) check dim  </dd>
+<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a26336c46677a50f571dcd5651cccf869">simo::shapes::Polygon::Polygon</a>  (const std::vector&lt; Point &gt; &amp;shell, const std::vector&lt; std::vector&lt; Point &gt;&gt; &amp;holes)</dt>
+<dd>(pavel) check dim  </dd>
+<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#ac2fedfdf55bedc31558576833982200c">simo::shapes::Polygon::Polygon</a>  (const std::vector&lt; LinearRing &gt; &amp;rings)</dt>
+<dd>(pavel) eliminate duplication  </dd>
+<dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_wkt_reader.html#afca70932c6469094ee7cdc7ab58e174e">simo::shapes::WktReader::read</a>  (const std::string &amp;wkt)</dt>
 <dd><p class="startdd">(pavel) add position to the error message </p>
 <p class="enddd">(pavel) add position to the error message </p>
 </dd>
