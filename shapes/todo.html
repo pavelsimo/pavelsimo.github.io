@@ -81,26 +81,34 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
+<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_line_string.html#ae660a4c75e5e055bd015b923cf61d7ee">simo::shapes::LineString::from_polyline</a>  (const std::string &amp;polyline)</dt>
+<dd>(pavel) add precision  </dd>
 <dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_line_string.html#ad7af05e6ab868386d3166f81288f7f1c">simo::shapes::LineString::LineString</a>  ()=default</dt>
 <dd><p class="startdd">is_ring </p>
 <p>is_ccw </p>
 <p class="enddd">add ring=false attribute  </p>
 </dd>
-<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_point.html#a7de22a22436ff219a0714602d865b723">simo::shapes::Point::from_json</a>  (const std::string &amp;json)</dt>
+<dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_multi_line_string.html#ac553fdfa15b35d0e1e0a96cc0a193232">simo::shapes::MultiLineString::from_polyline</a>  (const std::vector&lt; std::string &gt; &amp;polylines)</dt>
+<dd>(pavel) add precision  </dd>
+<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_multi_point.html#a423c5dc7047f01ca5f0567cf7e32d230">simo::shapes::MultiPoint::from_polyline</a>  (const std::string &amp;polyline)</dt>
+<dd>(pavel) add precision  </dd>
+<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_point.html#a7de22a22436ff219a0714602d865b723">simo::shapes::Point::from_json</a>  (const std::string &amp;json)</dt>
 <dd>(pavel) implement operator std::ostream &amp; operator&lt;&lt;  </dd>
-<dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_point.html#ab16bf7c8f22a3fbd0df4e8a7407eeda5">simo::shapes::Point::json</a>  ()</dt>
+<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_point.html#a8d469e97fbef0185299afb58506d178f">simo::shapes::Point::json</a>  (std::int32_t precision=-1)</dt>
 <dd>(pavel) add properties to specify z, m and zm  </dd>
-<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a8232e0aa396e321752a0411d22e3dacf">simo::shapes::Polygon::Polygon</a>  (const LinearRing &amp;shell)</dt>
+<dt><a class="anchor" id="_todo000012"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a70330cd549aefccca223fa4c20aa3340">simo::shapes::Polygon::from_polyline</a>  (const std::string &amp;polyline)</dt>
+<dd>(pavel) add precision  </dd>
+<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a48b7728a9528b7d4b6c4a9ef81e4611b">simo::shapes::Polygon::Polygon</a>  (std::initializer_list&lt; LinearRing &gt; rings)</dt>
 <dd>(pavel) check dim  </dd>
-<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a48b7728a9528b7d4b6c4a9ef81e4611b">simo::shapes::Polygon::Polygon</a>  (std::initializer_list&lt; LinearRing &gt; rings)</dt>
+<dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a8232e0aa396e321752a0411d22e3dacf">simo::shapes::Polygon::Polygon</a>  (const LinearRing &amp;shell)</dt>
 <dd>(pavel) check dim  </dd>
-<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#ac2fedfdf55bedc31558576833982200c">simo::shapes::Polygon::Polygon</a>  (const std::vector&lt; LinearRing &gt; &amp;rings)</dt>
+<dt><a class="anchor" id="_todo000011"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a26336c46677a50f571dcd5651cccf869">simo::shapes::Polygon::Polygon</a>  (const std::vector&lt; Point &gt; &amp;shell, const std::vector&lt; std::vector&lt; Point &gt;&gt; &amp;holes)</dt>
+<dd>(pavel) check dim  </dd>
+<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#ac2fedfdf55bedc31558576833982200c">simo::shapes::Polygon::Polygon</a>  (const std::vector&lt; LinearRing &gt; &amp;rings)</dt>
 <dd>(pavel) eliminate duplication  </dd>
-<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a26336c46677a50f571dcd5651cccf869">simo::shapes::Polygon::Polygon</a>  (const std::vector&lt; Point &gt; &amp;shell, const std::vector&lt; std::vector&lt; Point &gt;&gt; &amp;holes)</dt>
+<dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a40b5518aefa6bb6992ec6bfc5ed90c2b">simo::shapes::Polygon::Polygon</a>  (const std::vector&lt; Point &gt; &amp;shell)</dt>
 <dd>(pavel) check dim  </dd>
-<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a40b5518aefa6bb6992ec6bfc5ed90c2b">simo::shapes::Polygon::Polygon</a>  (const std::vector&lt; Point &gt; &amp;shell)</dt>
-<dd>(pavel) check dim  </dd>
-<dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_wkt_reader.html#afca70932c6469094ee7cdc7ab58e174e">simo::shapes::WktReader::read</a>  (const std::string &amp;wkt)</dt>
+<dt><a class="anchor" id="_todo000013"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_wkt_reader.html#afca70932c6469094ee7cdc7ab58e174e">simo::shapes::WktReader::read</a>  (const std::string &amp;wkt)</dt>
 <dd><p class="startdd">(pavel) add position to the error message </p>
 <p class="enddd">(pavel) add position to the error message </p>
 </dd>
