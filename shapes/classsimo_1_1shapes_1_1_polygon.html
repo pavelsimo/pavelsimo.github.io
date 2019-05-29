@@ -143,9 +143,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab719104154b66b7d1cfc102112d77ec6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#ab719104154b66b7d1cfc102112d77ec6">wkt</a> (std::int32_t precision=-1)</td></tr>
 <tr class="memdesc:ab719104154b66b7d1cfc102112d77ec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumps the WKT representation of the <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="Represents a polygon. ">Polygon</a>.  <a href="#ab719104154b66b7d1cfc102112d77ec6">More...</a><br /></td></tr>
 <tr class="separator:ab719104154b66b7d1cfc102112d77ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa830902a170087325a103efd595faafd"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#aa830902a170087325a103efd595faafd">polyline</a> ()</td></tr>
-<tr class="memdesc:aa830902a170087325a103efd595faafd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumps the polyline representation of the <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="Represents a polygon. ">Polygon</a>.  <a href="#aa830902a170087325a103efd595faafd">More...</a><br /></td></tr>
-<tr class="separator:aa830902a170087325a103efd595faafd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dbfa032c673849c2ac5acd1ae7843bb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a0dbfa032c673849c2ac5acd1ae7843bb">polyline</a> (std::int32_t precision=5)</td></tr>
+<tr class="memdesc:a0dbfa032c673849c2ac5acd1ae7843bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dumps the polyline representation of the <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="Represents a polygon. ">Polygon</a>.  <a href="#a0dbfa032c673849c2ac5acd1ae7843bb">More...</a><br /></td></tr>
+<tr class="separator:a0dbfa032c673849c2ac5acd1ae7843bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a903a098f97eee12240a8b4273d49d762"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classsimo_1_1shapes_1_1_line_string.html">LinearRing</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a903a098f97eee12240a8b4273d49d762">operator[]</a> (size_t pos)</td></tr>
 <tr class="separator:a903a098f97eee12240a8b4273d49d762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7502c9be00381d0a76d8a2a2e6a4c22"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classsimo_1_1shapes_1_1_line_string.html">LinearRing</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#ab7502c9be00381d0a76d8a2a2e6a4c22">at</a> (size_t pos) const </td></tr>
@@ -192,12 +192,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa98d893e99a4ee444cc82da799ebc6c3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classsimo_1_1shapes_1_1_polygon.html">Polygon</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#aa98d893e99a4ee444cc82da799ebc6c3">from_wkt</a> (const std::string &amp;<a class="el" href="classsimo_1_1shapes_1_1_polygon.html#ab719104154b66b7d1cfc102112d77ec6">wkt</a>)</td></tr>
 <tr class="memdesc:aa98d893e99a4ee444cc82da799ebc6c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="Represents a polygon. ">Polygon</a> from a WKT string.  <a href="#aa98d893e99a4ee444cc82da799ebc6c3">More...</a><br /></td></tr>
 <tr class="separator:aa98d893e99a4ee444cc82da799ebc6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70330cd549aefccca223fa4c20aa3340"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classsimo_1_1shapes_1_1_polygon.html">Polygon</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a70330cd549aefccca223fa4c20aa3340">from_polyline</a> (const std::string &amp;<a class="el" href="classsimo_1_1shapes_1_1_polygon.html#aa830902a170087325a103efd595faafd">polyline</a>)</td></tr>
-<tr class="memdesc:a70330cd549aefccca223fa4c20aa3340"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="A curve where each consecutive pair of points defines a line segment. ">LineString</a> from a polyline string.  <a href="#a70330cd549aefccca223fa4c20aa3340">More...</a><br /></td></tr>
-<tr class="separator:a70330cd549aefccca223fa4c20aa3340"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29fc5a021cf7e1ecd40d72610352ee11"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classsimo_1_1shapes_1_1_polygon.html">Polygon</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a29fc5a021cf7e1ecd40d72610352ee11">from_polyline</a> (const std::vector&lt; std::string &gt; &amp;polylines)</td></tr>
-<tr class="memdesc:a29fc5a021cf7e1ecd40d72610352ee11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="Represents a polygon. ">Polygon</a> from a polyline string.  <a href="#a29fc5a021cf7e1ecd40d72610352ee11">More...</a><br /></td></tr>
-<tr class="separator:a29fc5a021cf7e1ecd40d72610352ee11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03edef124133c0b757884d4531c88c40"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classsimo_1_1shapes_1_1_polygon.html">Polygon</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a03edef124133c0b757884d4531c88c40">from_polyline</a> (const std::string &amp;<a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a0dbfa032c673849c2ac5acd1ae7843bb">polyline</a>, std::int32_t precision=5)</td></tr>
+<tr class="memdesc:a03edef124133c0b757884d4531c88c40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="Represents a polygon. ">Polygon</a> from a polyline string.  <a href="#a03edef124133c0b757884d4531c88c40">More...</a><br /></td></tr>
+<tr class="separator:a03edef124133c0b757884d4531c88c40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c0a0562a446c3b96f19353baae259e0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classsimo_1_1shapes_1_1_polygon.html">Polygon</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a1c0a0562a446c3b96f19353baae259e0">from_polyline</a> (const std::vector&lt; std::string &gt; &amp;polylines, std::int32_t precision=5)</td></tr>
+<tr class="memdesc:a1c0a0562a446c3b96f19353baae259e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="Represents a polygon. ">Polygon</a> from a collection of polyline strings.  <a href="#a1c0a0562a446c3b96f19353baae259e0">More...</a><br /></td></tr>
+<tr class="separator:a1c0a0562a446c3b96f19353baae259e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -296,7 +296,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
   </dd>
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>(pavel) check dim </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>(pavel) check dim </dd></dl>
 
 <p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00047">47</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
@@ -332,7 +332,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
   </dd>
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>(pavel) eliminate duplication </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>(pavel) eliminate duplication </dd></dl>
 
 <p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00077">77</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
@@ -368,7 +368,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
   </dd>
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>(pavel) check dim </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>(pavel) check dim </dd></dl>
 
 <p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00106">106</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
@@ -404,7 +404,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
   </dd>
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>(pavel) check dim </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>(pavel) check dim </dd></dl>
 
 <p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00127">127</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
@@ -451,7 +451,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cla
   </dd>
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>(pavel) check dim </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>(pavel) check dim </dd></dl>
 
 <p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00149">149</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
@@ -572,7 +572,7 @@ template&lt;typename CoordInputIt , typename OffsetInputIt &gt; </div>
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00514">514</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
+<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00516">516</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
 </div>
 </div>
@@ -612,7 +612,7 @@ template&lt;typename CoordInputIt , typename OffsetInputIt &gt; </div>
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00534">534</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
+<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00536">536</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
 </div>
 </div>
@@ -653,7 +653,7 @@ template&lt;typename CoordInputIt , typename OffsetInputIt &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a70330cd549aefccca223fa4c20aa3340"></a>
+<a class="anchor" id="a03edef124133c0b757884d4531c88c40"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -664,52 +664,18 @@ template&lt;typename CoordInputIt , typename OffsetInputIt &gt; </div>
           <td class="memname">static <a class="el" href="classsimo_1_1shapes_1_1_polygon.html">Polygon</a> simo::shapes::Polygon::from_polyline </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>polyline</em></td><td>)</td>
-          <td></td>
+          <td class="paramname"><em>polyline</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Creates a <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="A curve where each consecutive pair of points defines a line segment. ">LineString</a> from a polyline string. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">polyline</td><td>the polyline string </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="A curve where each consecutive pair of points defines a line segment. ">LineString</a> object </dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a href="https://developers.google.com/maps/documentation/utilities/polylinealgorithm">https://developers.google.com/maps/documentation/utilities/polylinealgorithm</a></dd></dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">ParseError</td><td>if a parser error occurs</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>(pavel) add precision </dd></dl>
-
-<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00421">421</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a29fc5a021cf7e1ecd40d72610352ee11"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classsimo_1_1shapes_1_1_polygon.html">Polygon</a> simo::shapes::Polygon::from_polyline </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
-          <td class="paramname"><em>polylines</em></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::int32_t&#160;</td>
+          <td class="paramname"><em>precision</em> = <code>5</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -723,6 +689,61 @@ template&lt;typename CoordInputIt , typename OffsetInputIt &gt; </div>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">polyline</td><td>the polyline string </td></tr>
+    <tr><td class="paramname">text</td><td>the encoded polyline string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a <a class="el" href="classsimo_1_1shapes_1_1_line_string.html" title="A curve where each consecutive pair of points defines a line segment. ">LineString</a> object </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://developers.google.com/maps/documentation/utilities/polylinealgorithm">https://developers.google.com/maps/documentation/utilities/polylinealgorithm</a></dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ParseError</td><td>if a parser error occurs</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
+
+<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00422">422</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1c0a0562a446c3b96f19353baae259e0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classsimo_1_1shapes_1_1_polygon.html">Polygon</a> simo::shapes::Polygon::from_polyline </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>polylines</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::int32_t&#160;</td>
+          <td class="paramname"><em>precision</em> = <code>5</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="Represents a polygon. ">Polygon</a> from a collection of polyline strings. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">polylines</td><td>a collection of polyline strings </td></tr>
+    <tr><td class="paramname">text</td><td>the encoded polyline string </td></tr>
   </table>
   </dd>
 </dl>
@@ -736,7 +757,7 @@ template&lt;typename CoordInputIt , typename OffsetInputIt &gt; </div>
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00440">440</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
+<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00441">441</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
 </div>
 </div>
@@ -844,11 +865,11 @@ template&lt;typename CoordInputIt , typename OffsetInputIt &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>returns a reference to the element at position n in T</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00494">494</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
+<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00496">496</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="aa830902a170087325a103efd595faafd"></a>
+<a class="anchor" id="a0dbfa032c673849c2ac5acd1ae7843bb"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -858,7 +879,8 @@ template&lt;typename CoordInputIt , typename OffsetInputIt &gt; </div>
         <tr>
           <td class="memname">std::vector&lt;std::string&gt; simo::shapes::Polygon::polyline </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">std::int32_t&#160;</td>
+          <td class="paramname"><em>precision</em> = <code>5</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -870,11 +892,17 @@ template&lt;typename CoordInputIt , typename OffsetInputIt &gt; </div>
 </div><div class="memdoc">
 
 <p>Dumps the polyline representation of the <a class="el" href="classsimo_1_1shapes_1_1_polygon.html" title="Represents a polygon. ">Polygon</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">precision</td><td>the encoded precision </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>a polyline string </dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a href="https://developers.google.com/maps/documentation/utilities/polylinealgorithm">https://developers.google.com/maps/documentation/utilities/polylinealgorithm</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00459">459</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
+<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00461">461</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
 </div>
 </div>
@@ -957,7 +985,7 @@ template&lt;typename CoordInputIt , typename OffsetInputIt &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>true if at least one LinearRing is different, otherwise false</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00641">641</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
+<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00643">643</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
 </div>
 </div>
@@ -1002,7 +1030,7 @@ template&lt;typename CoordInputIt , typename OffsetInputIt &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>true if all LinearRing's are equal, otherwise false</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00603">603</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
+<p>Definition at line <a class="el" href="polygon_8hpp_source.html#l00605">605</a> of file <a class="el" href="polygon_8hpp_source.html">polygon.hpp</a>.</p>
 
 </div>
 </div>
