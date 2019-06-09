@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['ccw',['ccw',['../classsimo_1_1shapes_1_1_line_string.html#a2491342640b1cc9b90aa44f64b1d2482',1,'simo::shapes::LineString']]],
-  ['coords',['coords',['../structsimo_1_1shapes_1_1_wkt_data.html#a8db3cc357aa0c1a64a90cac72a20f35d',1,'simo::shapes::WktData']]]
+  ['data',['data',['../structsimo_1_1shapes_1_1wkt__result.html#aed6033f4c217ff42e930b27c28fbba13',1,'simo::shapes::wkt_result']]]
 ];

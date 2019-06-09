@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['operator_5b_5d',['operator[]',['../classsimo_1_1shapes_1_1detail_1_1_geometry_sequence.html#a1ac3756fdb2c788ea5d9cb42d0a62cb0',1,'simo::shapes::detail::GeometrySequence::operator[]()'],['../classsimo_1_1shapes_1_1_point.html#ab0b797c702731749fe65064b2fa5a004',1,'simo::shapes::Point::operator[]()'],['../classsimo_1_1shapes_1_1_polygon.html#a903a098f97eee12240a8b4273d49d762',1,'simo::shapes::Polygon::operator[]()']]],
-  ['overlaps',['overlaps',['../classsimo_1_1shapes_1_1_bounds.html#a0bd0d67f7e4f17328773fe62a048d2e0',1,'simo::shapes::Bounds']]]
+  ['read',['read',['../classsimo_1_1shapes_1_1wkt__reader.html#a427bae72c1f5f4cce1f3cce994435030',1,'simo::shapes::wkt_reader']]]
 ];

@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['todo_20list',['Todo List',['../todo.html',1,'']]],
-  ['top_5fleft',['top_left',['../classsimo_1_1shapes_1_1_bounds.html#ac80f194c2c3e1536a6130085c1d5ba70',1,'simo::shapes::Bounds']]],
-  ['top_5fright',['top_right',['../classsimo_1_1shapes_1_1_bounds.html#a69d91f8fd16e9b981c7fef47e72055a6',1,'simo::shapes::Bounds']]]
+  ['xy',['xy',['../classsimo_1_1shapes_1_1basic__linestring.html#aad2db66fcc95338615b56756b8dda75b',1,'simo::shapes::basic_linestring::xy()'],['../classsimo_1_1shapes_1_1basic__multilinestring.html#a437a1248bcfe9b0dae085f06eda6d30c',1,'simo::shapes::basic_multilinestring::xy()'],['../classsimo_1_1shapes_1_1basic__multipoint.html#a52b3a8e6308a112abbcf568c9b011f3d',1,'simo::shapes::basic_multipoint::xy()'],['../classsimo_1_1shapes_1_1basic__polygon.html#a8fa1481cea6235a96235cb89852b4b92',1,'simo::shapes::basic_polygon::xy()']]]
 ];

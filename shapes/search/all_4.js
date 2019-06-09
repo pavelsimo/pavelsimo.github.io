@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['empty',['empty',['../classsimo_1_1shapes_1_1_base_geometry.html#ad5eaf0db6f4307123fdef210d38a8a3c',1,'simo::shapes::BaseGeometry']]],
-  ['end',['end',['../classsimo_1_1shapes_1_1detail_1_1_geometry_sequence.html#a2022817a9e3f70b7c26769bf61da5d38',1,'simo::shapes::detail::GeometrySequence::end()'],['../classsimo_1_1shapes_1_1detail_1_1_geometry_sequence.html#a88e3bcbab0896d420257d82af2def841',1,'simo::shapes::detail::GeometrySequence::end() const ']]],
-  ['extend',['extend',['../classsimo_1_1shapes_1_1_bounds.html#ad18b9c2175f6a8f4acf40ddeb643c990',1,'simo::shapes::Bounds']]],
-  ['exterior',['exterior',['../classsimo_1_1shapes_1_1_polygon.html#ab7f8d277bfe2342521ec9c35661ff692',1,'simo::shapes::Polygon']]]
+  ['from_5fjson',['from_json',['../classsimo_1_1shapes_1_1basic__geometry.html#a16c9deef3db4611ba563c70c35703d66',1,'simo::shapes::basic_geometry']]],
+  ['from_5fpolyline',['from_polyline',['../classsimo_1_1shapes_1_1basic__linestring.html#a2068ca64160324f1e884725502a1c1ca',1,'simo::shapes::basic_linestring::from_polyline()'],['../classsimo_1_1shapes_1_1basic__multipoint.html#a2597da1e13924dd879fdacaeae4832c8',1,'simo::shapes::basic_multipoint::from_polyline()'],['../classsimo_1_1shapes_1_1basic__point.html#af202a62a143fcfbc090f6ca963dee69e',1,'simo::shapes::basic_point::from_polyline()']]],
+  ['from_5fwkt',['from_wkt',['../classsimo_1_1shapes_1_1basic__geometry.html#a93d5b2330e4767627b2f57005adb635d',1,'simo::shapes::basic_geometry']]]
 ];

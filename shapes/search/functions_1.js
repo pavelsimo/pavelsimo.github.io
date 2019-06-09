@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['begin',['begin',['../classsimo_1_1shapes_1_1detail_1_1_geometry_sequence.html#aed4863a7c5f7418eefd81eb3a1726d20',1,'simo::shapes::detail::GeometrySequence::begin()'],['../classsimo_1_1shapes_1_1detail_1_1_geometry_sequence.html#a045a98b19f997f648736b2614fcd145b',1,'simo::shapes::detail::GeometrySequence::begin() const ']]],
-  ['bottom_5fleft',['bottom_left',['../classsimo_1_1shapes_1_1_bounds.html#a88f735d084ffa6d7ea3dd84fadbc1a17',1,'simo::shapes::Bounds']]],
-  ['bottom_5fright',['bottom_right',['../classsimo_1_1shapes_1_1_bounds.html#ab24c62d2db4062e1a417cd991c717f3b',1,'simo::shapes::Bounds']]],
-  ['bounds',['Bounds',['../classsimo_1_1shapes_1_1_bounds.html#a315d14b06ca14cedf66045bd1024e858',1,'simo::shapes::Bounds::Bounds()'],['../classsimo_1_1shapes_1_1_bounds.html#ab7c7ea30c937558080e14f79ea5fa689',1,'simo::shapes::Bounds::Bounds(double minx, double miny, double maxx, double maxy)']]]
+  ['center',['center',['../structsimo_1_1shapes_1_1detail_1_1bounds.html#a09e3472780205e2c4eef8f4823fdaea6',1,'simo::shapes::detail::bounds']]],
+  ['contains',['contains',['../structsimo_1_1shapes_1_1detail_1_1bounds.html#ac3cf1496e274576f2318bcc1e1296f18',1,'simo::shapes::detail::bounds::contains(double x, double y) const '],['../structsimo_1_1shapes_1_1detail_1_1bounds.html#aa0c38b3fb9a52ba410e8e5f5653e065b',1,'simo::shapes::detail::bounds::contains(const bounds &amp;other)']]]
 ];

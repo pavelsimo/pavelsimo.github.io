@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bounds',['bounds',['../classsimo_1_1shapes_1_1_base_geometry.html#af0fc9991d592c0b8a24a7f9d58f14b6b',1,'simo::shapes::BaseGeometry']]]
+  ['coords',['coords',['../structsimo_1_1shapes_1_1wkt__data.html#a1e50d2192d56125f708e11372fe08bd3',1,'simo::shapes::wkt_data']]]
 ];

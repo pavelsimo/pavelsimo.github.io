@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['data',['data',['../structsimo_1_1shapes_1_1_wkt_result.html#a01e1511c76294375003e7732be1107e0',1,'simo::shapes::WktResult']]],
-  ['dim',['dim',['../classsimo_1_1shapes_1_1_base_geometry.html#a3d517d1542f6bc77608872e94365891b',1,'simo::shapes::BaseGeometry']]]
+  ['extend',['extend',['../structsimo_1_1shapes_1_1detail_1_1bounds.html#a1cb8d443a02c1ae114d82efd65d4107c',1,'simo::shapes::detail::bounds::extend(double x, double y)'],['../structsimo_1_1shapes_1_1detail_1_1bounds.html#abdbaa31a28c08caca8abfe485e6985cc',1,'simo::shapes::detail::bounds::extend(const bounds &amp;b)']]],
+  ['exterior',['exterior',['../classsimo_1_1shapes_1_1basic__polygon.html#ab12de8185e1b5466f5c3ed834ced82bb',1,'simo::shapes::basic_polygon']]]
 ];

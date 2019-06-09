@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['has_5fm',['has_m',['../classsimo_1_1shapes_1_1_base_geometry.html#ab9d56a17d3f8c3a5dee5fd936acd2eab',1,'simo::shapes::BaseGeometry']]],
-  ['has_5fz',['has_z',['../classsimo_1_1shapes_1_1_base_geometry.html#a242f853ec424de57d3f35f79edec869e',1,'simo::shapes::BaseGeometry']]]
+  ['has_5fm',['has_m',['../classsimo_1_1shapes_1_1basic__geometry.html#a9d38b16d76d9164c4dc05734d48d7dc9',1,'simo::shapes::basic_geometry']]],
+  ['has_5fz',['has_z',['../classsimo_1_1shapes_1_1basic__geometry.html#a0fda21d61ce9fd94bab1a059657531c2',1,'simo::shapes::basic_geometry']]]
 ];

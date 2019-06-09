@@ -81,28 +81,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_line_string.html#ad7af05e6ab868386d3166f81288f7f1c">simo::shapes::LineString::LineString</a>  ()=default</dt>
-<dd><p class="startdd">is_ring </p>
-<p>is_ccw </p>
-<p class="enddd">add ring=false attribute  </p>
-</dd>
-<dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_multi_line_string.html#a4a303efdd6752787da448012dd6e3628">simo::shapes::MultiLineString::from_polyline</a>  (const std::vector&lt; std::string &gt; &amp;polylines, std::int32_t precision=5)</dt>
-<dd>(pavel) add precision  </dd>
-<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_point.html#a7de22a22436ff219a0714602d865b723">simo::shapes::Point::from_json</a>  (const std::string &amp;json)</dt>
-<dd>(pavel) implement operator std::ostream &amp; operator&lt;&lt;  </dd>
-<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_point.html#a8d469e97fbef0185299afb58506d178f">simo::shapes::Point::json</a>  (std::int32_t precision=-1)</dt>
-<dd>(pavel) add properties to specify z, m and zm  </dd>
-<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a40b5518aefa6bb6992ec6bfc5ed90c2b">simo::shapes::Polygon::Polygon</a>  (const std::vector&lt; Point &gt; &amp;shell)</dt>
-<dd>(pavel) check dim  </dd>
-<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#ac2fedfdf55bedc31558576833982200c">simo::shapes::Polygon::Polygon</a>  (const std::vector&lt; LinearRing &gt; &amp;rings)</dt>
-<dd>(pavel) eliminate duplication  </dd>
-<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a48b7728a9528b7d4b6c4a9ef81e4611b">simo::shapes::Polygon::Polygon</a>  (std::initializer_list&lt; LinearRing &gt; rings)</dt>
-<dd>(pavel) check dim  </dd>
-<dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a8232e0aa396e321752a0411d22e3dacf">simo::shapes::Polygon::Polygon</a>  (const LinearRing &amp;shell)</dt>
-<dd>(pavel) check dim  </dd>
-<dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_polygon.html#a26336c46677a50f571dcd5651cccf869">simo::shapes::Polygon::Polygon</a>  (const std::vector&lt; Point &gt; &amp;shell, const std::vector&lt; std::vector&lt; Point &gt;&gt; &amp;holes)</dt>
-<dd>(pavel) check dim  </dd>
-<dt><a class="anchor" id="_todo000011"></a>Member <a class="el" href="classsimo_1_1shapes_1_1_wkt_reader.html#afca70932c6469094ee7cdc7ab58e174e">simo::shapes::WktReader::read</a>  (const std::string &amp;wkt)</dt>
+<dt><a class="anchor" id="_todo000002"></a>Member <a class="el" href="classsimo_1_1shapes_1_1basic__linestring.html#a058049e1bbd097e6bcb14f7fd11001c1">simo::shapes::basic_linestring&lt; T, AllocatorType &gt;::basic_linestring</a>  (coord_const_iterator first, coord_const_iterator last)</dt>
+<dd>deal with repetition  </dd>
+<dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="classsimo_1_1shapes_1_1basic__linestring.html#a7ed9ca75b7ce0cea700413a74ea70693">simo::shapes::basic_linestring&lt; T, AllocatorType &gt;::basic_linestring</a>  (coord_iterator first, coord_iterator last)</dt>
+<dd>deal with repetition  </dd>
+<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="classsimo_1_1shapes_1_1basic__multipoint.html#a4fa04f465e162e8b48887bf3b6912e45">simo::shapes::basic_multipoint&lt; T, AllocatorType &gt;::basic_multipoint</a>  (coord_iterator first, coord_iterator last)</dt>
+<dd>deal with repetition  </dd>
+<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="classsimo_1_1shapes_1_1basic__multipoint.html#ac44b02831bca8e0a1536f336e39ec4e4">simo::shapes::basic_multipoint&lt; T, AllocatorType &gt;::basic_multipoint</a>  (coord_const_iterator first, coord_const_iterator last)</dt>
+<dd>deal with repetition  </dd>
+<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="classsimo_1_1shapes_1_1basic__point.html#a3c1ab356fa1e37e6889616e99037755d">simo::shapes::basic_point&lt; T, typename &gt;::basic_point</a>  (coord_const_iterator begin, coord_const_iterator end)</dt>
+<dd>(pavel) deal with repetition  </dd>
+<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="classsimo_1_1shapes_1_1basic__point.html#a02d2e9c85ee6e29298a60eef3e80f8d7">simo::shapes::basic_point&lt; T, typename &gt;::basic_point</a>  (coord_iterator begin, coord_iterator end)</dt>
+<dd>(pavel) deal with repetition  </dd>
+<dt><a class="anchor" id="_todo000014"></a>Member <a class="el" href="classsimo_1_1shapes_1_1wkt__reader.html#a427bae72c1f5f4cce1f3cce994435030">simo::shapes::wkt_reader::read</a>  (const std::string &amp;wkt)</dt>
 <dd><p class="startdd">(pavel) add position to the error message </p>
 <p class="enddd">(pavel) add position to the error message </p>
 </dd>

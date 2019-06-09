@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['basegeometry_3c_20linestring_20_3e',['BaseGeometry&lt; LineString &gt;',['../classsimo_1_1shapes_1_1_line_string.html#a9032a2faaeae4bb8eae98112b6723e27',1,'simo::shapes::LineString']]],
-  ['basegeometry_3c_20multilinestring_20_3e',['BaseGeometry&lt; MultiLineString &gt;',['../classsimo_1_1shapes_1_1_multi_line_string.html#a50ceec7b600d7476bd589dcce251da85',1,'simo::shapes::MultiLineString']]],
-  ['basegeometry_3c_20multipoint_20_3e',['BaseGeometry&lt; MultiPoint &gt;',['../classsimo_1_1shapes_1_1_multi_point.html#a0825cd8a5d2f44bc949f5f45f91ec800',1,'simo::shapes::MultiPoint']]],
-  ['basegeometry_3c_20multipolygon_20_3e',['BaseGeometry&lt; MultiPolygon &gt;',['../classsimo_1_1shapes_1_1_multi_polygon.html#a03d856f8b2cd86b3f2711d1fd1576a71',1,'simo::shapes::MultiPolygon']]],
-  ['basegeometry_3c_20point_20_3e',['BaseGeometry&lt; Point &gt;',['../classsimo_1_1shapes_1_1_point.html#a298a43e98568ef90eab7c1086a5fc878',1,'simo::shapes::Point']]],
-  ['basegeometry_3c_20polygon_20_3e',['BaseGeometry&lt; Polygon &gt;',['../classsimo_1_1shapes_1_1_polygon.html#a5e25215aa6acf27fbebaf0a8c26b415e',1,'simo::shapes::Polygon']]]
+  ['basic_5fgeometry_3c_20basic_5fmultilinestring_3c_20t_20_3e_20_3e',['basic_geometry&lt; basic_multilinestring&lt; T &gt; &gt;',['../classsimo_1_1shapes_1_1basic__multilinestring.html#a09ccad1e868ee79bf9966950693d1573',1,'simo::shapes::basic_multilinestring']]],
+  ['basic_5fgeometry_3c_20basic_5fmultipoint_3c_20t_20_3e_20_3e',['basic_geometry&lt; basic_multipoint&lt; T &gt; &gt;',['../classsimo_1_1shapes_1_1basic__multipoint.html#afa78bb4c9eaaea6b0361f2de82963570',1,'simo::shapes::basic_multipoint']]],
+  ['basic_5fgeometry_3c_20basic_5fpoint_3c_20t_20_3e_20_3e',['basic_geometry&lt; basic_point&lt; T &gt; &gt;',['../classsimo_1_1shapes_1_1basic__point.html#ae4da3aa98c8d162cfd6f014e9218a2d2',1,'simo::shapes::basic_point']]],
+  ['basic_5fgeometry_3c_20basic_5fpoint_5fm_3c_20t_20_3e_20_3e',['basic_geometry&lt; basic_point_m&lt; T &gt; &gt;',['../classsimo_1_1shapes_1_1basic__point__m.html#affb757e805ae6e03e8d39695e6c6ed30',1,'simo::shapes::basic_point_m']]],
+  ['basic_5fgeometry_3c_20basic_5fpoint_5fz_3c_20t_20_3e_20_3e',['basic_geometry&lt; basic_point_z&lt; T &gt; &gt;',['../classsimo_1_1shapes_1_1basic__point__z.html#a551090c1bd89d6a7d2d32575f5bc241f',1,'simo::shapes::basic_point_z']]],
+  ['basic_5fgeometry_3c_20basic_5fpoint_5fzm_3c_20t_20_3e_20_3e',['basic_geometry&lt; basic_point_zm&lt; T &gt; &gt;',['../classsimo_1_1shapes_1_1basic__point__zm.html#ac0f5f838a93b375c975c17a44b7d16a3',1,'simo::shapes::basic_point_zm']]],
+  ['basic_5fgeometry_3c_20basic_5fpolygon_3c_20t_20_3e_20_3e',['basic_geometry&lt; basic_polygon&lt; T &gt; &gt;',['../classsimo_1_1shapes_1_1basic__polygon.html#a2e3e89f0ad515e27f35c4bd3e2a8f30b',1,'simo::shapes::basic_polygon']]]
 ];
