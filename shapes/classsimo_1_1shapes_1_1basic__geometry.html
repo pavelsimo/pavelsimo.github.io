@@ -110,11 +110,12 @@ Inheritance diagram for simo::shapes::basic_geometry&lt; T &gt;:</div>
 <area href="classsimo_1_1shapes_1_1basic__linestring.html" alt="simo::shapes::basic_linestring&lt; T &gt;" shape="rect" coords="243,56,476,80"/>
 <area href="classsimo_1_1shapes_1_1basic__multilinestring.html" alt="simo::shapes::basic_multilinestring&lt; T &gt;" shape="rect" coords="243,112,476,136"/>
 <area href="classsimo_1_1shapes_1_1basic__multipoint.html" alt="simo::shapes::basic_multipoint&lt; T &gt;" shape="rect" coords="243,168,476,192"/>
-<area href="classsimo_1_1shapes_1_1basic__point.html" alt="simo::shapes::basic_point&lt; T &gt;" shape="rect" coords="243,224,476,248"/>
-<area href="classsimo_1_1shapes_1_1basic__point__m.html" alt="simo::shapes::basic_point_m&lt; T &gt;" shape="rect" coords="243,280,476,304"/>
-<area href="classsimo_1_1shapes_1_1basic__point__z.html" alt="simo::shapes::basic_point_z&lt; T &gt;" shape="rect" coords="243,336,476,360"/>
-<area href="classsimo_1_1shapes_1_1basic__point__zm.html" alt="simo::shapes::basic_point_zm&lt; T &gt;" shape="rect" coords="243,392,476,416"/>
-<area href="classsimo_1_1shapes_1_1basic__polygon.html" alt="simo::shapes::basic_polygon&lt; T &gt;" shape="rect" coords="243,448,476,472"/>
+<area href="classsimo_1_1shapes_1_1basic__multipolygon.html" alt="simo::shapes::basic_multipolygon&lt; T &gt;" shape="rect" coords="243,224,476,248"/>
+<area href="classsimo_1_1shapes_1_1basic__point.html" alt="simo::shapes::basic_point&lt; T &gt;" shape="rect" coords="243,280,476,304"/>
+<area href="classsimo_1_1shapes_1_1basic__point__m.html" alt="simo::shapes::basic_point_m&lt; T &gt;" shape="rect" coords="243,336,476,360"/>
+<area href="classsimo_1_1shapes_1_1basic__point__z.html" alt="simo::shapes::basic_point_z&lt; T &gt;" shape="rect" coords="243,392,476,416"/>
+<area href="classsimo_1_1shapes_1_1basic__point__zm.html" alt="simo::shapes::basic_point_zm&lt; T &gt;" shape="rect" coords="243,448,476,472"/>
+<area href="classsimo_1_1shapes_1_1basic__polygon.html" alt="simo::shapes::basic_polygon&lt; T &gt;" shape="rect" coords="243,504,476,528"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -129,9 +130,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8b06239b57bdddaf0b9206143c51a426"><td class="memItemLeft" align="right" valign="top">dimension_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__geometry.html#a8b06239b57bdddaf0b9206143c51a426">dim</a> () const noexcept</td></tr>
 <tr class="memdesc:a8b06239b57bdddaf0b9206143c51a426"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dimension type for the geometry.  <a href="#a8b06239b57bdddaf0b9206143c51a426">More...</a><br /></td></tr>
 <tr class="separator:a8b06239b57bdddaf0b9206143c51a426"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75ace87727db86a17c170ed61a2eae07"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__geometry.html#a75ace87727db86a17c170ed61a2eae07">ndim</a> () const noexcept</td></tr>
-<tr class="memdesc:a75ace87727db86a17c170ed61a2eae07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of dimensions of the geometry.  <a href="#a75ace87727db86a17c170ed61a2eae07">More...</a><br /></td></tr>
-<tr class="separator:a75ace87727db86a17c170ed61a2eae07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a163861164eddc9b969e66277ad835993"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__geometry.html#a163861164eddc9b969e66277ad835993">ndim</a> () const noexcept</td></tr>
+<tr class="memdesc:a163861164eddc9b969e66277ad835993"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of dimensions of the geometry.  <a href="#a163861164eddc9b969e66277ad835993">More...</a><br /></td></tr>
+<tr class="separator:a163861164eddc9b969e66277ad835993"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a2c859affa6bfc054512d3d97f3e937"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__geometry.html#a4a2c859affa6bfc054512d3d97f3e937">throw_for_invalid</a> () const </td></tr>
 <tr class="memdesc:a4a2c859affa6bfc054512d3d97f3e937"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raise an error if the geometry is invalid.  <a href="#a4a2c859affa6bfc054512d3d97f3e937">More...</a><br /></td></tr>
 <tr class="separator:a4a2c859affa6bfc054512d3d97f3e937"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -208,7 +209,7 @@ template&lt;typename T&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>a bounds object</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00121">121</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00203">203</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -239,7 +240,7 @@ template&lt;typename T&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>the dimension type</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00057">57</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00117">117</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -278,7 +279,7 @@ template&lt;typename T&gt; </div>
 <dl class="section see"><dt>See also</dt><dd><a href="https://tools.ietf.org/html/rfc7946">https://tools.ietf.org/html/rfc7946</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00158">158</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00242">242</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -317,7 +318,7 @@ template&lt;typename T&gt; </div>
 <dl class="section see"><dt>See also</dt><dd><a href="https://tools.ietf.org/html/rfc7946">https://tools.ietf.org/html/rfc7946</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00186">186</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00270">270</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -379,7 +380,7 @@ template&lt;typename T&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>true if the geometry has m-coordinate, otherwise false</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00143">143</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00226">226</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -410,7 +411,7 @@ template&lt;typename T&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>true if the geometry has z-coordinate, otherwise false</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00132">132</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00214">214</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -441,7 +442,7 @@ template&lt;typename T&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>true if the geometry is closed, otherwise false</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00091">91</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00173">173</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -472,7 +473,7 @@ template&lt;typename T&gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>true if the geometry is valid, otherwise false</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00102">102</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00184">184</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -511,11 +512,11 @@ template&lt;typename T&gt; </div>
 <dl class="section see"><dt>See also</dt><dd><a href="https://tools.ietf.org/html/rfc7946">https://tools.ietf.org/html/rfc7946</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00171">171</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00255">255</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a75ace87727db86a17c170ed61a2eae07"></a>
+<a class="anchor" id="a163861164eddc9b969e66277ad835993"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -525,7 +526,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t <a class="el" href="classsimo_1_1shapes_1_1basic__geometry.html">simo::shapes::basic_geometry</a>&lt; T &gt;::ndim </td>
+          <td class="memname">size_t <a class="el" href="classsimo_1_1shapes_1_1basic__geometry.html">simo::shapes::basic_geometry</a>&lt; T &gt;::ndim </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -543,7 +544,7 @@ template&lt;typename T&gt; </div>
 <dl class="section note"><dt>Note</dt><dd>the number of dimensions is (x, y) = 2, (x, y, z) = 3, (x, y, m) = 3 and (x, y, z, m) = 4</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00069">69</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00142">142</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -610,7 +611,7 @@ template&lt;typename T&gt; </div>
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00080">80</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00162">162</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>
@@ -649,7 +650,7 @@ template&lt;typename T&gt; </div>
 <dl class="section see"><dt>See also</dt><dd><a href="https://tools.ietf.org/html/rfc7946">https://tools.ietf.org/html/rfc7946</a></dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00199">199</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
+<p>Definition at line <a class="el" href="detail_2geometry_8hpp_source.html#l00283">283</a> of file <a class="el" href="detail_2geometry_8hpp_source.html">geometry.hpp</a>.</p>
 
 </div>
 </div>

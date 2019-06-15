@@ -92,17 +92,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classsimo_1_1shapes_1_1basic__point__zm-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">simo::shapes::basic_point_zm&lt; T, typename &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>DOCUMENT ME!  
- <a href="classsimo_1_1shapes_1_1basic__point__zm.html#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="detail_2point_8hpp_source.html">point.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for simo::shapes::basic_point_zm&lt; T, typename &gt;:</div>
 <div class="dyncontent">
@@ -115,44 +111,93 @@ Inheritance diagram for simo::shapes::basic_point_zm&lt; T, typename &gt;:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:ad6a64ce4766a50bf594bfcc7ac823e7b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad6a64ce4766a50bf594bfcc7ac823e7b"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>value_type</b> = T</td></tr>
+<tr class="separator:ad6a64ce4766a50bf594bfcc7ac823e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a699a16a89c7e6c1b79b32fd0a714825b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a699a16a89c7e6c1b79b32fd0a714825b"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>reference</b> = T &amp;</td></tr>
+<tr class="separator:a699a16a89c7e6c1b79b32fd0a714825b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b2bfdef7719c27a7c38c2f8c35a2a72"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b2bfdef7719c27a7c38c2f8c35a2a72"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>const_reference</b> = const T &amp;</td></tr>
+<tr class="separator:a7b2bfdef7719c27a7c38c2f8c35a2a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78336b3b925f9faa73fe29db6891bbd3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78336b3b925f9faa73fe29db6891bbd3"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>iterator</b> = T *</td></tr>
+<tr class="separator:a78336b3b925f9faa73fe29db6891bbd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae300f633ce86672c87e463aa41cb7be1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae300f633ce86672c87e463aa41cb7be1"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>const_iterator</b> = const T *</td></tr>
+<tr class="separator:ae300f633ce86672c87e463aa41cb7be1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60e644236d410e243abc94ab588a3b8d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a60e644236d410e243abc94ab588a3b8d"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>difference_type</b> = std::ptrdiff_t</td></tr>
+<tr class="separator:a60e644236d410e243abc94ab588a3b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0e5c5b45093e9566d71295347047875"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af0e5c5b45093e9566d71295347047875"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>size_type</b> = size_t</td></tr>
+<tr class="separator:af0e5c5b45093e9566d71295347047875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53623d7aae3d94d0082323cd5cfff53b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a53623d7aae3d94d0082323cd5cfff53b"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>reverse_iterator</b> = std::reverse_iterator&lt; iterator &gt;</td></tr>
+<tr class="separator:a53623d7aae3d94d0082323cd5cfff53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16078ee6f01a485ca41580a4dcb432b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a16078ee6f01a485ca41580a4dcb432b4"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>const_reverse_iterator</b> = std::reverse_iterator&lt; const_iterator &gt;</td></tr>
+<tr class="separator:a16078ee6f01a485ca41580a4dcb432b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39617f7a5ae5d307ab0aedb6067b0278"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39617f7a5ae5d307ab0aedb6067b0278"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#a39617f7a5ae5d307ab0aedb6067b0278">point_type</a> = <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a></td></tr>
-<tr class="memdesc:a39617f7a5ae5d307ab0aedb6067b0278"><td class="mdescLeft">&#160;</td><td class="mdescRight">DOCUMENT ME! <br /></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>point_type</b> = <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a></td></tr>
 <tr class="separator:a39617f7a5ae5d307ab0aedb6067b0278"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a024445bb7bfa7b0b927d444d1749ad02"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a024445bb7bfa7b0b927d444d1749ad02"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#a024445bb7bfa7b0b927d444d1749ad02">coord_type</a> = T</td></tr>
-<tr class="memdesc:a024445bb7bfa7b0b927d444d1749ad02"><td class="mdescLeft">&#160;</td><td class="mdescRight">DOCUMENT ME! <br /></td></tr>
-<tr class="separator:a024445bb7bfa7b0b927d444d1749ad02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14e4b06cc9698cc009728ac1d5fcc6be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14e4b06cc9698cc009728ac1d5fcc6be"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>coord_type</b> = value_type</td></tr>
+<tr class="separator:a14e4b06cc9698cc009728ac1d5fcc6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9f34fe6fe1177b2ca666b074dcdea8e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae9f34fe6fe1177b2ca666b074dcdea8e"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#ae9f34fe6fe1177b2ca666b074dcdea8e">coord_iterator</a> = typename std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#a024445bb7bfa7b0b927d444d1749ad02">coord_type</a> &gt;::iterator</td></tr>
-<tr class="memdesc:ae9f34fe6fe1177b2ca666b074dcdea8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">DOCUMENT ME! <br /></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>coord_iterator</b> = typename std::vector&lt; coord_type &gt;::iterator</td></tr>
 <tr class="separator:ae9f34fe6fe1177b2ca666b074dcdea8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade24f2e101f93a71f6a9f6dca7924cd3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ade24f2e101f93a71f6a9f6dca7924cd3"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#ade24f2e101f93a71f6a9f6dca7924cd3">coord_const_iterator</a> = typename std::vector&lt; <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#a024445bb7bfa7b0b927d444d1749ad02">coord_type</a> &gt;::const_iterator</td></tr>
-<tr class="memdesc:ade24f2e101f93a71f6a9f6dca7924cd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">DOCUMENT ME! <br /></td></tr>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>coord_const_iterator</b> = typename std::vector&lt; coord_type &gt;::const_iterator</td></tr>
 <tr class="separator:ade24f2e101f93a71f6a9f6dca7924cd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a62a7a75a92018bf54d934a969f12de07"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a62a7a75a92018bf54d934a969f12de07"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#a62a7a75a92018bf54d934a969f12de07">basic_point_zm</a> ()</td></tr>
-<tr class="memdesc:a62a7a75a92018bf54d934a969f12de07"><td class="mdescLeft">&#160;</td><td class="mdescRight">DOCUMENT ME! <br /></td></tr>
-<tr class="separator:a62a7a75a92018bf54d934a969f12de07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9937d09c0862247cc33a1b3bd8d93daa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#a9937d09c0862247cc33a1b3bd8d93daa">basic_point_zm</a> (T x, T y, T z, T m)</td></tr>
-<tr class="memdesc:a9937d09c0862247cc33a1b3bd8d93daa"><td class="mdescLeft">&#160;</td><td class="mdescRight">DOCUMENT ME!  <a href="#a9937d09c0862247cc33a1b3bd8d93daa">More...</a><br /></td></tr>
+<tr class="memitem:a9937d09c0862247cc33a1b3bd8d93daa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9937d09c0862247cc33a1b3bd8d93daa"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>basic_point_zm</b> (T x, T y, T z, T m)</td></tr>
 <tr class="separator:a9937d09c0862247cc33a1b3bd8d93daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f7a6a5e8aab9f260d5d9fc46aa54777"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#a4f7a6a5e8aab9f260d5d9fc46aa54777">basic_point_zm</a> (<a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#ae9f34fe6fe1177b2ca666b074dcdea8e">coord_iterator</a> begin, <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#ae9f34fe6fe1177b2ca666b074dcdea8e">coord_iterator</a> end)</td></tr>
-<tr class="memdesc:a4f7a6a5e8aab9f260d5d9fc46aa54777"><td class="mdescLeft">&#160;</td><td class="mdescRight">DOCUMENT ME!  <a href="#a4f7a6a5e8aab9f260d5d9fc46aa54777">More...</a><br /></td></tr>
+<tr class="memitem:a4f7a6a5e8aab9f260d5d9fc46aa54777"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f7a6a5e8aab9f260d5d9fc46aa54777"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>basic_point_zm</b> (coord_iterator begin, coord_iterator end)</td></tr>
 <tr class="separator:a4f7a6a5e8aab9f260d5d9fc46aa54777"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9abd102590e54d0019a038883197e9f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#a9abd102590e54d0019a038883197e9f8">basic_point_zm</a> (<a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#ade24f2e101f93a71f6a9f6dca7924cd3">coord_const_iterator</a> begin, <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#ade24f2e101f93a71f6a9f6dca7924cd3">coord_const_iterator</a> end)</td></tr>
-<tr class="memdesc:a9abd102590e54d0019a038883197e9f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">DOCUMENT ME!  <a href="#a9abd102590e54d0019a038883197e9f8">More...</a><br /></td></tr>
+<tr class="memitem:a9abd102590e54d0019a038883197e9f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9abd102590e54d0019a038883197e9f8"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>basic_point_zm</b> (coord_const_iterator begin, coord_const_iterator end)</td></tr>
 <tr class="separator:a9abd102590e54d0019a038883197e9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2aff26053b8eee9152ed06ac1080864c"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#a2aff26053b8eee9152ed06ac1080864c">size</a> () const noexcept</td></tr>
-<tr class="memdesc:a2aff26053b8eee9152ed06ac1080864c"><td class="mdescLeft">&#160;</td><td class="mdescRight">DOCUMENT ME!  <a href="#a2aff26053b8eee9152ed06ac1080864c">More...</a><br /></td></tr>
+<tr class="memitem:a2aff26053b8eee9152ed06ac1080864c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2aff26053b8eee9152ed06ac1080864c"></a>
+std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> () const noexcept</td></tr>
 <tr class="separator:a2aff26053b8eee9152ed06ac1080864c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a118fe7840bc30e3ad2014b165095f827"><td class="memItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#a118fe7840bc30e3ad2014b165095f827">operator[]</a> (size_t pos)</td></tr>
-<tr class="memdesc:a118fe7840bc30e3ad2014b165095f827"><td class="mdescLeft">&#160;</td><td class="mdescRight">DOCUMENT ME!  <a href="#a118fe7840bc30e3ad2014b165095f827">More...</a><br /></td></tr>
+<tr class="memitem:a118fe7840bc30e3ad2014b165095f827"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a118fe7840bc30e3ad2014b165095f827"></a>
+T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator[]</b> (size_t pos)</td></tr>
 <tr class="separator:a118fe7840bc30e3ad2014b165095f827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7555b15d743ff7d6bc590145f94dd9d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa7555b15d743ff7d6bc590145f94dd9d"></a>
+size_type&#160;</td><td class="memItemRight" valign="bottom"><b>max_size</b> () const </td></tr>
+<tr class="separator:aa7555b15d743ff7d6bc590145f94dd9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f839deda582cb47958127b459745657"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8f839deda582cb47958127b459745657"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>empty</b> ()</td></tr>
+<tr class="separator:a8f839deda582cb47958127b459745657"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42c68caa0b5b40af99dd4912bcdd3522"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42c68caa0b5b40af99dd4912bcdd3522"></a>
+iterator&#160;</td><td class="memItemRight" valign="bottom"><b>begin</b> ()</td></tr>
+<tr class="separator:a42c68caa0b5b40af99dd4912bcdd3522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea9e234b6da50afa031f6f5b1231c858"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea9e234b6da50afa031f6f5b1231c858"></a>
+iterator&#160;</td><td class="memItemRight" valign="bottom"><b>end</b> ()</td></tr>
+<tr class="separator:aea9e234b6da50afa031f6f5b1231c858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a245ab7b44fae18c54c5dbf20ad528227"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a245ab7b44fae18c54c5dbf20ad528227"></a>
+const_iterator&#160;</td><td class="memItemRight" valign="bottom"><b>begin</b> () const </td></tr>
+<tr class="separator:a245ab7b44fae18c54c5dbf20ad528227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fb07018e4fdf5dc65489162d28065a1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1fb07018e4fdf5dc65489162d28065a1"></a>
+const_iterator&#160;</td><td class="memItemRight" valign="bottom"><b>end</b> () const </td></tr>
+<tr class="separator:a1fb07018e4fdf5dc65489162d28065a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab52205cac1ba32d74dcaaaeef148575e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab52205cac1ba32d74dcaaaeef148575e"></a>
+reverse_iterator&#160;</td><td class="memItemRight" valign="bottom"><b>rbegin</b> ()</td></tr>
+<tr class="separator:ab52205cac1ba32d74dcaaaeef148575e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe2c309e3f2a90a74b132f8146ef210c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afe2c309e3f2a90a74b132f8146ef210c"></a>
+reverse_iterator&#160;</td><td class="memItemRight" valign="bottom"><b>rend</b> ()</td></tr>
+<tr class="separator:afe2c309e3f2a90a74b132f8146ef210c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adff643919b033018701849e29e574b10"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adff643919b033018701849e29e574b10"></a>
+const_reverse_iterator&#160;</td><td class="memItemRight" valign="bottom"><b>rbegin</b> () const </td></tr>
+<tr class="separator:adff643919b033018701849e29e574b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ecb09f80e2e847181bf7c7c30fa3b01"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3ecb09f80e2e847181bf7c7c30fa3b01"></a>
+const_reverse_iterator&#160;</td><td class="memItemRight" valign="bottom"><b>rend</b> () const </td></tr>
+<tr class="separator:a3ecb09f80e2e847181bf7c7c30fa3b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classsimo_1_1shapes_1_1basic__geometry"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classsimo_1_1shapes_1_1basic__geometry')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classsimo_1_1shapes_1_1basic__geometry.html">simo::shapes::basic_geometry&lt; basic_point_zm&lt; T &gt; &gt;</a></td></tr>
 <tr class="memitem:a00038bcffeba8f69ad2cbf09bdba3d0b inherit pub_methods_classsimo_1_1shapes_1_1basic__geometry"><td class="memItemLeft" align="right" valign="top">geometry_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__geometry.html#a00038bcffeba8f69ad2cbf09bdba3d0b">geom_type</a> () const noexcept</td></tr>
 <tr class="memdesc:a00038bcffeba8f69ad2cbf09bdba3d0b inherit pub_methods_classsimo_1_1shapes_1_1basic__geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the geometry type.  <a href="#a00038bcffeba8f69ad2cbf09bdba3d0b">More...</a><br /></td></tr>
@@ -163,9 +208,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8b06239b57bdddaf0b9206143c51a426 inherit pub_methods_classsimo_1_1shapes_1_1basic__geometry"><td class="memItemLeft" align="right" valign="top">dimension_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__geometry.html#a8b06239b57bdddaf0b9206143c51a426">dim</a> () const noexcept</td></tr>
 <tr class="memdesc:a8b06239b57bdddaf0b9206143c51a426 inherit pub_methods_classsimo_1_1shapes_1_1basic__geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dimension type for the geometry.  <a href="#a8b06239b57bdddaf0b9206143c51a426">More...</a><br /></td></tr>
 <tr class="separator:a8b06239b57bdddaf0b9206143c51a426 inherit pub_methods_classsimo_1_1shapes_1_1basic__geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75ace87727db86a17c170ed61a2eae07 inherit pub_methods_classsimo_1_1shapes_1_1basic__geometry"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__geometry.html#a75ace87727db86a17c170ed61a2eae07">ndim</a> () const noexcept</td></tr>
-<tr class="memdesc:a75ace87727db86a17c170ed61a2eae07 inherit pub_methods_classsimo_1_1shapes_1_1basic__geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of dimensions of the geometry.  <a href="#a75ace87727db86a17c170ed61a2eae07">More...</a><br /></td></tr>
-<tr class="separator:a75ace87727db86a17c170ed61a2eae07 inherit pub_methods_classsimo_1_1shapes_1_1basic__geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a163861164eddc9b969e66277ad835993 inherit pub_methods_classsimo_1_1shapes_1_1basic__geometry"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__geometry.html#a163861164eddc9b969e66277ad835993">ndim</a> () const noexcept</td></tr>
+<tr class="memdesc:a163861164eddc9b969e66277ad835993 inherit pub_methods_classsimo_1_1shapes_1_1basic__geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of dimensions of the geometry.  <a href="#a163861164eddc9b969e66277ad835993">More...</a><br /></td></tr>
+<tr class="separator:a163861164eddc9b969e66277ad835993 inherit pub_methods_classsimo_1_1shapes_1_1basic__geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a2c859affa6bfc054512d3d97f3e937 inherit pub_methods_classsimo_1_1shapes_1_1basic__geometry"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__geometry.html#a4a2c859affa6bfc054512d3d97f3e937">throw_for_invalid</a> () const</td></tr>
 <tr class="memdesc:a4a2c859affa6bfc054512d3d97f3e937 inherit pub_methods_classsimo_1_1shapes_1_1basic__geometry"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raise an error if the geometry is invalid.  <a href="#a4a2c859affa6bfc054512d3d97f3e937">More...</a><br /></td></tr>
 <tr class="separator:a4a2c859affa6bfc054512d3d97f3e937 inherit pub_methods_classsimo_1_1shapes_1_1basic__geometry"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,23 +272,29 @@ union {</td></tr>
 <tr class="separator:ae725618ade6e047f2b820dffe7a907e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b183514704bd17fb830a8dc3dd2219c"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a6b183514704bd17fb830a8dc3dd2219c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09e663e7e919b34b52ba5a826b4a7242"><td class="memItemLeft" >
-&#160;&#160;&#160;T&#160;&#160;&#160;<b>coords</b> [4]</td></tr>
-<tr class="separator:a09e663e7e919b34b52ba5a826b4a7242"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a846b8088f92edcc5a864b45f4d671a9f"><td class="memItemLeft" >
+&#160;&#160;&#160;T&#160;&#160;&#160;<b>coords</b> [N]</td></tr>
+<tr class="separator:a846b8088f92edcc5a864b45f4d671a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67eb290252ff46018e74317e2b575ed8"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
 <tr class="separator:a67eb290252ff46018e74317e2b575ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a8e2f4126a78fd907aef94c49c47bfeaa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8e2f4126a78fd907aef94c49c47bfeaa"></a>
+static const size_type&#160;</td><td class="memItemRight" valign="bottom"><b>N</b> = 4</td></tr>
+<tr class="separator:a8e2f4126a78fd907aef94c49c47bfeaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
 <tr class="memitem:ac0f5f838a93b375c975c17a44b7d16a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0f5f838a93b375c975c17a44b7d16a3"></a>
 class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#ac0f5f838a93b375c975c17a44b7d16a3">basic_geometry&lt; basic_point_zm&lt; T &gt; &gt;</a></td></tr>
-<tr class="memdesc:ac0f5f838a93b375c975c17a44b7d16a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">for allow <a class="el" href="classsimo_1_1shapes_1_1basic__geometry.html" title="Base class for all geometries. ">basic_geometry</a> to access <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html" title="DOCUMENT ME! ">basic_point_zm</a> private members <br /></td></tr>
+<tr class="memdesc:ac0f5f838a93b375c975c17a44b7d16a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">for allow <a class="el" href="classsimo_1_1shapes_1_1basic__geometry.html" title="Base class for all geometries. ">basic_geometry</a> to access <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a> private members <br /></td></tr>
 <tr class="separator:ac0f5f838a93b375c975c17a44b7d16a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11fd08965f0330cc1d6e6b7f26aefda6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#a11fd08965f0330cc1d6e6b7f26aefda6">operator==</a> (const <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a>&lt; T &gt; &amp;lhs, const <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a>&lt; T &gt; &amp;rhs)</td></tr>
-<tr class="memdesc:a11fd08965f0330cc1d6e6b7f26aefda6"><td class="mdescLeft">&#160;</td><td class="mdescRight">DOCUMENT ME!  <a href="#a11fd08965f0330cc1d6e6b7f26aefda6">More...</a><br /></td></tr>
+<tr class="memitem:a11fd08965f0330cc1d6e6b7f26aefda6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a11fd08965f0330cc1d6e6b7f26aefda6"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a>&lt; T &gt; &amp;lhs, const <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a>&lt; T &gt; &amp;rhs)</td></tr>
 <tr class="separator:a11fd08965f0330cc1d6e6b7f26aefda6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f4fba145bcc20eb8cc21073f57b1c16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#a9f4fba145bcc20eb8cc21073f57b1c16">operator!=</a> (const <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a>&lt; T &gt; &amp;lhs, const <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a>&lt; T &gt; &amp;rhs)</td></tr>
-<tr class="memdesc:a9f4fba145bcc20eb8cc21073f57b1c16"><td class="mdescLeft">&#160;</td><td class="mdescRight">DOCUMENT ME!  <a href="#a9f4fba145bcc20eb8cc21073f57b1c16">More...</a><br /></td></tr>
+<tr class="memitem:a9f4fba145bcc20eb8cc21073f57b1c16"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9f4fba145bcc20eb8cc21073f57b1c16"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a>&lt; T &gt; &amp;lhs, const <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a>&lt; T &gt; &amp;rhs)</td></tr>
 <tr class="separator:a9f4fba145bcc20eb8cc21073f57b1c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
@@ -260,337 +311,9 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><h3>template&lt;class T, typename = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value, T&gt;::type&gt;<br />
 class simo::shapes::basic_point_zm&lt; T, typename &gt;</h3>
 
-<p>DOCUMENT ME! </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
 
-<p>Definition at line <a class="el" href="detail_2point_8hpp_source.html#l00854">854</a> of file <a class="el" href="detail_2point_8hpp_source.html">point.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a9937d09c0862247cc33a1b3bd8d93daa"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, typename  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value, T&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">simo::shapes::basic_point_zm</a>&lt; T, typename &gt;::<a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a> </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>z</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>m</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>DOCUMENT ME! </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">x</td><td></td></tr>
-    <tr><td class="paramname">y</td><td></td></tr>
-    <tr><td class="paramname">z</td><td></td></tr>
-    <tr><td class="paramname">m</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="detail_2point_8hpp_source.html#l00900">900</a> of file <a class="el" href="detail_2point_8hpp_source.html">point.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a4f7a6a5e8aab9f260d5d9fc46aa54777"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, typename  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value, T&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">simo::shapes::basic_point_zm</a>&lt; T, typename &gt;::<a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#ae9f34fe6fe1177b2ca666b074dcdea8e">coord_iterator</a>&#160;</td>
-          <td class="paramname"><em>begin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#ae9f34fe6fe1177b2ca666b074dcdea8e">coord_iterator</a>&#160;</td>
-          <td class="paramname"><em>end</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>DOCUMENT ME! </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">begin</td><td></td></tr>
-    <tr><td class="paramname">end</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="detail_2point_8hpp_source.html#l00908">908</a> of file <a class="el" href="detail_2point_8hpp_source.html">point.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a9abd102590e54d0019a038883197e9f8"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, typename  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value, T&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">simo::shapes::basic_point_zm</a>&lt; T, typename &gt;::<a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#ade24f2e101f93a71f6a9f6dca7924cd3">coord_const_iterator</a>&#160;</td>
-          <td class="paramname"><em>begin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html#ade24f2e101f93a71f6a9f6dca7924cd3">coord_const_iterator</a>&#160;</td>
-          <td class="paramname"><em>end</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>DOCUMENT ME! </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">begin</td><td></td></tr>
-    <tr><td class="paramname">end</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Definition at line <a class="el" href="detail_2point_8hpp_source.html#l00923">923</a> of file <a class="el" href="detail_2point_8hpp_source.html">point.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a118fe7840bc30e3ad2014b165095f827"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, typename  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value, T&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T&amp; <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">simo::shapes::basic_point_zm</a>&lt; T, typename &gt;::operator[] </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>DOCUMENT ME! </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">pos</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-<p>Definition at line <a class="el" href="detail_2point_8hpp_source.html#l00949">949</a> of file <a class="el" href="detail_2point_8hpp_source.html">point.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a2aff26053b8eee9152ed06ac1080864c"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, typename  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value, T&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">simo::shapes::basic_point_zm</a>&lt; T, typename &gt;::size </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>DOCUMENT ME! </p>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-<p>Definition at line <a class="el" href="detail_2point_8hpp_source.html#l00937">937</a> of file <a class="el" href="detail_2point_8hpp_source.html">point.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a class="anchor" id="a9f4fba145bcc20eb8cc21073f57b1c16"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, typename  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value, T&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator!= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>lhs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>DOCUMENT ME! </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">lhs</td><td></td></tr>
-    <tr><td class="paramname">rhs</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-<p>Definition at line <a class="el" href="detail_2point_8hpp_source.html#l00972">972</a> of file <a class="el" href="detail_2point_8hpp_source.html">point.hpp</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a11fd08965f0330cc1d6e6b7f26aefda6"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T, typename  = typename std::enable_if&lt;std::is_arithmetic&lt;T&gt;::value, T&gt;::type&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>lhs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classsimo_1_1shapes_1_1basic__point__zm.html">basic_point_zm</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>DOCUMENT ME! </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">lhs</td><td></td></tr>
-    <tr><td class="paramname">rhs</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-<p>Definition at line <a class="el" href="detail_2point_8hpp_source.html#l00961">961</a> of file <a class="el" href="detail_2point_8hpp_source.html">point.hpp</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<p>Definition at line <a class="el" href="detail_2point_8hpp_source.html#l00795">795</a> of file <a class="el" href="detail_2point_8hpp_source.html">point.hpp</a>.</p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/travis/build/pavelsimo/shapes/include/simo/geom/detail/<a class="el" href="detail_2point_8hpp_source.html">point.hpp</a></li>
 </ul>
 </div><!-- contents -->
