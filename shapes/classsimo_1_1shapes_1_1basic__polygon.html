@@ -142,6 +142,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a58379d115f0c2f124b3ca69d66f3ebd7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a58379d115f0c2f124b3ca69d66f3ebd7"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>basic_polygon</b> (std::initializer_list&lt; T &gt; init)</td></tr>
 <tr class="separator:a58379d115f0c2f124b3ca69d66f3ebd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb2c9a943dd7d47c96327cd75e002488"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__polygon.html#acb2c9a943dd7d47c96327cd75e002488">basic_polygon</a> (coord_const_iterator first, coord_const_iterator last)</td></tr>
+<tr class="separator:acb2c9a943dd7d47c96327cd75e002488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19aeef65a48c8607faf9071bbbf2c277"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1basic__polygon.html#a19aeef65a48c8607faf9071bbbf2c277">basic_polygon</a> (coord_iterator first, coord_iterator last)</td></tr>
+<tr class="separator:a19aeef65a48c8607faf9071bbbf2c277"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbd6d6f41d7308650db4391ff6e9007e"><td class="memTemplParams" colspan="2"><a class="anchor" id="adbd6d6f41d7308650db4391ff6e9007e"></a>
 template&lt;typename CoordIterator , typename OffsetIterator &gt; </td></tr>
 <tr class="memitem:adbd6d6f41d7308650db4391ff6e9007e"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><b>basic_polygon</b> (CoordIterator coord_first, CoordIterator coord_last, OffsetIterator offset_first, OffsetIterator offset_last)</td></tr>
@@ -222,7 +226,86 @@ class simo::shapes::basic_polygon&lt; T, AllocatorType &gt;</h3>
 
 
 <p>Definition at line <a class="el" href="detail_2polygon_8hpp_source.html#l00019">19</a> of file <a class="el" href="detail_2polygon_8hpp_source.html">polygon.hpp</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="acb2c9a943dd7d47c96327cd75e002488"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename AllocatorType = std::allocator&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classsimo_1_1shapes_1_1basic__polygon.html">simo::shapes::basic_polygon</a>&lt; T, AllocatorType &gt;::<a class="el" href="classsimo_1_1shapes_1_1basic__polygon.html">basic_polygon</a> </td>
+          <td>(</td>
+          <td class="paramtype">coord_const_iterator&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">coord_const_iterator&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>deal with repetition </dd></dl>
+
+<p>Definition at line <a class="el" href="detail_2polygon_8hpp_source.html#l00049">49</a> of file <a class="el" href="detail_2polygon_8hpp_source.html">polygon.hpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a19aeef65a48c8607faf9071bbbf2c277"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename AllocatorType = std::allocator&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classsimo_1_1shapes_1_1basic__polygon.html">simo::shapes::basic_polygon</a>&lt; T, AllocatorType &gt;::<a class="el" href="classsimo_1_1shapes_1_1basic__polygon.html">basic_polygon</a> </td>
+          <td>(</td>
+          <td class="paramtype">coord_iterator&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">coord_iterator&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>deal with repetition </dd></dl>
+
+<p>Definition at line <a class="el" href="detail_2polygon_8hpp_source.html#l00060">60</a> of file <a class="el" href="detail_2polygon_8hpp_source.html">polygon.hpp</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>/home/travis/build/pavelsimo/shapes/include/simo/geom/detail/<a class="el" href="detail_2polygon_8hpp_source.html">polygon.hpp</a></li>
 </ul>
 </div><!-- contents -->

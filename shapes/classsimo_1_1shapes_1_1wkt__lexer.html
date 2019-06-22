@@ -96,7 +96,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>A Well-known text (WKT) markup language lexer.  
+<p>A wkt lexer.  
  <a href="classsimo_1_1shapes_1_1wkt__lexer.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="wkt__lexer_8hpp_source.html">wkt_lexer.hpp</a>&gt;</code></p>
@@ -112,9 +112,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a32267afbdbcd9110f561e99d9dd6dbda"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1wkt__lexer.html#a32267afbdbcd9110f561e99d9dd6dbda">get_token</a> () const </td></tr>
 <tr class="memdesc:a32267afbdbcd9110f561e99d9dd6dbda"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current token string  <a href="#a32267afbdbcd9110f561e99d9dd6dbda">More...</a><br /></td></tr>
 <tr class="separator:a32267afbdbcd9110f561e99d9dd6dbda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ad0a03da77e1613f127172bf19f6128"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classsimo_1_1shapes_1_1wkt__lexer.html#a9ad0a03da77e1613f127172bf19f6128">get_position</a> ()</td></tr>
+<tr class="memdesc:a9ad0a03da77e1613f127172bf19f6128"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current reading position  <a href="#a9ad0a03da77e1613f127172bf19f6128">More...</a><br /></td></tr>
+<tr class="separator:a9ad0a03da77e1613f127172bf19f6128"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A Well-known text (WKT) markup language lexer. </p>
+<div class="textblock"><p>A wkt lexer. </p>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
 <p>Definition at line <a class="el" href="wkt__lexer_8hpp_source.html#l00019">19</a> of file <a class="el" href="wkt__lexer_8hpp_source.html">wkt_lexer.hpp</a>.</p>
@@ -150,11 +153,40 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="wkt__lexer_8hpp_source.html#l00028">28</a> of file <a class="el" href="wkt__lexer_8hpp_source.html">wkt_lexer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="wkt__lexer_8hpp_source.html#l00029">29</a> of file <a class="el" href="wkt__lexer_8hpp_source.html">wkt_lexer.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a9ad0a03da77e1613f127172bf19f6128"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t simo::shapes::wkt_lexer::get_position </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns the current reading position </p>
+<dl class="section return"><dt>Returns</dt><dd>the index position</dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
+
+<p>Definition at line <a class="el" href="wkt__lexer_8hpp_source.html#l01011">1011</a> of file <a class="el" href="wkt__lexer_8hpp_source.html">wkt_lexer.hpp</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a32267afbdbcd9110f561e99d9dd6dbda"></a>
 <div class="memitem">
 <div class="memproto">
@@ -180,7 +212,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>the token string</dd></dl>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 
-<p>Definition at line <a class="el" href="wkt__lexer_8hpp_source.html#l01786">1786</a> of file <a class="el" href="wkt__lexer_8hpp_source.html">wkt_lexer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="wkt__lexer_8hpp_source.html#l01000">1000</a> of file <a class="el" href="wkt__lexer_8hpp_source.html">wkt_lexer.hpp</a>.</p>
 
 </div>
 </div>
@@ -210,7 +242,7 @@ Public Member Functions</h2></td></tr>
 <dl class="section since"><dt>Since</dt><dd>0.0.1 </dd></dl>
 <p>pointer for backtracking information </p>
 
-<p>Definition at line <a class="el" href="wkt__lexer_8hpp_source.html#l00041">41</a> of file <a class="el" href="wkt__lexer_8hpp_source.html">wkt_lexer.hpp</a>.</p>
+<p>Definition at line <a class="el" href="wkt__lexer_8hpp_source.html#l00042">42</a> of file <a class="el" href="wkt__lexer_8hpp_source.html">wkt_lexer.hpp</a>.</p>
 
 </div>
 </div>
